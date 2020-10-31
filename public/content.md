@@ -40,7 +40,7 @@ Every action starts with an intent and an opposing force represented by the chal
 For every action we want to answer:
 
 - Did the character succeed?
-- (optionally) Was that success (of failure) critical in nature?
+- (optionally) Was that success (or failure) critical in nature?
 - How was the outside world affected?
 
 There are four (or five) components to performing actions in Fourth Earth RAW:
@@ -50,7 +50,7 @@ There are four (or five) components to performing actions in Fourth Earth RAW:
 - proficiency in skills and tools, and
 - dice pools.
 
-**Challenge levels** range from 0 to infinite. An action with a challenge level of 0 means the chances of typical person succeeding at the action is virtually 100 percent. An action with a challenge level of infinite means it is literally impossible for a typical person (or current character) to succeed at the task. Between those extremes there are challenge levels from 1 to 8. The challenge level of 8 is also impossible, unless aided in some way. Challenge levels 1 through 7 have a decreasing probability of success represented by a standard coin or die:
+**Challenge levels** range from 0 to infinite. An action with a challenge level of 0 means the chances of a typical person succeeding at the action is virtually 100 percent. An action with a challenge level of infinite means it is literally impossible for a typical person (or current character) to succeed at the task. Between those extremes there are challenge levels from 1 to 8. The challenge level of 8 is also impossible, unless aided in some way. Challenge levels 1 through 7 have a decreasing probability of success represented by a standard coin or die:
 
 |Generic name |Challenge level |Probability of success |Standard die or coin |
 |:----|:--------------:|:---------------------:|--------------------:|
@@ -65,11 +65,11 @@ There are four (or five) components to performing actions in Fourth Earth RAW:
 |Impossible, if unaided | 8              | 0                     | n/a                      |
 |Impossible |infinite        | 0                     | n/a                      |
 
-Players can spend **life battery points** spend to reduce the challenge level of the action, which has a target life battery; one reduction per battery point spent. Tools may also reduce the challenge of tasks if applicable to the tool. If the challenge level is reduced to 0, the character succeeds, without criticality. If the challenge level is greater than 0, a roll to succeed is made.
+Players can spend **life battery points** to reduce the challenge level of the action, which has a target life battery; one reduction per battery point spent. Tools may also reduce the challenge of tasks if applicable to the tool. If the challenge level is reduced to 0, the character succeeds, without criticality. If the challenge level is greater than 0, a roll to succeed is made.
 
 There is always at least one die, the type of which is determined by the current challenge level, regardless of its initial challenge level. All actions should be traceable to a **skill**, each skill should allow for ranks in that skill, 1 die is added to the **dice pool** for each rank the character has in the skill.
 
-The action is **successful** when at least 1 die in the pool has a value of 1. No matter how many dice are rolled, if there is a 1 present, the character succeeds; anything else is a failure.
+No matter how many dice are rolled, **if there is a 1 present, the character succeeds**; anything else is a failure.
 
 ### Criticality extension
 
@@ -79,11 +79,13 @@ If you would like to simulate the idea of a critical success or failure, we reco
 
 If the success or failure was critical, you might have the player roll another standard die and use a table to determine what happened; of course, you can use anything really, maybe a card drawn from a deck. Heck you could even have the player describe the critical success or failure, "Wow, okay, you tell me what happened" style.
 
-Again, the guideline here is that criticality does not change the success or failure outcome, just the severity and side-effects.
+Again, the guideline here is that criticality does not change the success or failure, just the severity and side-effects.
 
 ## Life batteries
 
-Life batteries simulate a character's energy. As a game mechanic life batteries help generate tension between the player, their desire, and probabilities of success and failure. Life batteries have a maximum of 10 points. Points are spent when players reduce the challenge level of an action or when being damaged by someone or something.
+Life batteries simulate a character's energy. 
+
+As a game mechanic life batteries help generate tension between the player, their desire, and probabilities of success and failure. Life batteries have a maximum of 10 points. Points are spent when players reduce the challenge level of an action or when being damaged by someone or something.
 
 If there are non-health batteries present, we recommend allowing their points to be converted into health battery points; 2 to 1 perhaps. The idea being that character's might be performing a physical action but have no physical energy left and they draw upon other parts of themselves to accomplish it; the character can only be at 0 after completely exhausting all other options. When using this overflow mechanic we recommend the cost per unit to the target battery be 2 or more. In some cases it might be more interesting to have the cost be the total number of overflow batteries. 
 
@@ -106,7 +108,7 @@ Consider taking a 1 point reduction to the health battery, which is already at 1
 |Mental   | 0    | 0       | 0       |
 |Spirit   | 3    | 3       | 0       |
 
-**Batteries are rechargeable** and may be based on in-game time, affecting one battery or all of them, something else entirely, or some combination. Whatever makes sense for the setting, players involved, and sub-mechanics. The only guideline is that players should have at least one way their characters can intentionally recharge their batteries.
+**Batteries are rechargeable** and taht recharging may be based on in-game time, affecting one battery or all of them, something else entirely, or some combination. Whatever makes sense for the setting, players involved, and sub-mechanics. The only guideline is that players should have at least one way their characters can intentionally recharge their batteries.
 
 ### Draining health through combat
 
@@ -114,29 +116,31 @@ Involuntary draining of the health battery is classified as a combat action; fal
 
 There is an attacker and defender, the former is trying to drain the health battery and the latter is trying to avoid that drain. The challenge level is derived from qualities of the defender and the attacker must overcome that challenge to possibly cause a drain on the defender. Therefore, the same mechanic for any action is used for combat.
 
-If the attacker succeeds there is a potential drain that must be calculated in some standard way that players can anticipate; otherwise, it becomes very frustrated very quickly. To try and keep it cimple, the instrument of the attack should have a base drain amount (a), which can then be multiplied by the size difference between the attacker and defender (b) and incorporating any side-effects and criticality, if used: a * b + c
+If the attacker succeeds there is a potential drain that must be calculated in some standard way that players can anticipate; otherwise, it becomes very frustrating very quickly. To try and keep it simple, the instrument of the attack should have a base drain amount (a), which can then be multiplied by the scale difference between the attacker and defender (b) and incorporating any side-effects and criticality, if used: a * b + c
 
-An attacker hits a defender with a spear that yields a 2 point drain per hit. The attacker is larger than the defender; therefore, the defender becomes 1 and we decide the attacker is 10 times larger: 2 * 10 + 0 = 20
+An attacker hits a defender with a spear that yields a 2 point drain per hit. The attacker is larger than the defender; therefore, the defender becomes 1 and the attacker is 10 time that scale: 2 * 10 + 0 = 20
+
+Note: Scale is not limited to size. The scale of a superhero with superstrength is greater than an average person, even if the superhero is smaller in size.
 
 Let's say the defender also only has one other battery. 10 points is drained from the health battery then the non-health batttery is drained by another 10 making its balance 0. The health battery is also at 0, the defender is dead.
 
-**Subdue versus kill** is a decision players are allowed to make, so long as the facilitator allows that option. With the subdue option, the defender in the previous example would be given 1 point to their health battery. Then the character gets to make the decision on whether to deliver a killing stroke or not.
+**Subdue versus kill** is a decision for facilitators and players to make. With the subdue option, the health battery of the defender would have been increased to 1 and they would effectively be unconscious for a period of time. The player and character then gets to make the decision on whether to perform a killing stroke.
 
 ## Skills, tools, and dice pools
 
-To allow skillsets to be built either from wholecloth or as the game is played based on its players and reduce analysis paralysis, there is no initial skill list provided.
+Fourth Earth RAW leans toward allowing groups to incrementally create and expand; therefore, there is no predefined skill list. As a facilitator you could create one; or, as players ask to do something, that could become a skill for the world. We find this beats being given 50 skills and only ever needing 10 one of which wasn't in the list.
 
-Characters increase in proficiency of skills, represented by skill ranks. Ranks are increased by successfully completing actions related to that skill a standard number of times. The initial challenge level of the action must be greater than the number of ranks a character has in it; characters must push themselves in order to grow. Each rank adds one more die to the dice pool. 
+Characters increase proficiency in skills, represented by skill ranks. Ranks are increased by successfully completing actions related to that skill a standard number of times. The initial challenge level of the action must be greater than the number of ranks a character has in that skill; characters must push themselves in order to grow. Each rank adds one more die to the dice pool. 
 
-It's recommended that skills be limited to 3 ranks or less because players are then rolling 4 dice in their pool. 4 dice against a challenge level one action changes a 50 percent chance of success to roughly 95 percent. If you decide to have more than 3 ranks, it is recommended that the basis for setting challenge levels shifts, maybe to the weakest character instead of an average being.
+It's recommended that skills be limited to 3 ranks or less because players are then rolling 4 dice in their pool. 4 dice against a challenge level 1 action changes a 50 percent chance of success to roughly 95 percent. If you decide to have more than 3 ranks, it is recommended that the basis for setting challenge levels shifts, maybe to the weakest character instead of an average being.
 
-Tools should also efffect the challenge of a task as well; a character could widdle wood using their fingernails, but it would be easier with a knife. Tools are similar in skills in that characters improve proficiency in them. It is recommended to limit ranks in tools to 1 (earned the same way) and earning points toward a rank does not require using the tool for a specific purpose; could be 4 dice in the pool, 50 percent becomes roughly 97 percent.
+Tools should also efffect the challenge of a task; a character could widdle wood using their fingernails, but it would be easier with a knife. Tools are similar to skills in that characters improve proficiency in them. It is recommended to limit ranks in tools to 1 (earned the same way as skills) and earning points toward a rank does not require using the tool for a specific action; could be 5 dice in the pool, 50 percent becomes roughly 97 percent.
 
-For example, a grave digger is probably proficient in using a shovel to dig graves. When the zombie hoards begin roaming the earth, they should be afforded a slight advantage when braining a zombie; of course, over time, the grave digger's digging proficiency might decrease while their proficiency in using a bludgeon increase. The digger may also take a hit to their probabilities if they switch from the shovel to a baseball bat or even a gun.
+For example, a grave digger is probably proficient in using a shovel to dig graves. When the zombie hoards begin roaming the earth, they should be afforded a slight advantage when braining a zombie; of course, over time, the grave digger's digging proficiency might decrease while their proficiency in using a bludgeon increases. The digger may also take a hit to their probabilities if they switch from the shovel to a baseball bat or even more if switching to a gun.
 
-Limiting ranks also keeps the number of dice in the pool manageable. However, if you're theme is superheroes or deities, increasing the ranks available might be helpful; 10 dice would change a 50 percent chance to roughly 100 percent (99.95). Of course, as stated before, challenge levels can also be dropped a bit; the challenge level for a flying superhero might be high at first but decreases to 0 zero the more they do it and it becomes just one more thing "they can just do."
+Limiting ranks also keeps the number of dice in the pool manageable. However, if you're theme is superheroes or deities, increasing the ranks available might be helpful; 10 dice would change a 50 percent chance to roughly 100 percent (99.95). Of course, as stated before, challenge levels can also be dropped a bit; the challenge level for a flying superhero might be high at first but decreases to 0 the more they do it until flying becomes just one more thing "they can just do."
 
-Note: A roll is not required to eartn a proficiency increase and points and ranks are earned in succession. So, using batteries to reduce a level 3 challenge to 0 would result in a point gain and succeeding on an unreduced level 3 challenge would still earn one point on the first rank.
+Note: A roll is not required to earn a proficiency increase. Earning points and ranks happens in succession. So, using batteries to reduce a challenge level 3 to 0 would result in a point gain and succeeding on an unreduced challenge level 4 would still earn one point on the first rank.
 
 ### Maintenance, degredation, and loss extension
 
