@@ -1,5 +1,5 @@
 ---
-title: Computer-aided Fourth Earth
+title: Computer-aided
 ---
 
 # Computer-aided Fourth Earth
@@ -22,51 +22,16 @@ And the following constraints:
 
 ## Action (overview)
 
-**Critical success of non-combat actions** will result in rolling one 10-sided die and applying the side-effect identified in the following table:
-
-|Result |Effect  |Narrative |
-|:------|:-------|:---------|
-|Even number |+1 |Elation from success! |
-|1, 5, 9     |+2 |same                  |
-|3, 7        |+3 |same                  |
-
-**Critical failure of non-combat actions** results in general failure *and* uses the previous table where the positives are negatives (drain on target battery).
-
 **Critically succeeding a combat action** results in general success (base damage or effect from above) *and* a side-effect from the following table based on the roll of a single 10-sided die:
 
-|Result |Effect           |
-|:------|:----------------|
-|Even number |+1 to the battery used by the attacker |
-|1, 5, 9     |base damage * 1.5 |
-|3           |base damage * 2                     |
-|7           |damage a body part (see next table) |
+
 
 Note: A roll of seven continues with another roll of a single 10-sided die:
 
-|Result    |Effect  |
-|:---------|:-------|
-|1         |-2 to challenge level of hitting target in the future |
-|2, 5, 8   |-1 from target's physical battery                     |
-|3, 6, 9   |-1 from target's mental battery                       |
-|4, 7      |-1 from target's spirit battery                       |
-|10        |-1 from target's health battery, recurring            |
 
 Note: A roll of 10 results in a bleeding wound, which can compound if occuring multiple times.
 
 **Critically failing a combat action** results in general failure (evasion by the target or complete miss) *and* the attacker receiving a side-effect from the following table based on the roll of a single 10-sided die:
-
-|Result |Effect  |
-|:------|:-------|
-|Even number |-1 drained from attacking character's target battery                                       |
-|1, 5, 9     |-2 drained from attacking character's target battery                                       |
-|3           |The attacking character takes damage @ scale of 1 (a cramp, hitting yourself in a feint)   |
-|7           |damage a body part (see previous table, replacing "target's" with "attacking character's") |
-
-Note: A roll of seven continues with another roll of the 10-sided die and you can use the second critical success table only with the attacker as the target.
-
-## Creating a character
-
-Check our lore site to discover details on available species and options.
 
 ## Draining actions
 
