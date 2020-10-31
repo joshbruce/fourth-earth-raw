@@ -11,7 +11,7 @@ The core values driving the system are:
 1. Players over Game Masters
 2. Narrative over Mechanics
 3. Flow over Crunching
-4. Role play over Grinding to be demigod
+4. Role play over Grinding to be a demigod
 5. Skill and proficiency over level and age
 6. Progressive disclosure over rewarding lore or system knowledge
 
