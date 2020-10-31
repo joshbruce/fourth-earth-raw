@@ -6,11 +6,15 @@ title: Solo adventures
 
 Fourth Earth [.SA](solo adventures) is an extension of Fourth Earth [.RAW](rules as written) intended for solo play. This play may occur in the Fourth Earth or an original setting with or without a facilitator.
 
-## Creating a character
+## Populating the setting
 
 See Fourth Earth RAW.
 
 You should have a way to track the 4 life batteries: health, physical, mental, and spirit.
+
+### Creating high-order sentient beings
+
+
 
 ## Action
 
@@ -77,6 +81,8 @@ There are four **life batteries**:
 |Spirit   |physical and mental        | 2 |
 
 The drain for conversion should be on a rotation basis to reach the cost to increase. In other words, taking 2 from mental to increase physical by 1 is not permitted.
+
+The health battery always tracks damage. The physical battery is used for all physical-oriented actions. The mental battery is used for all intellect-oriented actions. The spirit battery is used for all magic-related actions, at least.
 
 ### Draining health through combat
 
