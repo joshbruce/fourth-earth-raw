@@ -210,6 +210,18 @@ Now let's calculate the drain on the health battery. In our game the longsword d
 
 Any method can be used so long as it is consistently applied across all living beings, is known, and seems appropriate for the setting and theme.
 
+## Rewarding roleplaying
+
+In roleplaying games, players may slip into metagaming. Metagames usually involve a player using knowledge they have to cause their character to act based on that knowledge, even if the character doesn't have that knowledge.
+
+For example, character A is given a piece of knowledge about a secret room in the inn. Character B then starts prodding character A to get that knowledge or tries a contrived action to accidentally find the secret room.
+
+Instead of trying to punish players for *not* roleplaying, Fourth Earth RAW gives multiple ways for the players and narrator to reward roleplaying as an out-of-character action.
+
+Maybe a claustraphobic character goes splunking in a cave and moves through a narrow passage. The challenge level, due to the phobia, was set to 5. The player acted out the nervousness of the character, didn't spend any physical (or maybe in this case mental) battery points to lower the level. The character made it through. Maybe the narrator rewards the player with battery points or an extra proficiency point. Maybe one of the other players transfers one of their battery points to the character.
+
+So, while there isn't a specific mechanic meant to reward roleplaying by the players, the options are there and players (or the narrator) can tell the player, "This is for the killer roleplaying you just did."
+
 ## Conclusion
 
 This base of guidelines should allow you to create a game in any setting with any theme populated by any type of living beings without requiring much in terms of equipment using a simple action mechanic that incorporates tension and strategy.
