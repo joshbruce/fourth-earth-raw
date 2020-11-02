@@ -1,5 +1,6 @@
 ---
 title: Solo adventures
+version: 0.1.0
 ---
 
 # Fourth Earth SA
