@@ -248,4 +248,5 @@ Fourth Earth RAW started from attempting to apply one or more of the following s
 - [Cypher System](http://cypher-system.com)
 - [Star Trek Adventures](https://www.modiphius.net/pages/star-trek-adventures)
 - [D20 System](https://en.wikipedia.org/wiki/D20_System)
+- [One Roll Engine](https://arcdream.com/home/2011/04/a-one-roll-engine-tutorial/)
 - [Apocalypse World](http://apocalypse-world.com)
