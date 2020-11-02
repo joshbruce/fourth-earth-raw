@@ -33,29 +33,51 @@ The recommendation is the same as for using criticality; with a change. To all t
 
 Complications and partials do not change the success or failure, just the means and amount by which the failure or success occurs.
 
-## Resistance
+## Initiative
 
-**Extends:** Interacting with other living beings
+**Extends:** Movement
 
-Character A hits character B (a zombie) with a homerun baseball swing; killing the zombie. Character A hits character C (also a zombie) in the same manner; unfortunately, character C is wearing a motorcycle helmet. Without resistance of some type in play, it might feel odd to the player that the zombie doesn't die; or, it might be odd that the zombie does.
+Initiative is a mechanism used in roleplaying games to help facilitate action across multiple participants.
 
-Challenge level is mainly derived from qualities of the defender and alters the ability of the attacker to hit the defender. Potential energy is mainly derived from qualities of the attacker. Resistance is mainly derived from qualities of the defender.
+There are many methods of doing this. At one end is realtime decision; on the other is turn-based planning and tactics. An analogy of the former might be live-action roleplaying; the latter might be chess. In the former action is happening all at once and there is little time to talk, players are the "boots on the ground" warriors. In the latter, action is paused until consensus on a plan is reach, players are strategists or puppeteers.
 
-Consider a super human theme with a relatively invincible character. They get shot by a gun. Maybe they have a resistance attribute: impervious to bullets. Consider the same theme and there's a character who can be flesh or metal; when they're flesh they have a different modifier number than when they're metal. Further, maybe that transformation can be instant but when in combat has a higher challenge level than when they're not.
+The questions to answer are:
 
-The methods and rationale for calculating resistance should be consistently applied as well as setting, theme, and context appropriate.
+1. How are actions planned and executed?
+2. When do individuals players execute or roll for those actions?
+3. How are the rolls resolved?
 
-## Subdue not kill
+For actions and planning they could be made individually or as a group; they could be private or public. Players could roll all at once or one at a time in rotation. Resolution of the rolls could be as one large group or on a per-turn basis.
 
-**Extends:** Interacting with other living beings
+Each method can solve different problems perceived by the group. 
 
-Do you prefer superheroes who kill their opponents or just subdue them? How about scientists?
+Battles taking way too long? Plan individual in private, optionally write the plan down, have everyone (opponents included) roll at the same time, players and narrator do the math, and then the narrator narrates what the math said happened.
 
-With this extension the narrator and players can decide on a default and what that looks like.
+Frustrated that characters can't change their action because they're committed? Take turns individually from action to resolution. Choosing the next person could be done by players choosing, the roll of one or more dice, drawing a card from a deck, you name it. The point is to take each character in-turn from action to resolution.
 
-Maybe every encounter that turns to violence starts with establishing whether the character's intention is to subdue or kill. Maybe it's the game in general: Unless I say otherwise, I'm looking to subdue. Maybe it's a narrative device that can be switched during the interaction; like setting a weapon to stun, then kill, and back again, only the character is the weapon. Maybe when the character kills the defender they must make the intentional choice to apply a secondary killing strike with no penalty to their turn or movement.
+Frustrated that the order is always the same? See previous to change to random selection.
 
-What you do with subdued life forms is up to you but it should probably include them recovering at some point and should be consistently applied and in keeping with the setting, theme, and context.
+Ultimately, the method should be known, consistently applied, and not set in stone. If players get frustrated every time they are in a situation where there's initiative, they will tend to avoid situations where there's initiative.
+
+Some terms:
+
+1. Round: A unit of time in which all active participants perform an action.
+2. Turn: A unit of time in which one participant performs their action.
+3. Minor action: A unit of time during a turn when a short action is performed (pull pin from grenade).
+4. Main action: A unit of time during a turn when the action required to achieve the intent is performed (throw grendade).
+5. Post-minor action: A unit of time during a turn when another minor action is performed (yell "Duck" and do so).
+
+## Sufficiently advanced technology and magic
+
+**Extends:** Skills and tools
+
+One of Arthur C. Clarke's 3 laws is: Any sufficiently advanced technology is indistinguishable from magic.
+
+The setting will tend to have degrees of technology and abilities. The scale upon which these are placed will to to be mundane on one end, advanced in the middle, and exceptionally advanced. The setting and theme direct what falls where and the exerience of a character will tend direct their response.
+
+A human earthing from 1950 is given a ring. Upon placing the ring on their finger they are whisked away to another planet. Opening their eyes they see other humanoid beings distinct from one another. Some are flying. Others are manifesting all manner of objects with their minds. Here, the ring the character is wearing is mundane. Here, everything these people are doing is mundane. Back on Earth though and to this character, this is magic.
+
+General rule is that if it's something everyone has access to and appears everywhere, it's mundane. With that said, if it tips the balance of the experience too far, the game becomes boring (or at least using the tool or magic does). Therefore, to reclaim some of the balance, maybe the use comes at a higher cost; to cast a spell drains a battery, either a flat cost or is the target battery of the challenge level.
 
 ## Tool decay and destruction
 
@@ -77,6 +99,11 @@ Or, again, some combination or something else entirely.
 
 Given how attached players may get to tools, especially if they very unique, it is very important that the mechanic for this is consistently applied, known to players, and makes sense given the setting, theme, and context (a character puts a knife in a drawer and goes on vacation, when they return it's disintegrated; there should be a good reason for that).
 
+Basic guidelines (same applies to "Becoming unskilled" section):
+
+1. Decay is only tallied on characters actively playing the game; you shouldn't about opening a character who hasn't aged a day but whose tools are useless and somehow forgot how to do all they did before.
+2. The player should be given a method by which to intentionally maintain tools and practice skills at a cost, which should be recurring and automated by the facilitator or player, the schedule for which is agreed to by both; a tax.
+
 ## Becoming unskilled
 
 **Extends:** Skills and tools
@@ -94,49 +121,55 @@ We don't have a lot of recommendations or examples of how this could be accompli
 
 Again, consistently applied, known to players...
 
-## Initiative
+## Skill overlap
 
-**Extends:** Movement
+**Extends:** Skills and tools
 
-Initiative is a mechanism used in roleplaying games to determine turn order in rounds of multiplayer action. Initiative is typically used as a way of managing combat. Fourth Earth RAW leans to realtime decision making rather than tactics and planning. The argument being that in combat, there isn't a lot of time to talk, coordinate, and all of the terrifying things are happening all at once. The following are brief descriptions of various way to facilitate combat as a narrator.
+Two skills involve a third skill. The third skill isn't necessarily a skill by itself: hiding and sneaking, for example.
 
-A brief bit of terminology:
+Hiding is the ability to remain unseen while not moving. Sneaking is the ability to reamin unseen while moving. To make the skill list easier to manage, we might place both under the generic skill of "stealth." But maybe your setting and theme targets thieves and rogues. So, the subtle variation and separate proficiency in both is important; to the point that maybe there's a "stealh" battery. Or maybe some of the rationale that makes sense to the players and narrator to keep them separate.
 
-1. Round: A unit of time in which all active participants perform an action.
-2. Turn: A unit of time in which one participant performs their action.
-3. Minor action: A unit of time during a turn when a short action is performed (pull pin from grenade).
-4. Main action: A unit of time during a turn when the action required to achieve the intent is performed (throw grendade).
-5. Post-minor action: A unit of time during a turn when another minor action is performed (yell "Duck" and do so).
+Why not have both?
 
-This list is not exhaustive and is only presented to demonstrate solutions, problems, benefits, and drawbacks.
+A character hides at a challenge level 1 and earns one point torward their rank in hiding. Now, that same character sneaks at a challenge level 1 and earns one point toward their rank in sneak *and* another point in hide.
 
-The first method involves individual planning, unknown to the other players. Players capture what they plan to do in secret. The plans are revealed and dice rolled; at the same time. The narrator does the same for the opponents. The results are scanned and the story of that round is then narrated. The following impactful outcomes result from this methodology and could be viewed as positive or negative by the players involved:
+The unique part of sneaking is the movement, hence no point earned in sneaking for only hiding. Both require hiding (going unseen), however, so sneaking does improve hiding. One could even argue that characters should get two points in hiding because sneaking is more difficult; not our argument to have.
 
-1. Simulates realtime and crazy (all-at-once) nature of combat.
-2. Simulates the inability of participants to plan, because planning may be indispensible but plans are often become useless when met with reality.
-3. Players are treated as individuals with individual goals, not a team with a unified goal.
-4. Players can't alter their plans as the round progresses (all-at-once and crazy).
+## Resistance
 
-The second method involves lightweight group planning; sometimes a timer is started to keep from getting bogged down. Players say what their intent is out loud to the group. Once spoken the plan for the round is locked in place. and dice rolled; at the same time. Narrator does the same for the opponents. Results are scanned and the round narrated. The following impactful outcomes result:
+**Extends:** Interacting with other living beings
 
-1. Realtime nature of combat, with possible opportunity for characters to have insight into the intentions of their teammates, which does happen in teams.
-2. Characters can work more as a team instead of individuals who happen to be in a shared space.
+Character A hits character B (a zombie) with a homerun baseball swing; killing the zombie. Character A hits character C (also a zombie) in the same manner; unfortunately, character C is wearing a motorcycle helmet. Without resistance of some type in play, it might feel odd to the player that the zombie doesn't die; or, it might be odd that the zombie does.
 
-The third method involves possibly more group planning and uses a more traditional turn-based approach. Each player rolls a die, let's use [.1d20](one twenty-sided die); then players (and the narrator) perform their turns in order from highest-to-lowest or lowest-to-highest. Each participant then describes what they're going to do, then roll to see if they did what they set out to, makes any subsequent rolls, and then next person in line does the same. (A variation may involve rolling initiative with each round.) The following impactful outcomes result:
+Challenge level is mainly derived from qualities of the defender and alters the ability of the attacker to hit the defender. Potential energy is mainly derived from qualities of the attacker. Resistance is mainly derived from qualities of the defender.
 
-1. Order is random.
-2. Turns executed in sequence allow characters to adjust their plans in the same round; the randomness plays into this adjustment.
-3. Players may feel like they're working together more as plans are adjusted based on the outcome of the preceding turn.
-4. Ties need to be considered and overcome, especially if there are a lot of participants.
-5. Character turns may be interspersed with opponent turns.
+Consider a super human theme with a relatively invincible character. They get shot by a gun. Maybe they have a resistance attribute: impervious to bullets. Consider the same theme and there's a character who can be flesh or metal; when they're flesh they have a different modifier number than when they're metal. Further, maybe that transformation can be instant but when in combat has a higher challenge level than when they're not.
 
-The fourth method is similar to the second method, only characters stats or abilities are used. The impactrul outcomes are the same, with the addition of: The order of the players is typically the same every round and every combat unless the stats are changed.
+The methods and rationale for calculating resistance should be consistently applied as well as setting, theme, and context appropriate.
 
-The fifth method is a turn-based approach; however, the character who goes first may be based on a die roll or some other method determined by the narrator. Once the first character has performed their action, they choose who goes next. Most of the impactful outcomes from the third method apply here, with the addition of the following:
+## Scale
 
-1. Characters can simulate combination attacks.
-2. No ties possible.
+**Extends:** Interacting with other living beings
 
-The sixth method uses 2 dice and choosing one or the other based on known criteria; one die is for the characters and the other is for their opponents. Similar to the fifth method (with the possibility of ties) and: The entirety of the group gets to go; "Let me stand here until you're done beating on me."
+Scale describes size and mass and would change the challenge level as defender and amount of potential energy as attacker. If used in conjunction with the resistance extension, scale may also inform the resistance calculation; the chance of a human injuring a humpback whale by punching it is pretty slim.
 
-There are subtle variations that can be added to any of these. For example, what if initiative was based on the type of weapon; all ranged weapons first followed by melee weapons. Or maybe the dice for the weapon being used. Or the scale of the character. It really just depends on what issues you are seeing and want to overcome. 
+There are two primary ways to calculate scale: static and relative.
+
+In a static system a scale is made and living beings are placed somewhere on that scale. In a relative system the smallest participant in an interaction is 1 and everyone else is a relative size compared to that. The former tends to make things faster to calculate (because it's known up front) while the latter tends to allow for more flexibility in the setting.
+
+Imagine a static scale of 1 to 10. We have 3 living beings: a krill, a human, and humpback whale. The krill would be 1 and the whale would be 10, the human would be somewhere in between. We would then need some way to modify the challenge level and the potential energy based on that scale. Krill could easily hit a whale but probably wouldn't injure it in anyway. A whale isn't strategically targeting krill, it's more chance, but a whale can kill many krill in one move. The same would be true of a human versus krill or a whale, because krill are just that small.
+
+Now imagine a relative scale starting at 1. The whale is attacking the krill. The krill is 1 and the whale is 10,000 (if not more) times the size and mass; the challenge level for the whale to hit a specific krill is almost infinite. Now, the human is attacking the whale. The human is 1 and the whale is 100 (if not more); the challenge level for the human is almost 0 (if there was no water).
+
+## Subdue not kill
+
+**Extends:** Interacting with other living beings
+
+Do you prefer superheroes who kill their opponents or just subdue them? How about scientists?
+
+With this extension the narrator and players can decide on a default and what that looks like.
+
+Maybe every encounter that turns to violence starts with establishing whether the character's intention is to subdue or kill. Maybe it's the game in general: Unless I say otherwise, I'm looking to subdue. Maybe it's a narrative device that can be switched during the interaction; like setting a weapon to stun, then kill, and back again, only the character is the weapon. Maybe when the character kills the defender they must make the intentional choice to apply a secondary killing strike with no penalty to their turn or movement.
+
+What you do with subdued life forms is up to you but it should probably include them recovering at some point and should be consistently applied and in keeping with the setting, theme, and context.
+

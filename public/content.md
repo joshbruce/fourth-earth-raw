@@ -147,15 +147,11 @@ Dice pools further adjust the probability of success for a given action.
 
 A level 1 challenge has a 50 percent probability of success. If the dice pool has 2 dice instead of 1, that probability becomes 75 percent.
 
-Adding dice is done through skill ranks related to a given action, tool, or both. Every successful attempt of an action with a challenge level greater than the current rank adds 1 point toward the next rank.
+Adding dice is done through skill ranks related to a given action, tool, or both. Therefore, the dice pool is 1 base die, plus the number of ranks in a skill, plus the number of ranks in a tool, plus any additions you decide to add. 
 
-Consider the character climbing the tree. Let's say they have 1 rank in climbing and their current climb is a challenge level 1. They would roll 2 dice, if necessary, but not earn any points toward the second rank in climbing. If their next climb is a challenge level 2, then they would earn a point toward the second rank on success.
+It's recommended that the number of dice in a pool not surpass 5. More than this and the pool can starts becoming unmanageable and crosses the point of diminishing returns. 5 dice in a pool for a level 1 challenge results in a roughly 97 percent chance of success. To overcome the last 3 percent requires doubling the pool (10 dice). It took 4 dice to go from 50 percent to 97 percent and another 5 to go from 97 to 99.9. There may be instances where this may seem to make sense as an action with a challenge level of 7 with a dice pool of 5 would be roughly a 23 percent chance; with 10 it would be a 40 percent chance. However, maybe for a super human the challenge level isn't 7, maybe it's a 5, which would also be a 40 percent chance.
 
-It's worth noting that they would earn this point even if the challenge level was reduced to 0. Characters earn points for what they accomplish, not how they accomplish it.
-
-Characters also have the ability to gain proficiency in using one or more tools. This proficiency is indicated as ranks on the tool itself. This simulates skills being tool agnostic. A carpenter may be very proficient using a hammer but not a nail gun. An apprentice carpenter swinging a hammer for the first time would earn 1 point toward their first rank in hammering *and* 1 point toward their first rank in hammer proficiency.
-
-It's recommended that the number of ranks not surpass 4; a total dice pool of 5. More than this and the dice pool can become unmanageable and crosses the point of diminishing returns. 5 dice in a pool for a level 1 challenge results in a roughly 97 percent chance of success. If the pool is doubled (10 dice), the percent of success is roughly 99.9 percent; diminishing returns. Alternatively, maybe that action becomes a level 0 (see super human reference above).
+For details on ranks see the "Skills and tools" section.
 
 ## Movement
 
@@ -181,13 +177,19 @@ Warp drive and the transporter are what makes space travel exciting, compress th
 
 ## Skills and tools
 
-Fourth Earth RAW seeks to be a generic system that allows for rapid start and evolution; therefore, there is no predefined set of skills and tools. Further, the presumption is that any character can attempt anything, only the probabilities of success are changed. When a character attempts something, capture that as a skill, let them gain ranks in it. We find this beats having a large list of skills and having to choose a subset to become practiced in.
+Fourth Earth RAW seeks to be a generic system that allows for rapid start and evolution; therefore, there is no predefined set of skills and tools. Further, the presumption is that any character can attempt anything, only the probabilities of success are changed. When a character attempts something, capture that as a skill, let them gain ranks in it. If another character wants to try the same thing, let them add that to their list of skills, and gain ranks in it. We find this beats having a large list of skills and having to choose a subset to become practiced in.
 
-It's recommended that skills be limited to 3 ranks and tools be limited to 1. Ranks increase as described in the Dice pools section.
+The maximum dice in a dice pool is bound by the maximum number of ranks in total for skills, tools, and any other contributing factor.
 
-Tools should reduce the challenge level of an action by 1 or more; a character could widdle wood using their fingernails and it would be easier with a knife. Proficiency in a tool should not necessarily be tied to the action performed. 
+Every successful attempt of an action with a challenge level greater than the current rank adds 1 point toward the next rank. Points are earned based on the initial challenge level as long as the initial challenge level was greater than 0. Points are still earned if the challenge level is reduced to 0. Ranks fill from lowest to highest, one point at a time. The number of points per rank should be greater than 1, high enough that earning ranks feels like learning not grinding, and consistent across all ranks.
+
+Consider an action with an initial challenge level of 0; no proficiency point is earned. Consider a character with no ranks toward an action with an initial challenge level of 1 who spends 1 battery point to reduce it to 0; at least 1 proficiency point is earned toward the first rank. Consider the same character with 1 rank toward an action with an initial challenge level of 1 who succeeds on the roll with 2 dice; no proficiency point is earned. Same character, same rank, and an action with an initial challenge level of 2 who succeeeds on the roll with 2 dice; 1 proficiency point is earned.
+
+Characters also have the ability to gain proficiency in using one or more tools. Tools should reduce the challenge level of an action by 1 or more; a character could widdle wood using their fingernails and it would be easier with a knife. Proficiency in a tool should not necessarily be tied to the action performed. This proficiency is indicated as ranks on the tool itself. This separation simulates the separation between general knowledge in a skill and specific knowledge in a tool.
 
 For example, a grave digger is probably proficient in using a shovel to dig graves. When the zombie hoards begin roaming the Earth, the grave digger should be afforded a slight advantage when braining a zombie with a shovel; of course, over time, the grave digger's digging proficiency might decrease while their proficiency in using a blunt weapon increases. The digger may also take a hit to their probabilities if they switch from the shovel to a baseball bat or even more if switching to a gun.
+
+It's recommended that players and narrators determine the pool capacity, subtract 1, then split the remaining dice between skill and tool ranks, with skills having more ranks than tools.
 
 ## Interacting with other living beings
 
@@ -202,7 +204,7 @@ For combat actions two additional action steps are recommended to maintain consi
 1. Calculating the challenge level of the defender.
 2. Calculating the number of points drained from the defender's health battery.
 
-Combat action target the health battery directly. The challenge level determines how hard the target is to hit; therefore, the qualities used shoud help the defender avoid being hit or make it easier for the attacker to hit the defender. It's recommended that the qualities avoid increasing complexity.
+Combat action targets the health battery directly. The challenge level determines how hard the target is to hit; therefore, the qualities used shoud help the defender avoid being hit or make it easier for the attacker to hit the defender. It's recommended that the qualities avoid increasing complexity.
 
 Consider character A (attacker) attacking character B (defender) with a longsword. Character B has 1 rank in two-handed weapons and 1 rank the longsword specifically. Meanwhile, character A doesn't have any ranks yet. Therefore, character B has more knowledge and experience in that type of attack than character A and is awarded 1 challenege level for each rank; 2 in this case. Character A spends 2 physical to hit character B. (It's recommended that the challenge level not go above 7.)
 
