@@ -1,6 +1,6 @@
 ---
 title: Solo adventures
-version: 0.1.0
+version: 0.1.1
 ---
 
 # Fourth Earth SA
@@ -33,14 +33,14 @@ See Fourth Earth RAW (and Fourth Earth Lore).
 
 There are **four life batteries**:
 
-|Name     |Convertable from             |Cost to increase |
+|Name     |Convertible from             |Cost to increase 1 point |
 |:--------|:----------------------------|:---------------:|
 |Health   |physical, mental, and spirit | 3 |
 |Physical |mental and spirit            | 2 |
 |Mental   |physical and spirit          | 2 |
 |Spirit   |physical and mental          | 2 |
 
-The health battery always tracks injuries. Action have an associated target battery, which means each battery tends to have a primary action category:
+The health battery always tracks injuries. Actions have an associated target battery, which means each battery tends to have a primary action category:
 
 |Name     |Action category                             |
 |:--------|:-------------------------------------------|
@@ -59,9 +59,11 @@ The primary recharging actions are as follow and do not represent all the ways o
 |Meditate      |Fast             |Mental         | 3 |
 |Revere (pray) |Fast             |Spirit         | 3 |
 
-For each unit of time all batteries are recharged. The target by the amount listed in the table above and the other by 1 each.
+For each unit of time all batteries are recharged at least 1 point. The target battery is charged by the amount in the table above.
 
-Because these are actions they can be given an associated challenge level. What happens on success and failure is whatever makes sense to the setting, theme, and players. For example, our characters are in on an airplane. They decide to go to sleep. It's loud and one of our characters is afraid of flying, for them it might be a challenge level 5 or 6 roll. Somehow they manage it; everyone gets the recharge for the first unit of time. They roll for the second unit; our friend who's afraid to fly fails. Then they fail the next one. Then they all fail the next one, which is good because the plane is going down. The character who's afraid to fly only got 1 round of recharge while everyone else got 3. The number of rolls and how much is replenished is entirely up to you and your players; it could be a completely safe place during a mundane period and the characters say, "We want to sleep" to which the narrator replies, "Cool. Everyone's batteries are full."
+Because these are actions that can be given an associated challenge level, whatever happens on success and failure is whatever makes sense to the setting, theme, and players. 
+
+For example, our characters are in an airplane. They decide to go to sleep. It's loud and one of our characters is afraid of flying, for them it might be a challenge level 5 or 6. Somehow they manage it; everyone gets the recharge for the first unit of time. They roll for the second unit; our friend who's afraid to fly fails. Then they fail the next one. Then they all fail the next one, which is good because the plane is going down. The character who's afraid to fly only got 1 round of recharge while everyone else got 3. The number of rolls and how much is replenished is entirely up to you and your players; it could be a completely safe place during a mundane period and the characters say, "We want to sleep" to which the narrator replies, "Cool. Everyone's batteries are full."
 
 ### Dice pools
 
@@ -84,7 +86,7 @@ Criticality is determined by rolling a 1 on [.1d10](one 10-sided die) following 
 
 These points are applied to the target battery of the action (climbing a tree would be physical and magic would be spirit). If that battery is or becomes full, the remaining points can be distributed as the player sees fit; including the health battery.
 
-**If the failure was critical on a non-combat action**, do the same thing for a non-combat critical success only using negative numbers instead of positive.
+**If the failure was critical on a non-combat action**, do the same as a non-combat critical success only using negative numbers instead of positive.
 
 **If the success was critical on a combat action**, results in rolling 1d12 to select from the following table:
 
@@ -107,7 +109,7 @@ If the follow-up roll was an 11 (an exploding die), roll another 1d12 to select 
 |11      |base potential energy times 3 targeting the defender    |
 |12      |defender is unable to act for 2 rounds                  |
 
-Recurring means the effect will occur every round until fixed. Compounding means if the same side-effect happens again, the effect is increased (-2 becomes -4 becomes -6).
+Recurring means the effect will occur every round until fixed. Compounding means if the same side effect happens again, the effect is increased (-2 becomes -4 becomes -6).
 
 **If the failure was critical on a combat action**, results in rolling 1d12 to select from the following table:
 
@@ -116,9 +118,9 @@ Recurring means the effect will occur every round until fixed. Compounding means
 |Even number |-1 drained from attacker's target battery, or another battery if at 0 |
 |1, 5, 9     |-2 drained from attacker's target battery, or distributed across multiple batteries if at 0 |
 |3, 7        |Attacker's health battery is drained as though they had attacked themselves; scale of 1 divided by 2, no resistance is applied, no less than 1 |
-|11          |damage a body part (see previous table, replacing "target's" with "attacking character's") |
+|11          |damage a body part |
 
-If the follow-up roll was an 11, roll another 1d12 to select from the secondary critical success table replacing the term "defender" with "attacker". (See also the "Tool decay and destruction extension" section.)
+If the follow-up roll was an 11, roll another 1d12. If the result of this follow-on roll was an 11, the tool being used is rendered useuless until repaired or replaced; if no tool was used, use that roll in the following instruction. Select from the secondary critical success table replacing the term "defender" with "attacker".
 
 ### Complication and partials extension
 
@@ -126,27 +128,29 @@ See Fourth Earth RAW (and Fourth Earth Lore).
 
 Roll a 12 on the same d12 used for criticality.
 
-The outcome the complication or partial is left completely to the players and narrator.
+The outcome of the complication or partial is left completely to the players and narrator.
 
 ## Movement
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-Fourth Earth SA favors realtime when practical and distinguishes between traveling and other forms of movement. Using cinematic terms traveling is a "time passes" cut between scenes, with the possibility of a montage or small scene to aid the narrative. Movement on the other hand is the same scene in roughly realtime, linear progress of action and uses the mechanics of interacting with the setting.
+Fourth Earth SA favors real time when practical and distinguishes between traveling and other forms of movement. Using cinematic terms traveling is a "time passes" cut between scenes, with the possibility of a montage or small scene to aid the narrative. Movement on the other hand is the same scene in roughly real time, linear progress of action and uses the mechanics of interacting with the setting.
 
 ### Initiative extension
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-Fourth Earth SA uses initiative primarily to answer a question: Will the action of a soon-to-be-subdued participant effect the outside world? In other words, initiative isn't about the order of actions, but the order of resolution with the possibility of neutralizing the outcome.
+Fourth Earth SA uses initiative primarily to answer a single question: Will the action of a soon-to-be-subdued participant effect the outside world? 
+
+In other words, initiative isn't about the order of actions, but the order of resolution with the possibility of neutralizing the outcome.
 
 Character A swings at character B. Character B swings at character A. The potential energy of character A, less the resistance of character B, would cause character B to be subdued. The potential energy of character B, less the resistance of character A, would cause character A to drain 3 points on their health. The following possibilities exist:
 
 1. If neither character has initiative, character A loses 3 and character B is subdued.
-2. If character A has initiative, character B is subdued and nothing happens to character A; a successful hit becomes a failure.
+2. If character A has initiative, character B is subdued and nothing happens to character A; a successful hit from character B becomes a failure.
 3. If character B has initiative, character A loses 3 and character B is subdued.
 
-Characters who reduce the challenge level to 0 have an initiative of 0. Otherwise, initiative is the total number of 1s rolled in the dice pool; so, initiative can range from 0 to 5. Resolution is processed in descending order; all those with initiative 5, then 4, and so on until 0. Ties in initiative result in both actions happening.
+Characters who reduce the challenge level to 0 have an initiative of 0. Otherwise, initiative is the total number of 1s rolled in the dice pool for the action; so, initiative can range from 0 to 5 in Fourth Earth SA. Resolution is processed in descending order; all those with initiative 5, then 4, and so on until 0. Ties in initiative result in both actions happening.
 
 This means skilled characters have a higher chance of doing their action and doing so in a way that another, less skilled opponent, doesn't get a last minute hit in. 
 
@@ -162,15 +166,15 @@ Skills are limited to 3 ranks. Tools are lmited to 1 rank. 4 successes are requi
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-The Fourth Earth setting uses magic. Magic spells are tied to stones. Casting magic happens just like any other tool-assisted action. If the stone is in the character's posession, the spell can be cast. The challenge level of the defender is reduced by half, or 1, whichever is greater then increased by the challenge level of the spell itself. If the challenge is greater than 8, it becomes 8 and if it's 0 or less, the challenge level is 0. Spells that go from the outside-in should be adjusted by the defender's resistance rating; spells that go from the inside-out should *not* be.
+The Fourth Earth setting uses magic. Magic spells are tied to stones. Casting magic happens just like any other tool-assisted action. If the stone is in the character's posession, the spell can be cast. The challenge level of the defender is reduced by half, or 1, whichever is greater then increased by the challenge level of the spell itself. If the challenge is greater than 8, it becomes 8 and if it's 0 or less, the challenge level is 0. Spells that go from the outside-in (a projectile spell) should be adjusted by the defender's resistance rating (a spell involving a projectile); spells that go from the inside-out should *not* be (a spell the curdles the blood).
 
 ## Interacting with other living beings
 
 See Fourth Earth RAW (and Fourth Earth Lore). 
 
-**Calculating the challenge level** of a defender is derived from qualities of the defender. If the running total for the calculated challenege level reaches 8, the challenge level is 8 and there is no need to continue with the questions. All challenge levels start at 0.
+**Calculating the challenge level** of a defender is done using qualities of the defender. If the running total for the calculated challenege level reaches 8, the challenge level is 8 and there is no need to continue with the calculation. All challenge levels start at 0.
 
-The following checklist aims to be brief and starting with qualities with the highest return up front:
+The following checklist aims to be brief and starts with qualities with the highest return up front:
 
 |Question |Yes |
 |:--------|:---|
@@ -180,12 +184,12 @@ The following checklist aims to be brief and starting with qualities with the hi
 |Defender is on higher ground?  |+1 |
 |Defender is aware of attacker? |+1 |
 
-**Calculating potential energy** starts by considering the type of attack partially based on the tool used. The following table can be used as a base:
+**Calculating potential energy** starts by considering the type of attack partially based on tool used. The following table can be used as a base:
 
 |Type |Description |Potential energy |
 |:----|:-----------|:-----:|
 |Jab                      |Fast and light  | 1-2 (2 requires 2 attempts) |
-|Uppercut or kick         |Slow and medium | 2 |
+|Uppercut, kick, or ram   |Slow and medium | 2 |
 |Dual (tool in each hand) |Fast and medium | 2-4 (4 requires 2 attempts) |
 |Two-handed               |Slow and medium | 3 |
 |Magic                    |Slow and heavy  | 5 |
@@ -202,17 +206,17 @@ Consider the humanoid and the rat, using all extensions described in Fourth Eart
 |:--------|:---:|
 |Defender is subdued, stunned, or unconscious? | --     |
 |Defender has active allies?                   | 0 + 0  |
-|Defender is lesser scale?                     | 0 + 10 |
+|Defender is lesser scale?                     | 0 + 5  |
 |Defender is on higher ground?                 | --     |
 |Defender is aware of attacker?                | --     |
-|**Total**                                     | 8      |
+|**Total**                                     | 5      |
 
 **Calculating to hit (with both fists):**
 
 |Description |Effect |
 |:-----------|:------|
-|Challenge level 8                        |2 level 4 challenges |
-|Humanoid spend 2 physical points on both |2 level 2 challenges |
+|Challenge level 8                        |1 level 2 challenge & 1 level 3 challenge |
+|Humanoid spend 2 physical points on both |1 level 1 challenge  |
 |Humanoid has 2 ranks in unarmed combat   |3 dice in pool       |
 |**Dice pool**                            |3d4                  |
 
@@ -225,22 +229,22 @@ Consider the humanoid and the rat, using all extensions described in Fourth Eart
 |Humanoid is 10 times scale               | 4 * 10              |
 |**Total potential energy**               | 40                  |
 
-**Calculating absorbed energy:**
+**Calculating drain:**
 
 |Description |Effect |
 |:-----------|:------|
 |Potential energy                         | 40                  |
 |Armor                                    | 40 - 0              |
 |Skin                                     | 40 - (-1)           |
-|**Total absorbed energy**                | 41                  |
+|**Total drain**                          | 41                  |
 
-Given all life forms in Fourth Earth apply the same rules, the rat would be dead; twice over. 
+Given all life forms in Fourth Earth RAW apply the same rules, the rat would be dead; twice over. 
 
 ### Resistance extension
 
 See Fourth Earth RAW (and Fourth Earth Lore). 
 
-Every living being has a natural resistance, skin. Fourth Earth SA recognizes the following skin thickness and associated ability to absorb or resist potential energy:
+Every living being has a natural resistance, skin. Fourth Earth SA recognizes the following skin thickness and associated ability to resist potential energy:
 
 |Thickness |Resistance |
 |:---------|:---------:|
@@ -248,11 +252,11 @@ Every living being has a natural resistance, skin. Fourth Earth SA recognizes th
 |Average   | 0         |
 |Thick     | 1         |
 
-The rat from the previous section had thin skin; hence the -1. The humanoid would have average. And a whale would have thick skin, which means a human has to work extra hard to subdue or kill one.
+The rat from the previous section had thin skin; hence the -1. The humanoid would have average. And a whale would have thick skin, which means a human has to work extra hard to subdue or kill a whale.
 
-Let's talk about the idea of a humanoid going against a whale. The whale would be easy to hit, effectively 0, unless there were modifiers for being underwater. With that said, if a humanoid threw jabs at the whale, chances are they wouldn't be felt by the whale unless there were critical rolls involved; a punch that irritates an old wound and the whale dies from internal bleeding. Resistance doesn't make the thing impossible, only adjusts the difficulty from a time scale.
+Let's talk about the idea of a humanoid going against a whale. The whale would be easy to hit, effectively 0 challenge level, unless there were modifiers for being underwater. With that said, if a humanoid threw jabs at the whale, chances are they wouldn't be felt as injuries by the whale unless there were critical rolls involved; a punch that irritates an old wound and the whale dies from internal bleeding might happen. Resistance doesn't make the thing impossible, only adjusts the difficulty from a time scale.
 
-There are three grades of armor recognizes in Fourth Earth SA:
+There are three grades of armor recognized in Fourth Earth SA:
 
 |Grade  |Type example |Absorption effect |
 |:------|:------------|:----------------:|
@@ -266,10 +270,10 @@ The name of the grades refers to the level of absorption. The cloth example refe
 
 See Fourth Earth RAW (and Fourth Earth Lore). 
 
-Fourth Earth SA uses dynamic scale. For interactions where scale is used in calculations the smallest participant is considered 1 and all other participants are a scale compared to that. Two humans would usually be 1 to 1, unles one of was a super human twice the size of the other, at which point the super human would be 2 and the regular human would be 1.
+Fourth Earth SA uses dynamic scale. For interactions where scale is used in calculations the smallest participant is considered 1 and all other participants are a scale compared to that. Two humans would usually be 1 to 1, unles one of them was a giant twice the size of the other, at which point the giant would be 2 and the other would be 1.
 
 ## Subdue not kill
 
 See Fourth Earth RAW (and Fourth Earth Lore). 
 
-Fourth Earth SA uses subdue by default. Subdued characters are unable to act for 4 rounds. Characters maybe declare their intent to kill and not subdue at any point in the session or game.
+Fourth Earth SA uses subdue by default. Subdued characters are unable to act for 4 rounds. Characters may declare their intent to kill and not subdue at any point in the session or game.

@@ -1,7 +1,7 @@
 ---
 title: Computer-aided
 ---
-
+Therefore, we are unsure how to simulate the duration of acquisition. However, simulating the ghost decay effect is handled by staggering the decay.
 # Computer-aided Fourth Earth
 
 It might be an odd name but it seems to be the most technically accurate as the extensions to Fourth Earth RAW preserve the presence of a computer and nothing else. They do not dictate nor require specific implementation details like a [.GUI](Graphic User Interface) or a command line prompt; just the computer power, automation, and time-tracking capabilities afforded by a device that doesn't noticeably get bored or frustrated keeping tabs on such things.
@@ -109,18 +109,7 @@ Fourth Earth CA has four batteries:
 
 The quickest way to recharge batteries comes when another character transfers some of their battery points to you. It's worth noting that transfers cannot jump batteries; health goes to health, spirit goes to spirit, and so on - and, of course, someone has to be willing to sacrifice their battery points to help your character. Beyond that there are various, intentional actions a character can perform to recharge their batteries. Each type of action targets a battery and recharge in real time. The target battery increases by 2 for unit of time passed, while the other batteries increase by one. The type of action determines how long the unit of time is. Because Fourth Earth is an action-based game, there are more actions targeting the physical battery as it will probably drain more than the others.
 
-|Action |Time    |Target battery |
-|:------|:-------|:--------------|
-|Performing actions with an initial challenge level of 0 |Slowest |Health   |
-|Rest                                                    |Slow    |Health   |
-|Nap                                                     |Fast    |Physical |
-|Sleep                                                   |Fastest |Physical |
-|Meditate                                                |Fast    |Mental   |
-|Revere (pray)                                           |Fast    |Spirit   |
 
-Note: Your character may not be able to perform these actions in certain circumstances; taking a nap in the middle of a fight might be difficult, for example.
-
-Health is the ultimate battery and requires 3 points to recharge 1 point from the other batteries. Non-health batteries requires 2 points to recharge 1 point from the other batteries.
 
 ## Compound actions
 

@@ -1,12 +1,94 @@
 ---
 title: Tabletop
+version: 0.1.0
 ---
 
-# Computer-aided Fourth Earth
+# Fourth Earth TT
 
-It might be an odd name but it seems to be the most technically accurate as the extensions to Fourth Earth RAW preserve the presence of a computer and nothing else. They do not dictate nor require specific implementation details like a [.GUI](Graphic User Interface) or a command line prompt; just the computer power, automation, and time-tracking capabilities afforded by a device that doesn't noticeably get bored or frustrated keeping tabs on such things.
+Fourth Earth [.TT](tabletop) is an expansion of Fourth Earth [.RAW](rules as written) and Fourth Earth [.SA](solo adventures) intended for tabletop gameplay, which presumes the existence of a narrator. Though the narrator is implied, any of the responsibilities here attributed to the narrator could be the players in general, or maybe one player rotated every session, or something else entirely.
 
-Our intent is not to recap what has already been covered by the base Fourth Earth RAW material; so, it may be helpful to familiarize yourself with that first.
+## Creating the setting
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+## Populating the setting
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+## Interacting with the setting
+
+See Fourth Earth RAW (and Fourth Earth Lore).
+
+### Challenge levels
+
+See Fourth Earth RAW (and Fourth Earth Lore).
+
+### Life batteries
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+### Dice pools
+
+See Fourth Earth RAW (and Fourth Earth Lore).
+
+### Criticality extension
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+### Complication and partials extension
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+## Movement
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+### Initiative extension
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+## Skills and tools
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+### Sufficiently advanced technology and magic extension
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+## Interacting with other living beings
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+### Resistance extension
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+### Scale extension
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+## Subdue not kill
+
+See Fourth Earth SA (and Fourth Earth Lore).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 For Fourth Earth CA, we acknowledge the following benefits:
 
