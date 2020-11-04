@@ -9,7 +9,7 @@ Fourth Earth [.RAW](Rules as Written) is a cooperative storytelling framework fo
 
 - additive,
 - rules-light, and
-- action-oriencted.
+- action-oriented.
 
 Additive means it's designed to allow you to build into stories by adding pieces not explicitly spelled out; contrasted by systems that provide creatures, settings, and the mechanics to sift through and use or modify. It is rules-light in that it's more informational with a minimal mechanic instead of having multiple mechanics or mechanics with multiple steps to implement. It is action-oriented because the primary mechanic affords players a generic way to interact with the world; complexity is optional.
 
