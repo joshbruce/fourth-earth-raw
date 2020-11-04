@@ -63,7 +63,7 @@ Living beings have a setting- and theme-appropriate:
 
 Cally the earthworm, for example.
 
-All living beings have at least one life battery representing their current health with a maximum value of 10.
+All living beings have at least one life battery representing their current health in the form of a battery.
 
 At this point, a basic Fourth Earth RAW character is created.
 
@@ -138,7 +138,7 @@ In general, the scale uses an average person in the world and common actions; ho
 
 Life batteries represent a character's overall health and vitality.
 
-The maximum value of any life battery is 10.
+The maximum value of any life battery is 8.
 
 The only life battery required by Fourth Earth RAW is the health battery. If the battery is reduced to and remains at 0, the character is dead.
 
