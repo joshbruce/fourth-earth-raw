@@ -1,13 +1,23 @@
 ---
 title: Rules as Written
-version: 0.2.1
+version: 0.3.0
 ---
 
 # Fourth Earth RAW
 
-Fourth Earth [.RAW](Rules as Written) is an additive, rules-light, and action-based game system. It is additive in that it is designed to be simple and added to as opposed to complex and reduced from to make it simpler. As such, it is considered rules-light because it is mainly informational with a minimal mechanic allowing characters to interact with the world. The primary mechanic of the system is what makes it action-based as it is how characters interact with the world and each other in a range of circumstances. Extensions are provided as a separate list with thoughts and recommendations on implementing them in a Fourth Earth RAW way.
+Fourth Earth [.RAW](Rules as Written) is a cooperative storytelling framework for creating “choose your own adventure” experiences with the potential for unknown outcomes; it is:
 
-The system should be applicable to solo adventures (one player of one or more characters, with or without a separate narrator), tabletop (more than one player, with or without a separate narrator), and computer-aided in either an A-B storyline or open world gameplay style (the computer acts as the narrator and makes the math easier).
+- additive,
+- rules-light, and
+- action-oriencted.
+
+Additive means it's designed to allow you to build into stories by adding pieces not explicitly spelled out; contrasted by systems that provide creatures, settings, and the mechanics to sift through and use or modify. It is rules-light in that it's more informational with a minimal mechanic instead of having multiple mechanics or mechanics with multiple steps to implement. It is action-oriented because the primary mechanic affords players a generic way to interact with the world; complexity is optional.
+
+The system should be applicable to:
+
+- solo adventures (one player of one or more characters, with or without a separate narrator), 
+- tabletop (more than one player, with or without a separate narrator, possibly with the aid of a computer), and 
+- computer-aided in either an A-B storyline or open world gameplay style (the computer acts as the narrator and makes the math easier).
 
 Fourth Earth RAW is like describing the physics within a setting, theme, and campaign.
 
@@ -16,15 +26,15 @@ The core values driving the system are:
 1. Players over Narrators
 2. Narrative over Mechanics
 3. Flow over Crunching
-4. Role play over Grinding to become a demigod and metagaming
+4. Role play over Grinding to become a demigod or metagaming
 5. Skill and proficiency over level and age
 6. Progressive disclosure over rewarding lore or system knowledge
 
 The core principles:
 
 1. Favor player success: Anyone can start at anytime and hold their own or join others. Anyone can do just about anything, once. Anyone can improve skills and proficiencies.
-2. The player defines the role: there are no innate bonuses or penalties resulting from character creation and there is no history of separatism and isolation from other species.
-3. Healing, death, resurrection, and reincarnation: Players should be allowed to choose death or continuing with the same character, at a cost.
+2. The player defines the role: there are no innate bonuses or penalties resulting from character creation and there is no history of the setting built in.
+3. Healing, death, resurrection, and reincarnation: Players should be allowed to choose death or continue with the same character, at a cost.
 
 ## Creating the setting
 
@@ -53,15 +63,36 @@ Living beings have a setting- and theme-appropriate:
 
 Cally the earthworm, for example.
 
-All living beings have a life battery representing their current health with a maximum value of 10.
+All living beings have at least one life battery representing their current health with a maximum value of 10.
 
 At this point, a basic Fourth Earth RAW character is created.
+
+### Healing, death, resurrection, and reincarnation
+
+Living things die, it's the trade-off of life. The health battery simulates the reality that most living things fade over time not in one hit, so to speak. If the health battery reaches and reamins at 0, the living thing is dead.
+
+The first question to ask yourself is: Is this game a permadeath game?
+
+Permadeath means death is considered a permanent state and there is no way to recover. If you want to keep playing, a new character is needed. This can feel realistic and at the same time can be very frustrating as games do not accurately simulate life. Fourth Earth RAW is not opinionated on a resolution to this question; just offers some thoughts to cover various scenarios.
+
+Generally, regardless of setting or theme, there should be a way for the health battery to recharge. If using time passed, the game simulates unassisted regeneration; the health battery just gradually increases over time until fully recharged. If using items or magic, the game simulates (or uses) assisted regeneration like medicine; the health battery might increase in a large chunk before gradually filling the rest of the way.
+
+Resurrection, as a term, means the health battery has hit 0 but some external force has caused the health battery to return to 1 or more. In a mundane game (thinking in terms of television shows and movies) this could simulate CPR or the defibrilator paddles - clear! In a fantasy adventure game this could be something like magic. The recommendation here is that the character should experience some type of loss to simulate things like physical therapy, lack of oxygen to the brain for extended periods, and so on. As a game mechanic this is meant to instill a sense of caution in players; death may not be permanent but there will be a setback (starting at the beginning of a level).
+
+Reincarnation, as a term, means the health battery hit 0, no external force caused the health battery to return to 1 or more, and the player has decided to continue playing the character anyway. This simulates the actual belief of reincarnation as much as is practical given the constraints of a game. The recommendation here is a loss that is greater than resurrection and usually sees the player starting in a position different than where they died. It's recommended that the loss include the loss of all physical posessions; the soul left the physical realm and the character may be recognized as the one who died but doesn't inherit the belongings of the past self.
+
+Consider the following example:
+
+|Type of recovery |Life batteries |Skills |Tool poficiency |Physical goods |
+|:----------------|:--------------|:------|:---------------|:--------------|
+|Resurrection     |All set to 1   |All ranks reduced by 1 point |All ranks reduced by 1 point |Still around or recoverable |
+|Reincarnation    |All set to 1   |All ranks reduced by 2 points |All ranks reduced by 2 points |No longer available |
 
 ## Interacting with the setting
 
 Every action starts with an intent and an opposing force.
 
-The opposing force is represented by a challenge level which is based on qualities of the opposing force and then overcome by the character attempting to accomplish their intent. 
+The opposing force is represented by a challenge level which is based on qualities of the opposing force and then overcome by the character attempting the action. 
 
 For an action to be considered resolved, we must answer all of the following questions:
 
@@ -74,17 +105,17 @@ The tree climb starts as a challenge level of 3; roughly a 17 percent chance of 
 
 There is always at least 1 die in the pool. The number of dice can be increased by achieving ranks in skills; 1 extra die per rank. This character has 1 rank in climbing, which brings the number of dice in the pool to 2; roughly a 43 percent chance of success. To succeed, at least 1 die in the pool must have a value of 1 when rolled; to rephrase, the target to be rolled is at least one 1 regardless of the number of dice in the pool.
 
-Upon failure or success, there should be a side-effect that impacts the character, outside world, or both. In the case of climbing the tree, the character either remains where they were or makes it up the tree on failure or success, respectively.
+Upon failure or success, there should be a side-effect impacting the character, outside world, or both. In the case of climbing the tree, the character either remains where they were or makes it up the tree on failure or success, respectively.
 
 Let's consider the rat, which has a calculated challenge level of 3 based on various characteristics. Everything is the same as the tree climb. Upon failure or success, the side-effect will be missing the defender or hitting.
 
-This means there is no secondary action system for combat (or anything else). All actions happen in the equivalance of real time (there is no initiative in the base Fourth Earth RAW system). Having only one action system reduces the need for context switching by players.
+This means there is no secondary action system for combat (or anything else). All actions happen in the equivalance of real time (there is no initiative in the base Fourth Earth RAW system); intent, challenge level, roll. Having only one action system reduces the need for context switching by players.
 
 ### Challenge levels
 
 Challenge levels describe the probability of success for an action and always have a target battery that can be used to reduce the level. 
 
-The scale begins with 0, representing 100 percent chance of success (or at least greater than 50 percent chance). The scale ends at infinity, representing completely impossible in the setting. Standing up or walking might be 0 while drawing a laser sword in a medieval setting might be infinite.
+The scale begins with 0, representing 100 percent chance of success (or at least greater than 50 percent chance). The scale ends at infinity, representing completely impossible in the setting. Standing up or walking might be 0 for an adult compared to a baby while drawing a laser sword in a medieval setting might be infinite.
 
 The inner range is from 1 through 8. 8 is impossible without some form of assistance; climbing a potruding ice wall, in rain and heavy winds, with no tools. Challenge levels 1 through 7 have a decreasing probability of success represented by a standard coin flip or die roll:
 
@@ -101,7 +132,7 @@ The inner range is from 1 through 8. 8 is impossible without some form of assist
 |Impossible, if unaided | 8              | 0                     | n/a                               |
 |Impossible             |infinite        | 0                     | n/a                               |
 
-In general, the scale uses an average person in the world and common actions; however, to keep things challenging for the characters in the setting and based on the theme, a more relative scale might be beneficial. For example, character A decides they want to attempt stitching a finger, they are not a doctor and have no training, probably a challenge level of 4 or higher. Alternatively, character A who has training in veterinary medicine might receive a challenge level of 2 or 3. Or, in a mundane world unassisted flight would be infinite, but the character becomes super with the ability to fly, the first time might be a 4 and eventually becomes a 0.
+In general, the scale uses an average person in the world and common actions; however, to keep things challenging for the characters in the setting and based on the theme, a more relative scale might be beneficial. For example, character A decides they want to attempt stitching a wound in a finger, they are not a doctor and have no training, probably a challenge level of 4 or higher. Alternatively, character A who has training in veterinary medicine might receive a challenge level of 2 or 3. Or, in a mundane world unassisted flight would be infinite, but the character becomes super with the ability to fly, the first time might be a 4 and eventually becomes a 0.
 
 ### Life batteries
 
@@ -114,12 +145,12 @@ The only life battery required by Fourth Earth RAW is the health battery. If the
 Your game may have any number of batteries, with the following recommendations in mind:
 
 1. The higher the number of batteries, the harder they are to manage and the amount of tension in the action economy is reduced.
-2. Use overflow batteries where points from one or more other batteries can be converted to a single point in another battery; cost should be greater than reward, 2 points per 1 generated.
+2. Use overflow batteries where points from one or more other batteries can be converted to a single point in another battery; cost should be greater than reward, at least 2 points per 1 generated.
 3. The health battery should not be available as an overflow.
 
-Consider a system where the cost is the total number of overflow batteries; physical has two overflows and health has 3. 
+Consider a system where the cost is the total number of overflow batteries; physical has 2 overflows and health has 3. 
 
-Let's spend 1 point from the physical battery to reduce the challenge level of climbing the tree; notice the character has 0 physical points available: 
+Let's spend 1 point from the physical battery to reduce the challenge level of climbing the tree; notice the character has 0 physical points available to start: 
 
 |Name     |Start |Increase |Spend (reduce challenge level) |
 |:--------|:----:|:-------:|:----:|
@@ -147,13 +178,13 @@ Life batteries should recharge somehow; usually multiple ways. At least one of t
 
 Dice pools further adjust the probability of success for a given action.
 
-A level 1 challenge has a 50 percent probability of success. If the dice pool has 2 dice instead of 1, that probability becomes 75 percent.
+A level 1 challenge has a 50 percent probability of success. If the dice pool has 2 dice instead of 1 the probability of success becomes 75 percent.
 
 Adding dice is done through skill ranks related to a given action, tool, or both. Therefore, the dice pool is 1 base die, plus the number of ranks in a skill, plus the number of ranks in a tool, plus any additions you decide to add. 
 
 It's recommended that the number of dice in a pool not surpass 5. More than this and the pool starts becoming unmanageable and crosses the point of diminishing returns. 5 dice in a pool for a level 1 challenge results in a roughly 97 percent chance of success. To overcome the last 3 percent requires doubling the pool (10 dice). It took 4 dice to go from 50 percent to 97 percent and another 5 to go from 97 to 99.9. 
 
-There may be instances where larger dice pools may seem to make sense as an action with a challenge level of 7 with a dice pool of 5 would be roughly a 23 percent chance of success; with 10 dice it would be a 40 percent chance. However, maybe for a super human the challenge level isn't 7, maybe it's a 5, which would also be a 40 percent chance.
+There may be instances where larger dice pools may seem to make sense. Consider a challenge level 7 action with a dice pool of 5, probability of success is roughly 23 percent; if the pool hd 10 dice it would be a 40 percent chance. However, maybe for a super human the challenge level isn't 7, maybe it's a 5, which would also be a 40 percent chance with only 5 dice in the pool.
 
 For details on ranks see the "Skills and tools" section.
 
@@ -163,7 +194,7 @@ Fourth Earth RAW is not opinionated when it comes to movement beyond creating a 
 
 One end is real time simulation; a minute in-game is a minute in-real-life, a mile in-game is a mile in-real-life. We might see the other end as battle simulation and tends to feel more like playing chess; players may take hours to move and may have conversations their characters couldn't in the heat of battle. In the former, the player is the character and in the latter the player is more of a storyteller and puppetmaster. The former may be represented as live-action-role-playing and the latter might be represented as a turn-based tabletop roleplaying game with miniatures.
 
-Fourth Earth RAW slants more toward real time simulation while using dice roll resolution to allow for theater of the mind instead of live-action:
+Fourth Earth RAW slants more toward real time simulation while using dice roll resolution to allow for theater of the mind instead of live-action or miniatures:
 
 1. Make a declaration of what characters are doing.
 2. Roll the dice pools.
@@ -177,7 +208,9 @@ As the narrator (or player), unless otherwise agreed to, you might say, "Okay. T
 
 Game-time and real time will most likely invert when the characters go inside wherever it is they've arrived to. Details about the setting are given, explored, considered, discussed. It may take hours of real time to do 30 minutes of game-time activities. Let the narrative and intent of the characters drive any challenge levels for actions. 
 
-A player says their character is going to run the 500 kilometers back to a town and bring help? Challenge level of infinite; unless they're super fast, then maybe it's 4 actions each at a challenge level of 8. A player says their character is going to get behind a target (to gain an advantage) and knock them out with their blackjack? Maybe it's a challenge level of 5 for the movement and then hitting the target has a challenge level of 8 because the intent isn't just to hit but to subdue in one shot.
+A player says their character is going to run the 500 kilometers back to a town and bring help? Challenge level of infinite; unless they're super fast, then maybe it's 4 actions each at a challenge level of 8. Or, if that's literally just what they do and everyone agrees they can run 500 in two seconds, the challenge might be getting help back (convince the citizens to action). 
+
+Another player says their character is going to get behind a target (to gain an advantage) and knock them out with their blackjack? Maybe it's a challenge level of 5 for the movement and then hitting the target has a challenge level of 8 because the intent isn't just to hit but to subdue in one shot.
 
 Warp drive and the transporter are what makes space travel exciting, compress the mundane. But sometimes characters will want to play chess and practice defending themselves to enrich their characters and improve the audience experience.
 
@@ -187,15 +220,15 @@ Fourth Earth RAW seeks to be a generic system that allows for rapid start and ev
 
 The maximum dice in a dice pool is bound by the maximum number of ranks in total for skills, tools, and any other contributing factors.
 
-Every successful attempt of an action with a challenge level greater than the current rank adds 1 point toward the next rank. Points are earned based on the initial challenge level as long as the initial challenge level was greater than 0. Points are still earned if the challenge level is reduced to 0. Ranks fill from lowest to highest, one point at a time. The number of points per rank should be greater than 1, high enough that earning ranks feels like learning not grinding, and consistent across all ranks.
+Every successful attempt of an action with a challenge level greater than the current rank adds 1 point toward the next rank; this implies there is no rationel for having total rank counts greater than 7 or 8. Points are earned based on the initial challenge level as long as the initial challenge level was greater than 0. Points are still earned if the challenge level is reduced to 0. Ranks fill from lowest to highest, one point at a time. The number of points per rank should be greater than 1, high enough that earning ranks feels like learning not grinding, and consistent across all ranks.
 
 Consider an action with an initial challenge level of 0; no proficiency point is earned. Consider a character with no ranks toward an action with an initial challenge level of 1 who spends 1 battery point to reduce it to 0; at least 1 proficiency point is earned toward the first rank. Consider the same character with 1 rank toward an action with an initial challenge level of 1 who succeeds on the roll with 2 dice; no proficiency point is earned. Same character, same rank, and an action with an initial challenge level of 2 who succeeeds on the roll with 2 dice; 1 proficiency point is earned.
 
-Characters also have the ability to gain proficiency in using one or more tools. Tools should reduce the challenge level of an action by 1 or more; a character could widdle wood using their fingernails and it would be easier with a knife. Proficiency in a tool should not necessarily be tied to the action performed. This proficiency is indicated as ranks on the tool itself. This separation simulates the separation between general knowledge in a skill and specific knowledge in a tool.
+Characters also have the ability to gain proficiency in using one or more tools. Tools should reduce the challenge level of an action by 1 or more; a character could widdle wood using their fingernails - it would be easier with a knife. Proficiency in a tool should not necessarily be tied to the action performed. This proficiency is indicated as ranks on the tool itself. This separation simulates the separation between general knowledge in a skill and specific knowledge in a tool.
 
 For example, a grave digger is probably proficient in using a shovel to dig graves. When the zombie hoards begin roaming the Earth, the grave digger should be afforded a slight advantage when braining a zombie with a shovel; of course, over time, the grave digger's digging proficiency might decrease while their proficiency in using a blunt weapon increases. The digger may also take a hit to their probabilities if they switch from the shovel to a baseball bat or even more if switching to a gun.
 
-It's recommended that players and narrators determine the pool capacity, subtract 1, then split the remaining dice between skill and tool ranks, with skills having more ranks than tools.
+It's recommended that players and narrators determine the pool capacity, subtract 1 for the base die, then split the remaining dice between skill and tool ranks, with skills having more ranks than tools.
 
 ## Interacting with other living beings
 
@@ -203,7 +236,7 @@ For non-combat actions, the players can negotiate with the narrator to determine
 
 "I want to persuade this person to do this thing." That could result in the narrator saying, "That person didn't require persuasion, they do it." Or, the narrator might say, "This person is a member of a military operations team with training to avoid manipulation, the challenge level is 5 mental" (presuming a mental battery). Then the player spends and rolls as usual.
 
-This way game mechanics can be generated on an as needed basis instead of restraining players and narrators to a finite list of interaction types.
+This way game mechanics can be generated just-in-time instead of restraining players and narrators to a finite list of interaction types.
 
 For combat actions two additional action steps are recommended to maintain consistency and transparency:
 
@@ -212,7 +245,7 @@ For combat actions two additional action steps are recommended to maintain consi
 
 Combat action targets the health battery directly. The challenge level determines how hard the target is to hit; therefore, the qualities used should help the defender avoid being hit or make it easier for the attacker to hit the defender. It's recommended that the qualities avoid increasing complexity.
 
-Consider character A (attacker) attacking character B (defender) with a longsword. Character B has 1 rank in two-handed weapons and 1 rank in the longsword specifically. Meanwhile, character A doesn't have any ranks yet. Therefore, character B has more knowledge and experience in that type of attack and weapon and is awarded 1 challenege level for each rank; 2 in this case. Character A spends 2 physical to hit character B. (It's recommended that the challenge level not go above 7.)
+Consider character A (attacker) attacking character B (defender) with a longsword. Character B has 1 rank in two-handed weapons and 1 rank in the longsword specifically. Meanwhile, character A doesn't have any ranks yet. Therefore, character B has more knowledge and experience in that type of attack and weapon and is awarded 1 challenege level for each rank; 2 in this case. Character A spends 2 physical to hit character B. (It's recommended that the challenge level for combat not go above 7 without a narrative point to explain why.)
 
 Now let's calculate the drain on the health battery. In our game the longsword drains 2 points. Character B absorbs all of that potential energy and loses 2 points from their health battery.
 
@@ -222,9 +255,9 @@ Any method can be used so long as it is consistently applied across all living b
 
 In roleplaying games, players may slip into metagaming. Metagames usually involve a player using knowledge they have to cause their character to act based on that knowledge, even if the character doesn't have that knowledge.
 
-For example, character A is given a piece of knowledge about a secret room in the inn. Character B then starts prodding character A to get that knowledge or tries a contrived action to accidentally find the secret room.
+For example, character A is given a piece of knowledge about a secret room in the inn while away from Character B. Character A returns to character B who starts prodding character A to get that knowledge. Or character B tries a contrived action to accidentally find the secret room.
 
-Instead of trying to punish players for *not* roleplaying, Fourth Earth RAW gives multiple ways for the players and narrator to reward roleplaying as an out-of-character action.
+Instead of trying to punish players for *not* roleplaying, Fourth Earth RAW gives multiple ways for the players and narrator to reward roleplaying as an out-of-character action. Of course, if the rewards are given at no cost, the gameplay could become boring; therefore, it's important everyone agree to the mechanics of this type of reward.
 
 Maybe a claustraphobic character goes splunking in a cave and moves through a narrow passage. The challenge level, due to the phobia, was set to 5. The player acted out the nervousness of the character, didn't spend any physical (or maybe in this case mental) battery points to lower the level. The character made it through. Maybe the narrator rewards the player with battery points or an extra proficiency point. Maybe one of the other players transfers one of their battery points to the character.
 
@@ -244,7 +277,7 @@ We also offer guides for various types of play as examples and a different start
 
 While they are less of a blank canvas, each successive guide extends the previous.
 
-Thank you for making the time and considering Fourth Earth RAW. All feedback is welcome. The easiest way to give feedback is to leave a [GitHub](https://github.com/joshbruce/fourth-earth-raw)issue and where you can also see upcoming changes.
+Thank you for making the time and considering Fourth Earth RAW. All feedback (or contribute) is welcome. The easiest way to give feedback is to leave a [GitHub](https://github.com/joshbruce/fourth-earth-raw) issue and where you can also see upcoming changes.
 
 ## References and inspirations
 
