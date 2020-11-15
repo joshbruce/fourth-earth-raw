@@ -1,21 +1,25 @@
 ---
 title: Rules as Written (Extensions)
-version: 0.3.0
+version: 0.3.1
 ---
 
 # Fourth Earth RAW: Extensions
+ 
+The following extensions describe considerations to Fourth Earth [.RAW](Rules as Written) that, when incorporate, may offer heightened immersion or offer a way to overcome an otherwise unforseen obstacle. Extensions may be plugged into and unplugged from gameplay as you see fit. This plugging in may be done from the beginning or just in time, when needed; one at a time or wholesale.
 
-The following extensions describe considerations to Fourth Earth [.RAW](Rules as Written). Extensions can be incorporated into gameplay one at a time, wholesale, or even just as a one off to get out of a sticky situation; they are modules that can be plugged in and unplugged from as you see fit. 
-
-In the spirit of Fourth Earth RAW, these extensions don't describe a specific implementation; instead, it's the rationale driving the extension and guidelines in how one might implement it in a way that feels in keeping with Fourth Earth RAW.
+In the spirit of Fourth Earth RAW, these extensions don't describe a specific implementation; instead, a basic purpose is given with various guidelines on implementation in keeping with Fourth Earth RAW.
 
 ## Offspring
 
-**Extend:** Populating the setting
+**Extends:** Populating the setting
 
-Characters can have children. The rules of which can be as simple or complex as the setting and theme allows. Can some species in the game reproduce asexually? or, does it require sexual reproduction? If it's sexual reproduction is it binary or something else? What if there is the equivalent of a sperm and egg but requires a intermediary to join the two (plants and bees, for a loose example)? What are the rituals involved (the male in a praying mantis pair is often killed)?
+Characters can have children. 
 
-Some things to consider to get started:
+The rules of which can be as simple or complex as the setting and theme allows. 
+
+Can some species in the game reproduce asexually? or, does it require sexual reproduction? If it's sexual reproduction is it binary or something else? What if there is the equivalent of a sperm and egg but requires an intermediary to join the two (plants and bees, for a loose example)? What are the rituals involved (the male in a praying mantis pair is often killed)?
+
+Guidelines:
 
 1. When does the new character become playable? (Maybe it's age, maybe it's some form of money to simulate caring for a child long enough for them to become a character in the setting.)
 2. Are there legal ramifications in the setting?
@@ -26,15 +30,26 @@ Some things to consider to get started:
 
 **Extends:** Interacting with the setting
 
-Sometimes a success is more than a success. Sometimes a failure is more than a failure. While you can always narrate such things, sometimes players feel better if the dice make it happen.
+Sometimes a success is more than a success. Sometimes a failure is more than a failure. While such things can be narrated, it sometimes feels more "fair" if the dice specify when it happens.
 
-A character reaches for a glass; they fail. Did they just not get a grip on it at all? Or, did it fall from their hands to the ground exploding the contents all over them? Or did they succeed wonderfully by grabbing the glass, dropping it, then catching mid-fall without spilling a drop?
+A character reaches for a glass; they fail. Did they just not get a grip? or, did the glass fall from their hands exploding the contents all over them and their surroundings?
 
-The recommendation is to add a die of any type to the pool; it should be easy to differentiate between it and the rest of the pool (the criticality die). If the criticality die lands on a 1, the success or failure was critical in nature. The type of die could be different for each roll based on the context, the same for all situations, or something else entirely, whatever makes sense for the players and narrator.
+Maybe they succeeded wonderfully by grabbing the glass without making a sound; taking a drink in one, fluid motion; and setting the glass back down without making a sound.
 
-The result of which could be pure narrative, maybe narrated by the player themselves. It could be based on another die roll against a list of options. It could be something else entirely. As with most of Fourth Earth RAW, it should be appropriate to the setting, theme, and context.
+Guidelines:
 
-Criticality does not change the success or failure, just the severity and side-effects.
+1. Add one die to the pool; the criticality die.
+2. The die should be dinstiguishable from the rest of the pool.
+3. A result of a certain number on the die represents whether the success or failure was critical or not.
+
+Other considerations:
+
+1. The criticality die could be different for each roll representing the probability of criticality; maybe [.1d10](one ten-sided die) or [.1d20](one twenty-sided die) with a 10 or 5 percent chance of criticality, respectively.
+2. The criticality die could be the same for each roll.
+3. There may be a follow on roll required that determines what the critical nature looks like for both success or failure; or, may be whatever is narratively convenient.
+4. The description of the criticality could be described by the player or the narrator.
+
+Criticality does not change the success or failure, just severity and side-effects.
 
 ## Complications and partials
 
@@ -42,9 +57,12 @@ Criticality does not change the success or failure, just the severity and side-e
 
 Sometimes a failure isn't a total failure (and it's not a critical failure); same with success. This is where complications and partials come in.
 
-A character reaches for a glass; they fail. Well, they grabbed the glass but didn't realize the bottom had cracked, it stayed on the table. As they dragged it up to their lips juice splattered all over the countertop, the floor, their shoes, and the bottoms of their pant legs.
+A character successfully climbs a tree with the complication of twisting their ankle on the way up. A character fails to climb a tree but realizes there's an easier path.
 
-The recommendation for determining is the same as for using criticality, add a die to the pool; with a change. To allow this extension to be used with criticality, the same die would be rolled, only rolling the highest value on the die would result in a complication or partial. The character succeeds, with a complication (sprained ankle while climbing a tree); or, fails, with partially accomplishing their goal (still on the ground, but found an easier route). This also allows complications and partials to be used *without* criticality.
+Guidelines:
+
+1. Consider using the same dies as you would for criticality, only it's a different target number.
+2. Complications and partials should be usable with or *without* the criticality extension.
 
 Complications and partials do not change the success or failure, just the means and amount by which the failure or success occurs.
 
@@ -56,31 +74,23 @@ Sometimes it might make narrative sense for an action to pull from more than jus
 
 Consider a character with a fear of spiders who is going to kill a spider as a mundane (non-combat) action. The challenge level of killing the spider is set to 1 physical; however, for this character, an additional challenge level is presented targeting their mental battery and it's at a 5. The total challenge level is 6 and would require spending more from their mental pool to reduce the difficulty to 0.
 
+Guidelines:
+
+1. The target battery may be generic to the setting and theme, while the seconday battery is specific to the character.
+
 ## Initiative
 
 **Extends:** Movement
 
-Initiative is a mechanism used in roleplaying games to help facilitate action across multiple participants.
+Initiative is a mechanism used in roleplaying games to help facilitate action across multiple characters (and players).
 
-There are many methods of doing this. At one end is real time decision making; on the other is turn-based planning and tactics. An analogy of the former might be live-action roleplaying; the latter might be chess. In the former, action is happening all at once and there is little time to talk, players are the "boots on the ground" warriors. In the latter, action is paused until consensus on a plan is reach, players are strategists or puppeteers.
+Many methods exist. A spectrum might exist where one end represents real-time, individual decision making and the end is turn-based, group decision making and planning; live-action compared to chess, respectively.
 
 The questions to answer are:
 
 1. How are actions planned and executed?
 2. When do individual players execute or roll for their characters?
 3. How are the rolls resolved?
-
-For actions and planning they could be made individually or as a group; they could be private or public. Players could roll all at once or one at a time in rotation. Resolution of the rolls could be as one large group or on a per-turn basis.
-
-Each method can solve different problems perceived by the group. 
-
-Battles taking too long? Plan individually in private, optionally write the plan down, have everyone (opponents included) roll at the same time, players and narrator do the math, and then the narrator narrates what the math said happened.
-
-Frustrated that characters can't change their action because they're committed? Take turns individually from action to resolution. Choosing the next person could be done by players calling on who's next, the roll of one or more dice, drawing a card from a deck, you name it. The point is to take each character in-turn from action to resolution randomly. (Would this change every round or stay the same for a session?)
-
-Frustrated that a system uses stats and it causes the order to always be the same? See previous to change to random selection.
-
-Ultimately, the method should be known, consistently applied, and not set in stone. If players get frustrated every time they are in a situation where there's initiative, they will tend to avoid situations where there's initiative.
 
 Some terms:
 
@@ -90,17 +100,56 @@ Some terms:
 4. Main action: A unit of time during a turn when the action required to achieve the intent is performed (throw grendade).
 5. Post-minor action: A unit of time during a turn when another minor action is performed (yell "Duck" and do so).
 
+General guidelines:
+
+1. Let the current state of players, the game, and the narrative inform which way to go.
+2. The method(s) should be known and their use should be agreed upon by those involved.
+
+Guidelines for real-time, individual:
+
+1. Players might decide what to do individually, and write those decisions down.
+2. All dice pools might be rolled at the same time.
+3. The narrative is compiled based on the rolls.
+
+Gudelines for turn-based, group:
+
+1. There should be a time limit (or other loose "penalty" for planning that takes a long time).
+2. There should be a mechanism for determing the order of execution and narration.
+
+Battles taking too long? Plan individually in private, optionally write the plan down, have everyone (opponents included) roll at the same time, players and narrator do the math, and then the narrator narrates what the math said happened.
+
+The order never changes because it's based on static character stats, try something different.
+
+Frustrated that characters can't capitalize on the actions of their peers? Switch from being more real-time to being more turn-based. (Maybe even tag team where the character who just went calls on the next character to go; friend or foe.)
+
+## Encumbrance
+
+**Extends:** Movement
+
+How much can you carry?
+
+When it comes to items they will most likely have a weight and scale compared to the strength of the being trying to carry said item. Something light as a feather and 5 times the size of the character probably a higher encumbrance value than light as a feather and 5 times *less* than the size of the character.
+
+Guidelines:
+
+1. Determining encumbrance should favor simplicity over realism; maybe each character is given a carrying value and each item (or collection of items) causes that carrying value to be reduced, when it hits 0, they can't pick anything new up.
+2. The power to weight ration of the being should be considered; an ant can carry a leaf many times heavier than it, but that's pretty much all they'll be doing until they put the leaf down.
+3. Players (and their characters) should be afforded the opportunity to decide what to take and to leave or to "hire movers" or devise some other means by which to transport and store items (buried treasure does exist).
+4. Challenge levels can be derived from multiple qualities, the same is true for carrying values.
+5. The encumrance value should affect the character's ability to interact with the outside world; could be changes to challenge level ("I'm carrying 3 people, he only has himself"), or maybe in a turn-based action scenario it takes more rounds for a character to perform certain actions, or some combination.
+
 ## Sufficiently advanced technology and magic
 
 **Extends:** Skills and tools
 
 One of Arthur C. Clarke's 3 laws is: Any sufficiently advanced technology is indistinguishable from magic.
 
-The setting will tend to have degrees of technology and abilities. The scale upon which these are placed will tend to be mundane on one end, advanced in the middle, and exceptionally advanced at the other end. The setting and theme direct what falls where and the exerience of a character will tend to direct their response.
+Settings will thend to have degrees of technology or abilities. For example, it is more common to see cars that are 5 or even 10 years old on the streets of the United States than any other year. Therefore, technology and abilities may span from the mundane (everybody in this setting has ready access to such a thing) to the exceptionally rare (few characters have access).
 
-A human earthling from 1950 is given a ring. A ring is mundane and this one doesn't seem particularly odd and the human puts the ring on. Upon placing the ring on their finger they are whisked away to another planet. Opening their eyes they see other humanoid beings distinct from one another. Some are flying. Others are manifesting all manner of objects with their minds. Here, the ring the character is wearing is also mundane; however, for the human, the ring is now magical. Here, everything these people are doing is mundane. Back on Earth and to this character, this is magic. (Magic is that which has not yet been explained.)
+Guidelines:
 
-General rule is that if it's something everyone has access to and appears everywhere, it's mundane. With that said, if it tips the balance of the experience too far, the game becomes boring (or at least using the tool or magic does); the hero needs to lose their powers or tools to generate tension again. Therefore, to reclaim some of the balance, maybe the use of the power or tool comes at a higher cost; to cast a spell drains a battery, either a flat cost or is the target battery of the challenge level.
+1. Setting, theme, and characters should direct their response; a seemingly mundane ring is found by a mundane human on Earth, who wears it. They are transported to a far off planet where everyone is wearing the same ring (mundane) and making objects appear using the ring and their minds (mundane). To the earthling, this is rare (magic).
+2. Balance of gameplay should be considered in this type of technology or ability; maybe casting a spell always costs a predetermined amount from a battery.
 
 ## Tool decay and destruction
 
@@ -108,92 +157,85 @@ General rule is that if it's something everyone has access to and appears everyw
 
 Generally speaking, an item used multiple hours per day every day will decay faster than if one has 5 of that same item used on a rotating basis.
 
-Consider a mundane item: a shirt. If I have one shirt and I wear it every day and wash it every night, it will not appear to last as long as if I had 100 shirts and only wore and washed the initial shirt every 100 days. With that said, the shirt itself has a lifespan based on wear time, usage, and maintainance. This is why I might be able to say I have a shirt that has lasted 15 years; it's not so much that the shirt has lasted 15 years, it's that I purchased it 15 years ago and it's not my only shirt and I only wear it to weddings.
+The character has 1 mundane shirt. They wear the shirt everyday and wash it every night. This 1 shirt will not appear to last as longer as if the character 100 shirts and only wore and washed the initial shirt once every 100 days. This is why some of us might feel things "aren't made like they used to"; we have a shirt we purchased 15 years ago, it's one of 100 and we only wear it to weddings, the shirt hasn't actually lasted 15 years.
 
-One way to simulate the feelings of this concept would be through a slightly hyperbolic scarcity economy. It's hard to earn whatever the equivalent of money is for the setting and theme and tools cost a lot of that money. However, this might be difficult to fit into the setting and theme. Similarly, there could be a "tax" applied on a recurring basis for maintenance.
+Guidelines:
 
-Another way would require a bit more administration on the part of the player, which is to simulate an idea akin to average useful life. The roof of a house, for example, is up to 20 years. For items with a lifespan that long it may not be worth tracking. This also tends to depend on how well maintained it is. Regardless, tools could be given something like a life battery representing estimated number of uses. Each use, it's reduced by one. When it hits 0, the tool needs to be replaced. (The way some games simulate this is to have a large number and variation of ever increasing strength tools characters need to buy in order to continue progressing in the game; by its nature Fourth Earth RAW does not operate this way.)
-
-There could be a combination of the two. Each use drains the battery of the tool, paying the maintenance tax increases it by one.
-
-Lastly, it could be used in conjunction with the criticality extension, where there is some probability that causes the tool to be rendered useless.
-
-Or, again, some combination or something else entirely.
-
-Given how attached players may get to tools, especially if they are rare, it is important that the mechanic for this be consistently applied, known to players, and makes sense given the setting, theme, and context (a character puts a knife in a drawer and goes on vacation, when they return it's disintegrated; there should be a good reason for that).
-
-Basic guidelines (same applies to the "Becoming unskilled" section):
-
-1. Decay is only tallied on characters actively playing the game; you shouldn't worry about opening a character who hasn't aged a day but whose tools are useless and somehow forgot how to do all they did before.
-2. The player should be given a method by which to intentionally maintain tools and practice skills at a cost, which should be recurring and automated by the player or narrator, the schedule for which is agreed to by both; a tax.
+1. Items should be given a useable life; represented by time, uses, a combination, or additions.
+2. It should be easy to manage and administer; an item with a 20 year lifespan probably isn't worth tracking and maybe characters can pay a certain "tax" to maintain their heavy use items.
+3. This could be tied to the criticality extension as well whereby one form of critical failure renders the tool useless.
+4. Decay is only tallied on characters actively playing the game; a player shouldn't worry about opening a character who hasn't aged a day but whose tools are useless and somehow forgot how to do all they did before.
+5. The player(s) should be given a method by which to intentionally maintain tools and practice skills at a cost.
 
 ## Becoming unskilled
 
 **Extends:** Skills and tools
 
-Fourth Earth RAW does not inherently limit what skills characters can learn. Without a mechanic like skill atrophy, that would mean a character could become a master at literally every skill available. This is not normally the way life works.
+Fourth Earth RAW does not inherently limit what skills characters can learn nor does it implement the concept of skill atrophy, which means characters can become experts at every skill available; not normally how life works.
 
-Generally speaking, unused skills are reduced in proficiency; don't do a cartwheel for 15 years, then attempt one. However, skills typically are not forgotten outright without some form of brain injury; "it's like riding a bike."
+Guidelines:
 
-We don't have a lot of recommendations or examples of how this could be accomplished in a lightweight fashion that's not tied to an event; death. Here are some guiding principles though:
-
-1. Over a period of time, proficiency points are taken from the higher ranks.
-2. Succeeding at a skill at a given challenge level should rejuvinate all the points in the lower ranks.
-3. A rank should never return to 0.
-4. Characters could be offered a "tax" similar to what was described in the "Tool decay and destruction" section.
-
-Again, consistently applied, known to players...
+1. Keep it simple; maybe it's an artifact of being subdued, death and resurrection, reincarnation, some combination.
+2. A rank should rarely return to 0, if ever; like riding a bike, it will tend to take less time to return to previous proficiency than it initially did.
+3. Balance in ranks can also be balanced a bit by way of the mundane to rare spectrum of challenges; most challenges aren't a 7.
+4. Succeding at a skill at a given challenge level should rejuvenate the protficiency points in the lower ranks.
+5. Similar to the "Tool decay and destruction" extension, players could pay a tax to maintain skill proficiency; equivalent to joining a gym or having one at "the base."
 
 ## Skill overlap
 
 **Extends:** Skills and tools
 
-Two skills involve a third skill. The third skill isn't necessarily a skill by itself: hiding and sneaking, for example.
+Two skills may involve a third, but making the third a skill in and of itself may not be desirable; consider sneaking, hiding, and being unseen.
 
-Hiding is the ability to remain unseen while not moving. Sneaking is the ability to reamin unseen while moving. To make the skill list easier to manage, we might place both under the generic skill of "stealth." But maybe your setting and theme targets thieves and rogues. So, the subtle variation and separate proficiency in both is important; to the point that maybe there's a "stealth" battery. Or maybe some other rationale that makes sense to the players and narrator to keep them separate.
+Being unseen while still, is hiding. Being unseen while moving, is sneaking. We decide that if a character sneaks, they're also hiding. A character hides with a challenge level 1, earning 1 proficiency point toward hiding. That same character sneaks with a challenge level 1, earning 1 proficiency point toward sneaking and hiding. (Similar to how ranks work with skills and tools as well, just between semi-related skills.)
 
-Why not have both?
+Guidelines:
 
-A character hides at a challenge level 1 and earns one point torward their rank in hiding. Now, that same character sneaks at a challenge level 1 and earns one point toward their rank in sneak *and* another point in hide. (Similar to ranks increasing for a skill and tool separately but at the same time.)
-
-The unique part of sneaking is the movement, hence no point earned in sneaking for only hiding. Both require hiding (going unseen), however, so sneaking does improve hiding. One could even argue that characters should get two points in hiding because sneaking is more difficult; not our argument to have.
+1. Keep the number of overlapping skills to a minimum by having higher-level, generic skills; "stealth" instead of hiding and sneaking, for example.
+2. If there a lot of skills that might overlap that are used often, consider implementing a battery for actions that would use those skills; a stealth battery in a rogue themed game, for example.
 
 ## Resistance
 
 **Extends:** Interacting with other living beings
 
-Character A hits character B (a zombie) with a homerun baseball swing; killing the zombie. Character A hits character C (also a zombie) in the same manner; unfortunately, character C is wearing a motorcycle helmet. Without resistance of some type in play, it might feel odd to the player that the zombie doesn't die; or, it might be odd that the zombie does.
+Potential energy versus delivered energy.
 
-Challenge level is mainly derived from qualities of the defender and alters the ability of the attacker to hit the defender. Potential energy is mainly derived from qualities of the attacker. Resistance is mainly derived from qualities of the defender to resist some of that potential energy.
+Character A hits character B (a zombie) with a home run baseball swing; killing the zombie. Character A hits character C (also a zombie) in the same manner; unfortunately, character C is wearing a motorcycle helmet. Without resistance of some type in play, it might feel odd to the player that the zombie doesn't die; or, it might feel odd that the zombie does.
 
-Consider a super human theme with a relatively invincible character. They get shot by a gun. Maybe they have a resistance attribute: impervious to bullets. Consider the same theme and there's a character who can be flesh or metal; when they're flesh they have a different modifier than when they're metal. Further, maybe transforming from flesh to metal has a higher challenge level when in combat than when not.
+Challenge level describes how hard something is to hit. The potential energy of an action tells us how much damage may be dealt. The resistance level tells us how much of that potential energy can be absorbed before having a noticeable affect.
 
-The methods and rationale for calculating resistance should be consistently applied as well as being appropriate to the setting, theme, and context.
+Consider a super human theme. Character A fires a gun as character B who is super human. The challenge level is reduced to 0; character A is going to hit character B. The potential engery of the bullet we decided would be 5. Character B has a resistance to bullets set at 10. Character B's health battery is reduced by 0.
+
+Guidelines:
+
+1. Resistance should be easy to calculate.
+2. The resistance calculation should be consistantly applied.
 
 ## Scale
 
 **Extends:** Interacting with other living beings
 
-Scale describes size and mass and would change the challenge level as defender and amount of potential energy as attacker. If used in conjunction with the resistance extension, scale may also inform the resistance calculation; the chance of a human injuring a humpback whale by punching it is pretty slim.
+Scale describes size, mass, and volume of objects (including living beings) compared to other objects. Generally speaking the scale can determine how much impact an object can have on other objects.
 
-There are two primary ways to calculate scale: static and relative.
+Guidelines:
 
-In a static system a scale is made and living beings are placed somewhere on that scale. In a relative system the smallest participant in an interaction is 1 and everyone else is a relative size compared to that. The former tends to make things faster to calculate (because it's known up front) while the latter tends to allow for more flexibility in the setting (possibly adds a layer of nuance to combat as well).
+1. Scales should be consistently dynamic or static - favor the dynamic; dynamic is determined per encounter, static means objects are placed on the scale at creation.
+2. Scale should affect impact.
 
-Imagine a static scale of 1 to 10. We have 3 living beings: a krill, a human, and a humpback whale. The krill would be 1 and the whale would be 10, the human would be somewhere in between. We would then need some way to modify the challenge level and the potential energy based on that scale. Krill could easily hit a whale but probably wouldn't injure it in anyway. A whale isn't strategically targeting krill, it's more chance, but a whale can kill many krill in one move. The same would be true of a human versus krill because krill are just that small.
+Consider a car accident using a dynamic scale. A motorcycle (scale 1) is hit by a truck (scale 5), which is hit by a semi-truck and trailor (scale 50); no one gets injured. The motorcyle takes 5 damage when hit by the truck and an addition 5 when the trucks is pushed into the motorcycle again - destroyed; luckily the rider was able to jump off before getting hit either time. The truck takes 1 damage when it hit the motorcycle, another 1 when it hit the second time, and another 50 when the semi-truck hit it - destroyed; luckily when the driver hit the motorcycle they were already unbuckling and opening the door when the noticed the semi. The semi-truck takes 5 damage when it hits the truck - most likely still drivable; the driver is also fine.
 
-Now imagine a relative scale starting at 1. The whale is attacking the krill. The krill is 1 and the whale is 10,000 (if not more) times the size and mass; the challenge level for the whale to hit a specific krill is almost infinite. Now, the human is attacking the whale. The human is 1 and the whale is 100 (if not more); the challenge level for the human to hit the whale is almost 0 (if there was no water).
+Consider two semis using a dynamic scale. Both are 1. Both cause 1 damage to each other.
+
+Consider two semis using a static scale. Both are 50. Both cause 50 damage to each other. (Scale might be used as part of resistance when using a static scale.)
 
 ## Subdue not kill
 
 **Extends:** Interacting with other living beings
 
-Do you prefer superheroes who kill their opponents or just subdue them? How about scientists?
+Do characters go for killing or subdueing their opponents?
 
-With this extension the narrator and players decide on a default and what that looks like.
+Guidelines:
 
-Maybe every encounter that turns to violence starts with establishing whether the character's intention is to subdue or kill. Maybe it's the game in general: Unless I say otherwise, I'm looking to subdue. Maybe it's a narrative device that can be switched during the interaction; like setting a weapon to stun, then kill, and back again, only the character is the weapon going through emotions of not know whether they want to kill this defender or not. Maybe when the character subdues the defender they must make the intentional choice to apply a secondary killing strike with no penalty to their turn or movement.
-
-Maybe there is some form of in-game cost inherent in making the choice to kill versus subdue or vice versa.
-
-What you do with subdued life forms is up to you but it should probably include them recovering at some point and should be consistently applied and in keeping with the setting, theme, and context.
+1. Allow for flexibility to widen roleplay potential; sometimes a character may run into that one character they want to kill despite morality.
+2. Establish a default and let players specify when they are going against the default to maintain flow.
+3. Consider whether there is a cost to choosing one over the other; do characters develop something like post-traumatic-stress, for example?
