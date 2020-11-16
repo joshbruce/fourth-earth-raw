@@ -1,6 +1,6 @@
 ---
 title: Computer-aided
-version: 0.1.0
+version: 0.2.0
 ---
 
 # Fourth Earth CA
@@ -44,11 +44,11 @@ See Fourth Earth SA (and Fourth Earth Lore).
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-### Challenge levels
+### Difficulty
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-In the tabletop helpers edition, the designated narrator (the one who started the game) defines challenge levels and assigns them to players (with associated target battery). The players can then do what they want to do to try and accomplish what they were trying to accomplish.
+In the tabletop helpers edition, the designated narrator (the one who started the game) defines difficulty and assigns them to players (with associated target battery). The players can then do what they want to do to try and accomplish what they were trying to accomplish.
 
 ### Life batteries
 
@@ -104,7 +104,7 @@ In the MORPG edition, magic is automatically managed.
 
 See Fourth Earth SA (and Fourth Earth Lore).
 
-In the tabletop helpers edition, a challenge level is defined and interacted with by the player.
+In the tabletop helpers edition, a difficulty is defined and interacted with by the player.
 
 In the MORPG edition, interactions are automatically resolved.
 

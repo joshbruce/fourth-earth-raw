@@ -1,6 +1,6 @@
 ---
 title: Tabletop
-version: 0.2.0
+version: 0.3.0
 ---
 
 # Fourth Earth TT
@@ -35,7 +35,7 @@ See Fourth Earth SA (and Fourth Earth Lore).
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-### Challenge levels
+### Difficulty
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 

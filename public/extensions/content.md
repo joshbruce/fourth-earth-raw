@@ -1,6 +1,6 @@
 ---
 title: Rules as Written (Extensions)
-version: 0.3.1
+version: 0.4.0
 ---
 
 # Fourth Earth RAW: Extensions
@@ -72,11 +72,11 @@ Complications and partials do not change the success or failure, just the means 
 
 Sometimes it might make narrative sense for an action to pull from more than just its target battery.
 
-Consider a character with a fear of spiders who is going to kill a spider as a mundane (non-combat) action. The challenge level of killing the spider is set to 1 physical; however, for this character, an additional challenge level is presented targeting their mental battery and it's at a 5. The total challenge level is 6 and would require spending more from their mental pool to reduce the difficulty to 0.
+Consider a character with a fear of spiders who is going to kill a spider as a mundane (non-combat) action. Killing a spider is normally a difficulty 2 action (position 1), physical. However, this character has an addition mental layer, which increases the action to a difficulty 10, which will require spending 1 physical and 4 mental to get to a difficulty of "Done!"
 
 Guidelines:
 
-1. The target battery may be generic to the setting and theme, while the seconday battery is specific to the character.
+1. The primary battery for the action could be generic to the action (all players experience this), while the seconday battery is specific to the character.
 
 ## Initiative
 
@@ -135,8 +135,8 @@ Guidelines:
 1. Determining encumbrance should favor simplicity over realism; maybe each character is given a carrying value and each item (or collection of items) causes that carrying value to be reduced, when it hits 0, they can't pick anything new up.
 2. The power to weight ration of the being should be considered; an ant can carry a leaf many times heavier than it, but that's pretty much all they'll be doing until they put the leaf down.
 3. Players (and their characters) should be afforded the opportunity to decide what to take and to leave or to "hire movers" or devise some other means by which to transport and store items (buried treasure does exist).
-4. Challenge levels can be derived from multiple qualities, the same is true for carrying values.
-5. The encumrance value should affect the character's ability to interact with the outside world; could be changes to challenge level ("I'm carrying 3 people, he only has himself"), or maybe in a turn-based action scenario it takes more rounds for a character to perform certain actions, or some combination.
+4. Difficulty can be derived from multiple qualities, the same is true for carrying values.
+5. The encumrance value should affect the character's ability to interact with the outside world; could be changes to difficulty ("I'm carrying 3 people, he only has himself"), or maybe in a turn-based action scenario it takes more rounds for a character to perform certain actions, or some combination.
 
 ## Sufficiently advanced technology and magic
 
@@ -177,8 +177,8 @@ Guidelines:
 
 1. Keep it simple; maybe it's an artifact of being subdued, death and resurrection, reincarnation, some combination.
 2. A rank should rarely return to 0, if ever; like riding a bike, it will tend to take less time to return to previous proficiency than it initially did.
-3. Balance in ranks can also be balanced a bit by way of the mundane to rare spectrum of challenges; most challenges aren't a 7.
-4. Succeding at a skill at a given challenge level should rejuvenate the protficiency points in the lower ranks.
+3. Ranks can also be balanced by way of the mundane to rare spectrum of difficulties; most difficulties aren't a 20.
+4. Succeding at a skill with a given difficulty should rejuvenate the protficiency points in the lower ranks.
 5. Similar to the "Tool decay and destruction" extension, players could pay a tax to maintain skill proficiency; equivalent to joining a gym or having one at "the base."
 
 ## Skill overlap
@@ -187,7 +187,7 @@ Guidelines:
 
 Two skills may involve a third, but making the third a skill in and of itself may not be desirable; consider sneaking, hiding, and being unseen.
 
-Being unseen while still, is hiding. Being unseen while moving, is sneaking. We decide that if a character sneaks, they're also hiding. A character hides with a challenge level 1, earning 1 proficiency point toward hiding. That same character sneaks with a challenge level 1, earning 1 proficiency point toward sneaking and hiding. (Similar to how ranks work with skills and tools as well, just between semi-related skills.)
+Being unseen while still, is hiding. Being unseen while moving, is sneaking. We decide that if a character sneaks, they're also hiding. A character hides with a difficulty 2, earning 1 proficiency point toward hiding. That same character sneaks with a difficulty 2, earning 1 proficiency point toward sneaking and hiding. (Similar to how skills and tools can increase in rank simultaneously - see the "Skills and tools" section.)
 
 Guidelines:
 
@@ -202,9 +202,9 @@ Potential energy versus delivered energy.
 
 Character A hits character B (a zombie) with a home run baseball swing; killing the zombie. Character A hits character C (also a zombie) in the same manner; unfortunately, character C is wearing a motorcycle helmet. Without resistance of some type in play, it might feel odd to the player that the zombie doesn't die; or, it might feel odd that the zombie does.
 
-Challenge level describes how hard something is to hit. The potential energy of an action tells us how much damage may be dealt. The resistance level tells us how much of that potential energy can be absorbed before having a noticeable affect.
+Difficulty describes how hard something is to hit. The potential energy of an action tells us how much damage may be dealt. The resistance level tells us how much of that potential energy can be absorbed before having a noticeable affect.
 
-Consider a super human theme. Character A fires a gun as character B who is super human. The challenge level is reduced to 0; character A is going to hit character B. The potential engery of the bullet we decided would be 5. Character B has a resistance to bullets set at 10. Character B's health battery is reduced by 0.
+Consider a super human theme. Character A fires a gun as character B who is super human. The difficulty is reduced to "Done!"; character A is going to hit character B. The potential engery of the bullet we decided would be 5. Character B has a resistance to bullets set at 10. Character B's health battery is reduced by 0.
 
 Guidelines:
 

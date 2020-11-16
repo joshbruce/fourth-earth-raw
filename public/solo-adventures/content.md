@@ -1,13 +1,13 @@
 ---
 title: Solo adventures
-version: 0.2.0
+version: 0.3.0
 ---
 
 # Fourth Earth SA
 
 Fourth Earth [.SA](solo adventures) is an expansion of Fourth Earth [.RAW](rules as written) intended for solo play in a tabletop or pen-and-paper fashion. Fourth Earth SA presumes a single player who is playing one or more characters in the setting. 
 
-Arguably the primary challenge for solo play is coming up with a world that the player is not familiar with to facilitate the idea of the pleasant surprise. One solution to this problem is to have a narrator who has the knowledge of the world and provides the story. Another solution is to use a deck of cards (or a deck designed for solo roleplaying) or something similar to random build the adventure portions of the world.
+Arguably the main hurdle for solo play is coming up with a world in which the player can be surprised by what is found and what must be done. One solution to this problem is to have a narrator who has the knowledge of the world and provides the story. Another solution is to use a deck of cards (or a deck designed for solo roleplaying) or something similar to alter the building of the setting, theme, and world.
 
 Fourth Earth SA also presumes as little equipment as possible. You will want a way to:
 
@@ -58,7 +58,7 @@ As long as it's consistently applied, the players are aware of how it works, and
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-### Challenge levels
+### Difficulty
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
@@ -96,9 +96,11 @@ The primary recharging actions are as follows and do not represent all the ways 
 
 For each unit of time all batteries are recharged at least 1 point. The target battery is charged by the amount in the table above.
 
-Because these are actions that can be given an associated challenge level, whatever happens on success and failure is whatever makes sense to the setting, theme, and players. 
+Because these are actions that can be given a difficulty, whatever happens on success and failure is whatever makes sense to the setting, theme, and players. 
 
-For example, our characters are in an airplane. They decide to go to sleep. It's loud and one of our characters is afraid of flying, for them it might be a challenge level 5 or 6. Somehow they manage it; everyone gets the recharge for the first unit of time. They roll for the second unit; our friend who's afraid to fly fails. Then they fail the next one. Then they all fail the next one, which is good because the plane is going down. The character who's afraid to fly only got 1 round of recharge while everyone else got 3. The number of rolls and how much is replenished is entirely up to you and your players; it could be a completely safe place during a mundane period and the characters say, "We want to sleep" to which the narrator replies, "Cool. Everyone's batteries are full."
+For example, our characters are in an airplane. They decide to go to sleep. It's loud and one of our characters is afraid of flying, for them it might be a difficulty 10 or 12. Somehow they manage to sleep that first round; everyone gets the recharge for the first unit of time. They roll for the second unit; our friend who's afraid to fly fails. The same player fails the next one. All players fail the next one, which is good because the plane is going down. 
+
+The character who's afraid to fly only got 1 round of recharge while everyone else got 3. The number of rolls and how much is replenished is entirely up to you and your players; it could be a completely safe place during a mundane period and the characters say, "We want to sleep" to which the narrator replies, "Cool. Everyone's batteries are full."
 
 ### Dice pools
 
@@ -136,7 +138,7 @@ If the follow-up roll was an 11 (an exploding die), roll another 1d12 to select 
 
 |Result    |Effect  |
 |:-------|:-------|
-|1       |challenge level of defender reduced by -2, recurring and compounding |
+|1       |difficulty of defender reduced 2 positions, recurring and compounding |
 |2, 5, 8 |-1 from defender's physical battery                     |
 |3, 6, 9 |-1 from defender's mental battery                       |
 |4, 7    |-1 from defender's spirit battery                       |
@@ -185,7 +187,7 @@ Character A swings at character B. Character B swings at character A. The potent
 2. If character A has initiative, character B is subdued and nothing happens to character A; a successful hit from character B becomes a failure.
 3. If character B has initiative, character A loses 3 and character B is subdued.
 
-Characters who reduce the challenge level to 0 have an initiative of 0. Otherwise, initiative is the total number of 1s rolled in the dice pool for the action; so, initiative can range from 0 to 5 in Fourth Earth SA. Resolution is processed in descending order; all those with initiative 5, then 4, and so on until 0. Ties in initiative result in both actions happening.
+Characters who reduce the difficulty to "Done!" have an initiative of 0. Otherwise, initiative is the total number of 1s rolled in the dice pool for the action; so, initiative can range from 0 to 5 in Fourth Earth SA. Resolution is processed in descending order; all those with initiative 5, then 4, and so on until 0. Ties in initiative result in both actions happening.
 
 This means skilled characters have a higher chance of doing their action and doing so in a way that another, less skilled opponent, doesn't get a last minute hit in. 
 
@@ -201,7 +203,11 @@ Skills are limited to 3 ranks. Tools are lmited to 1 rank. 4 successes are requi
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-The Fourth Earth setting uses magic. Magic spells are tied to stones. Casting magic happens just like any other tool-assisted action. If the stone is in the character's posession, the spell can be cast. The challenge level of the defender is reduced by half, or 1, whichever is greater then increased by the challenge level of the spell itself. If the challenge is greater than 8, it becomes 8 and if it's 0 or less, the challenge level is 0. Spells that go from the outside-in (a projectile spell) should be adjusted by the defender's resistance rating; spells that go from the inside-out should *not* be hindered by resistance (a spell the curdles the blood).
+Fourth Earth Lore uses magic. Spells are tied to stones, carried by characters. Casting magic happens similar to using a tool; if the character has the stone, they can attempt to cast the spell. Each spell has a difficulty to cast. Spells can be classified as mundane and combat as well as occuring from the inside-out and the outside-in.
+ 
+A spark spell, for example, might be a mundane, inside-out spell; a spark appears in the middle of inorganic material, usually with the hopes of starting a fire. A fire ball, might be a combat, outside-in spell; starting from the caster and hurled at a target, and taking the resistance of the target into account.
+
+For combat spells, the difficulty position of the defender is reduced by half or 1 position, whichever is greater. If the calculated difficulty is greater than a difficulty position 8, it stays a difficulty position 8; less than 0 becomes 0.
 
 ### Tool decay and destruction extension
 
@@ -219,13 +225,13 @@ See "Healing, death, resurrection, and reincarnation" section.
 
 See Fourth Earth RAW (and Fourth Earth Lore). 
 
-**Calculating the challenge level** of a defender is done using qualities of the defender. If the running total for the calculated challenege level reaches 8, the challenge level is 8 and there is no need to continue with the calculation. All challenge levels start at 0.
+**Calculating the difficulty** of a defender is done using qualities of the defender. If the running total for the calculated difficulty reaches position 8, the difficulty is 8; no further considerations required. All difficulties start at position 0.
 
 The following checklist aims to be brief and starts with qualities with the highest return up front:
 
 |Question |Yes |
 |:--------|:---|
-|Defender is subdued, stunned, or unconscious? |Challenge level is 0, no need to continue unless applied to the psychology and morality of the attacker. |
+|Defender is subdued, stunned, or unconscious? |Difficulty is "Done!" - no need to continue unless applied to the psychology and morality of the attacker. |
 |Defender has active allies?    |+1 for every 2 active allies |
 |Defender is lesser scale?      |+1 for every 2 steps lesser  |
 |Defender is on higher ground?  |+1 |
@@ -241,13 +247,13 @@ The following checklist aims to be brief and starts with qualities with the high
 |Two-handed               |Slow and medium | 3 |
 |Magic                    |Slow and heavy  | 5 |
 
-Fast means able to perform twice in a turn or round, players can choose to only do once. Slow means able to perform once in a turn or round. Fast attacks have the ability to split the challenge level in half, when both sub-actions are taken; otherwise, the full challenge level is used (the idea being one swing of two helps distract for the second, with one, there is no distraction). If the split results in a fraction, the first is rounded down while the second is rounded up.
+Fast means able to perform twice in a turn or round, players can choose to only do once. Slow means able to perform once in a turn or round. Fast attacks have the ability to divide the difficulty position in half, when both sub-actions are taken; otherwise, the full difficulty is used (the premise one swing helps prepare the second in some way). If the split results in a fraction, the difficulty position for the first sub-action is rounded down while the second is rounded up.
 
 Potential energy is not determined by the type of tool but the more general type of usage. The rationale here is, generally speaking, a bat, shovel, or longsword will do roughly the same damage and the nuanced differences can be imagined or narrated. 
 
 Consider the humanoid and the rat, using all extensions described in Fourth Earth SA; the humanoid is going to punch the rat with both fists:
 
-**Calculating challenge level:**
+**Calculating difficulty position:**
 
 |Question |Yes |
 |:--------|:---:|
@@ -262,19 +268,19 @@ Consider the humanoid and the rat, using all extensions described in Fourth Eart
 
 |Description |Effect |
 |:-----------|:------|
-|Challenge level 8                        |1 challenge level 2 & 1 challenge level 3 |
-|Humanoid spend 2 physical points on both |1 challenge level 1  |
+|Difficulty position 8                        |1 difficulty position 2 (d4) & 1 difficulty position 3 (d6) |
+|Humanoid spends 2 physical points on both |1d2  |
 |Humanoid has 2 ranks in unarmed combat   |3 dice in pool       |
-|**Dice pool**                            |3d4                  |
+|**Dice pool**                            |3d2                  |
 
 **Calculating potential energy:**
 
 |Description |Effect |
 |:-----------|:------|
-|Humanoid succeeds on both                | base 2              |
-|Humanoid achieved criticality            | 2 * 2               |
-|Humanoid is 10 times scale               | 4 * 10              |
-|**Total potential energy**               | 40                  |
+|Humanoid succeeds on both jabs           | base 2 potential engergy |
+|Humanoid achieved criticality            | 2 * 2                    |
+|Humanoid is 10 times scale               | 4 * 10                   |
+|**Total potential energy**               | 40                       |
 
 **Calculating drain:**
 
@@ -285,7 +291,7 @@ Consider the humanoid and the rat, using all extensions described in Fourth Eart
 |Skin                                     | 40 - (-1)           |
 |**Total drain**                          | 41                  |
 
-Given all life forms in Fourth Earth RAW apply the same rules, the rat would be dead; twice over. 
+Given all life forms in Fourth Earth RAW apply the same rules, the rat would be dead; multiple times over, which could be described in the narration: The rat is a puddle of goo on the ground. 
 
 ### Resistance extension
 
@@ -301,7 +307,7 @@ Every living being has a natural resistance, skin. Fourth Earth SA recognizes th
 
 The rat from the previous section had thin skin; hence the -1. The humanoid would have average. And a whale would have thick skin, which means a human has to work extra hard to subdue or kill a whale.
 
-Let's talk about the idea of a humanoid going against a whale. The whale would be easy to hit, effectively 0 challenge level, unless there were modifiers for being underwater. With that said, if a humanoid threw jabs at the whale, chances are they wouldn't be felt as injuries by the whale unless there were critical rolls involved; a punch that irritates an old wound and the whale dies from internal bleeding might happen:
+Let's talk about the idea of a humanoid going against a whale. The whale would be easy to hit, effectively a difficulty of "Done!", unless there were modifiers for being underwater. With that said, if a humanoid threw jabs at the whale, chances are they wouldn't be felt as injuries by the whale unless there were critical rolls involved; a punch that irritates an old wound and the whale dies from internal bleeding might happen:
 
 |Description |Effect |
 |:-----------|:------|
@@ -316,13 +322,11 @@ Resistance doesn't make the thing impossible, only adjusts the difficulty from a
 
 There are three grades of armor recognized in Fourth Earth SA:
 
-|Grade  |Type example |Absorption effect |
-|:------|:------------|:----------------:|
-|Light  |Cloth            | 1 |
-|Medium |Leather          | 2 |
-|Heavy  |Weave (or metal) | 3 |
-
-The name of the grades refers to the level of absorption. The cloth example refers to cloth-based (padded) armor, not apparel.
+|Grade  |Absorption effect |
+|:------|:----------------:|
+|Light  | 1 |
+|Medium | 2 |
+|Heavy  | 3 |
 
 ### Scale extension
 

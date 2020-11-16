@@ -1,6 +1,6 @@
 ---
 title: Rules as Written
-version: 0.4.1
+version: 0.5.0
 ---
 
 # Fourth Earth RAW
@@ -29,6 +29,7 @@ The core values driving the system are:
 4. Role play over Grinding to become a demigod or metagaming
 5. Skill and proficiency over level and age
 6. Progressive disclosure over rewarding lore or system knowledge
+7. Power ceilings over threat escalation
 
 The core principles:
 
@@ -91,7 +92,7 @@ More on proficiency points as they relate to ranks in the "Skill and tools" sect
 
 Every action starts with an intent and an opposing force.
 
-The opposing force is represented by a challenge level based on qualities of the force, which is then overcome by the character attempting the action. 
+The opposing force has qualities which are used to determine the difficulty of success, which is then attempted by the character through decisions made by the player. (See "Difficulty" section.)
 
 For an action to be considered resolved, the following questions must be answered:
 
@@ -100,38 +101,40 @@ For an action to be considered resolved, the following questions must be answere
 
 Consider the following, separate actions: climbing a tree and attacking a rat, respectively.
 
-The tree climb starts as a challenge level 3; roughly a 17 percent chance of success. The player chooses to reduce the challenge level by spending 1 point from an associated battery (1 level per point drained); making the challenge level 2, a 25 percent chance of success. If the challenge level is reduced to 0, the climb is successful; otherwise, a dice pool of 1 or more dice is rolled.
+The initial physical difficulty of the tree climb is 6. The player reduces the difficulty to 4. That reduction came from spending one point from the physical battery; if the player had spent two more points, the difficulty would be "Done!" - immediate success. The player decided to only spend one point; therefore, a dice pool of one or more dice is rolled. (See "Dice pool" section.)
 
-There is always at least 1 die in the pool. The number of dice can be increased by achieving ranks in skills; 1 extra die per rank. This character has 1 rank in climbing, which brings the number of dice in the pool to 2; roughly a 43 percent chance of success. To succeed, at least 1 die in the pool must have a value of 1 when rolled; to rephrase, the target roll is at least one 1 in the dice pool.
+Another way to change the probability for success, is through ranks in skills and tools (see "Skills and tools" section). This character has one rank in climbing, which means the player will roll two dice. To succeed, at least one of the dice in the pool need to land on a 1.
 
-Upon failure or success, there should be a side-effect impacting the character, outside world, or both. In the case of climbing the tree, the character either remains where they were or makes it up the tree on failure or success, respectively.
+If the character succeeds in the climbing the tree, they end up in the tree; if they fail, they stay on the ground. In either case, the action is resolved.
 
-Let's consider the rat, which has a calculated challenge level of 3 based on various characteristics. Everything is the same as the tree climb. Upon failure or success, the side-effect will be missing or hitting the rat, respectively.
+Let's switch to the rat, which has a difficulty of 6; everything is the same as the tree climb. If the character succeeds, the rat is hit; if they fail, the rat is missed.
 
-This means there is no secondary action system for combat (or anything else). All actions happen in the equivalance of real time (there is no initiative in the base Fourth Earth RAW system); intent, challenge level, roll. Having only one action system reduces the need for context switching by players and narrators.
+To remain simple, rules-light, and minimize context switching, Fourth Earth RAW strives to use this same mechanism for all interactions characters have with the outside world. Details may change, but the flow remains: intent, difficulty, adjust, roll, if necessary.
 
-### Challenge levels
+### Difficulty
 
-Challenge levels describe the probability of success for an action and always have a target battery that can be used to reduce the level. 
+Difficulty describes the initial probability of success for a given interaction with the world. 
 
-The scale begins with 0, representing 100 percent chance of success (or at least greater than 50 percent chance). The scale ends at infinity, representing completely impossible in the setting or theme. Standing up or walking might be 0 for an adult and higher for a baby. Drawing a laser sword in a medieval setting might be infinite.
+When calling out a difficulty players should be able to learn the type of dice in a dice pool as well as the life battery to use should they wish to decrease the difficulty; so, a "strength difficulty 2" (or "strength d2 or similar) would mean the player is rolling at least one [.d2](two-sided die). The initial probability can be represented as a fraction as well: 1/2. As a scale, difficulty ranges from "Done!" to "Impossible" where "Done!" does not require rolling any dice and "Impossible" means it cannot be done no matter the modifications involved.
 
-The inner range is from 1 through 8. 8 is impossible without some form of assistance; climbing a potruding ice wall, in rain and heavy winds, with no tools, for example. Challenge levels 1 through 7 have a decreasing probability of success represented by a standard coin flip or die roll:
+|Difficulty |Alternative name |Probability of success |Position  |
+|:---------:|:----------------|:---------------------:|:--------:|
+|Done!      |Done!            |1/1                    |0         |
+|2          |Safe bet         |1/2                    |1         |
+|4          |Simple           |1/4                    |2         |
+|6          |Difficult        |1/6                    |3         |
+|8          |Long shot        |1/8                    |4         |
+|10         |Leap of faith    |1/10                   |5         |
+|12         |Improbable       |1/12                   |6         |
+|20         |Inconceivable    |1/20                   |7         |
+|No dice    |Impossible if unaided |n/a               |8         |
+|Impossible |Impossible       |n/a                    |inifinity |
 
-|Generic name           |Challenge level |Probability of success |Standard die or coin               |
-|:----------------------|:--------------:|:---------------------:|----------------------------------:|
-|Easy                   | 0              | 100 percent           | n/a                               |
-|Safe bet               | 1              | 50                    | [.d2](two-sided die or coin flip) |
-|Simple                 | 2              | 25                    | [.d4](four-sided die)             |
-|Difficult              | 3              | ~17                   | [.d6](six-sided die)              |
-|Long shot              | 4              | ~13                   | [.d8](eight-sided die)            |
-|Leap of faith          | 5              | 10                    | [.d10](ten-sided die)             |
-|Improbable             | 6              | ~8                    | [.d12](twelve-sided die)          |
-|Inconceivable          | 7              | 5                     | [.d20](twenty-sided die)          |
-|Impossible, if unaided | 8              | 0                     | n/a                               |
-|Impossible             |infinite        | 0                     | n/a                               |
+Two-sided dice may be difficult to find. A coin can be used but may be easier to game. Alternatively, players may use any other die so long as odd numbers are considered 1; [.1d4](one four-sided die) may make sense.
 
-In general, the scale uses an average person in the setting; however, to keep things challenging for characters, a more relative scale might be useful. For example, character A decides they want to attempt stitching a wound in a finger, they are not a doctor and have no training, a challenge level of 4 or higher might be realistic. Alternatively, character B who has training in veterinary medicine might receive a challenge level of 2 or 3. Or, in a mundane world unassisted flight would be infinite, but the character becomes super with the ability to fly, the first time might be a 4 and eventually becomes a 0.
+In general, the scale uses an average person in the setting; however, to keep things challenging for characters, a more relative scale might be useful. For example, character A is not particularly trained in any first aid and decides to attempt stitching a wound in a finger, a physical difficulty of 4 or higher might be realistic. Alternatively, character B is trained in veterinary medicine might receive physical difficulty of 2 or 3. Or, in a mundane world, unassisted flight would be infinite, but the character gains the ability to fly, the first attempt might be a difficulty 8 and becomes 0 over time.
+
+Success is determined by rolling at least one 1 in the results of a dice pool. (See "Dice pool" section.)
 
 ### Life batteries
 
@@ -149,9 +152,9 @@ Your game may have any number of batteries, with the following considerations:
 
 Consider a system where the cost is the total number of overflow batteries; physical has 2 overflows and health has 3. 
 
-Let's spend 1 point from the physical battery to reduce the challenge level of climbing the tree; notice the character has 0 physical points available to start: 
+Let's spend 1 point from the physical battery to reduce the difficulty of climbing the tree; notice the character has 0 physical points available to start: 
 
-|Name     |Start |Increase |Spend (reduce challenge level) |
+|Name     |Start |Increase |Spend (reduce difficulty) |
 |:--------|:----:|:-------:|:----:|
 |Health   | 1    | 0       | 1    |
 |Physical | 0    | 1       | 0    |
@@ -175,23 +178,28 @@ Life batteries should recharge somehow; usually multiple ways. At least one of t
 
 ### Dice pools
 
-Dice pools further adjust the probability of success for a given action.
+Dice pools adjust probability of success for a given action based on skill proficiency, tools used, and other similar modifiers.
 
-A level 1 challenge has a 50 percent probability of success. If the dice pool has 2 dice instead of 1 the probability of success becomes 75 percent.
+Consider a difficulty 2, which is a 1/2 probability of success, using a dice pool of 2, which makes the probability 3/4. Or, consider a difficulty 20, which is a 1/20, 2 dice in the pool, becomes (just under) a 1/10.
 
-Adding dice is done through skill ranks related to a given action, tool, or both. Therefore, the dice pool is 1 base die, plus the number of ranks in a skill, plus the number of ranks in a tool, plus any additions you decide to add. 
+Adding dice in Fourth Earth RAW is done through ranks in skills, tools, or both. You may decide to other ways for dice to be added to (or subtracted from) the pools. (See "Skill and tools" section.)
 
-It's recommended that the number of dice in a pool not surpass 5. 
+There is always one die in the pool; it's recommended dice pools not surpass 5. 
 
-More than 5 and the pool starts becoming unmanageable and crosses the point of diminishing returns. 5 dice in a pool for a level 1 challenge results in a roughly 97 percent chance of success. To overcome the last 3 percent requires doubling the pool (10 dice). It took 4 dice to go from 50 percent to 97 percent and another 5 to go from 97 to 99.9. 
+More than 5 and the pool becomes physically harder to manage and tends to cross the point of diminishing returns.
 
-There may be instances where larger dice pools may seem to make sense. Consider a challenge level 7 action with a dice pool of 5, probability of success is roughly 23 percent; if the pool had 10 dice it would be a 40 percent chance. However, maybe for a super human the challenge level isn't 7, maybe it's a 5, which would also be a 40 percent chance with only 5 dice in the pool.
+Using percentages should make this easier to illustrate. A difficulty 2 has a 50 percent chance of success. With 5 dice in the pool, that becomes roughly 97 percent. To get to a 99.9 percent chance of success requires another 5 dice. First 5 is a 47 percent gain while 10 is a 49.9 percent gain from the starting point.
 
-For details on ranks see the "Skills and tools" section.
+For cases where a larger pool might feel like the "right" answer, consider adjusting the difficulty. Consider a difficulty 20 with 5 dice in the pool, which is roughly a 23 percent chance of success. If the pool had 10 dice, it would be a 40 percent chance, which is roughly a difficulty 5 with 5 dice in the pool; the margin of difference is less than 1 percent.
+
+It is recommended players (and narrators) determine the maximum dice pool size up front, then:
+
+1. subtract one for the base pool and
+2. split the remainder between skill ranks, tool ranks, and any other ways the dice pool might increase.
 
 ## Movement
 
-Fourth Earth RAW is not opinionated when it comes to movement beyond creating a desirable experience for those involved. In the type of games most likely to use Fourth Earth RAW, there's a spectrum for space-time.
+Fourth Earth RAW is not opinionated when it comes to movement beyond creating a desirable experience for those involved. In the type of games most likely to use Fourth Earth RAW, there's a spectrum for space-time and a desire to compress the mundane.
 
 One end of this spectrum is real time simulation; a minute in-game is a minute in-real-life, a mile in-game is a mile in-real-life. We might see the other end as battle simulation and tends to feel more like playing chess; players may take hours to move and may have conversations their characters couldn't in the heat of battle (arguably could be referred to as "metagaming"). 
 
@@ -209,54 +217,56 @@ For example, a group of characters decide to walk to a location roughly 500 kilo
 
 As the narrator (or player), unless otherwise agreed to, you might say, "Okay. That's going to take 10 days. How often will you make camp? Does anyone want to act anything out during the trip?" and so on. The narrator may decide to roll some standard die a few times to see if there are any hazards experienced by the characters; shoes fall apart, a bear wanders into camp, someone dies of dysentery, or maybe even something positive. In real time this could take less than one minute but when they arrive, it's still: 10 days later...
 
-Game-time and real time will most likely invert when the characters go inside wherever it is they've arrived to. Details about the setting are given, explored, considered, discussed. It may take hours of real time to do 30 minutes of game-time activities. Let the narrative and intent of the characters drive any challenge levels for actions. 
+Game-time and real time will most likely invert when the characters go inside wherever it is they've arrived to. Details about the setting are given, explored, considered, discussed. It may take hours of real time to do 30 minutes of game-time activities. Let the narrative and intent of the characters drive difficulty. 
 
-A player says their character is going to run the 500 kilometers back to a town and bring help? Challenge level of infinite; unless they're super fast, then maybe it's 4 actions each at a challenge level of 8. Or, if that's literally just what they do and everyone agrees they can run 500 kilometers in two seconds, the challenge might be getting help back to where the other characters are(convince the citizens to action). (A power ceiling relative to the characters is desired to maintain consistent tension, which tends to be easier than continuing to devise ways to escalate the tension.)
+A player says their character is going to run the 500 kilometers back to a town and bring help?
 
-Another player says their character is going to get behind a target (to gain an advantage) and knock the target out with their blackjack? Maybe it's a challenge level of 5 for the movement and then hitting the target has a challenge level of 8 because the intent isn't just to hit but to subdue in one shot.
+This would most likely be an infinite difficulty; unless there is something in the setting and theme that would alter this. For example, let's say the character is super fast, maybe the action (in total) is 4 sub-actions each with a difficulty of "No dice!" Or, maybe being very fast is just innate to the setting and theme, the difficulty might be applied to convincing help to travel to the location the character needs them to.
 
-Warp drive and the transporter are what makes space travel exciting, compress the mundane. But sometimes characters will want to play chess and practice defending themselves to enrich their characters, gain better insight into the characters, and improve the audience experience.
+Another character in a different setting and theme decides to move behind a target and subdue an oppoenent using a blackjack. Might be a difficulty 10 for the movement and a difficulty "No dice!" to subdue the target in one blow; a hit by itself might have been a difficulty 4.
 
 ## Skills and tools
 
-Fourth Earth RAW seeks to be a generic system that allows for rapid start and evolution; therefore, there is no predefined set of skills and tools. Further, the presumption is that any character can attempt anything, only the probabilities of success are changed. When a character attempts something, capture that as a skill, let them gain ranks in it. If another character wants to try the same thing, let them add that to their list of skills, and gain ranks in it. We find this beats having a large list of skills and choosing a subset to become practiced in.
+Fourth Earth RAW has no predefined list of skills or tools, which allows players to build skill lists as they play.
 
-The maximum dice in a dice pool is bound by the maximum number of ranks in total for skills, tools, and any other contributing factors.
+The presumption is any character can attempt anything, once. When a character attempts something, a skill can be added to their list, and they may gain proficiency points and ranks in that skill. We find this beats having a limited number of skill available from which to choose.
 
-Every successful attempt of an action with a challenge level greater than the current rank adds 1 proficiency point toward the next rank; this implies there is no rationale for a total rank count greater than 7 or 8. Points are earned based on the initial challenge level greater than 0. Points are still earned if the challenge level is reduced to 0. Ranks fill from lowest to highest, one point at a time. The number of points per rank should be greater than 1, high enough that earning ranks feels like learning not grinding, and consistent across all ranks. Proficiency in low-level tasks will tend to be gained quickly, while higher-level tasks will be slower as those types of tasks will be harder to come by and completely a higher level task once will only fill the lowest level unearned rank.
+The maximum dice in a dice pool is bound by the maximum number of ranks in total for skills, tools, and any other contributing factors. (See "Dice pool" section.)
 
-Consider an action with an initial challenge level of 0; no proficiency point is earned. Consider a character with no ranks toward an action with an initial challenge level of 1 who spends 1 battery point to reduce it to 0; at least 1 proficiency point is earned toward the first rank. Consider the same character with 1 rank toward an action with an initial challenge level of 1 who succeeds on the roll with 2 dice; no proficiency point is earned. Same character, same rank, and an action with an initial challenge level of 2 who succeeeds on the roll with 2 dice; 1 proficiency point is earned toward the level 2 rank.
+Proficiency points are earned by successfully completing actions with an initial difficulty position greater than the current rank achieved. Proficiency points are added to the lowest unattained rank. Because proficiency points are based on the initial difficulty, reducing the difficulty to 0 could still result in earning proficiency points. The number of proficiency points per rank should be greater than one and consistent across ranks.
 
-Characters also have the ability to gain proficiency in using one or more tools. Tools should reduce the challenge level of an action by 1 or more; a character could widdle wood using their fingernails - it would be easier with a knife. Proficiency in a tool should not necessarily be tied to the action performed. This proficiency is indicated as ranks on the tool itself. This separation simulates the separation between general knowledge in a skill and specific knowledge in a tool.
+Note: Lower-level ranks will tend to be earned quickly while higher-level ranks will take longer. Partly due to filling up the lower-level ranks first and partly because of the possible rarity of higher-level difficulties encountered by characters.
+
+Consider a difficulty of 0; no proficiency points earned. Consider a difficulty 2 and a character with no ranks whose player reduces the difficulty to "Done!"; one proficiency point is earned toward the first rank, which completes the first rank. Consider a difficulty 2 and the same character rolling 2 dice now; no proficiency point is earned. Consider a difficulty 6 (position 3) and the same character rolling 2 dice whose player reduces the difficulty to 2; one proficiency point is earned toward the second (not third) rank.
+
+Tools may also have ranks, which can be earned simultaneously to the skill. This separation simulates the difference between general knowledge in a skill and specific knowledge in a tool.
 
 For example, a grave digger is probably proficient in using a shovel to dig graves. When the zombie hoards begin roaming the Earth, the grave digger should be afforded a slight advantage when braining a zombie with a shovel; of course, over time, the grave digger's digging proficiency might decrease while their proficiency in using a blunt weapon increases. The digger may also take a hit to their probabilities if they switch from the shovel to a baseball bat or even more if switching to a gun.
 
-It's recommended that players and narrators determine the pool capacity, subtract 1 for the base die, then split the remaining dice between skill and tool ranks, with skills having more ranks than tools.
+Tools may also decrease the difficulty of an action. A character can widdle wood with their fingernails but it would probably be easier with a knife.
 
 ## Interacting with other living beings
 
-For non-combat actions, the players can negotiate with the narrator to determine the challenge level of the action against the other living being.
+For non-combat actions, the players can negotiate with the narrator to determine the difficulty of the action on another living being.
 
-"I want to persuade this person to do this thing." That could result in the narrator saying, "That person didn't require persuasion (challenge level 0), they do it." Or, the narrator might say, "This person is a member of a military operations team with training to avoid manipulation, the challenge level is 5 mental" (presuming a mental battery exists). Then the player spends and rolls as usual.
+"I want to persuade this person to do this thing." The narrator might say, "That person didn't require persuasion (difficulty 0), they do it." Or, the narrator might say, "This person has special training against manipulation, roll mental difficulty (or 'd') 10" (presuming a mental battery). Then the player reduces and rolls as usual.
 
-This way game mechanics can be generated just-in-time instead of restraining players and narrators to a finite list of of specific interaction types.
+This way game mechanics can be generated just-in-time instead of constraining players and narrators to a finite list of specific interaction types.
 
 For combat actions two additional action steps are recommended to maintain consistency and transparency:
 
-1. Calculating the challenge level of the defender.
+1. Calculating the difficulty in hitting the defender.
 2. Calculating the number of points drained from the defender's health battery.
 
-Combat action targets the health battery directly. The challenge level determines how hard the target is to hit; therefore, the qualities used should help the defender avoid being hit or make it easier for the attacker to hit the defender. It's recommended that the qualities avoid increasing complexity.
+Combat action targets the health battery directly. Difficulty determines how hard the target is to hit; therefore, it's recommended the qualities used help the defender *avoid* being hit or make it *easier* for the attacker to hit. It's also recommended these qualities avoid increasing complexity.
 
-Consider character A (attacker) attacking character B (defender) with a longsword. Character B has 1 rank in two-handed weapons and 1 rank in the longsword specifically. Meanwhile, character A doesn't have any ranks yet. Therefore, character B has more knowledge and experience in that type of attack and weapon and is awarded 1 challenege level for each rank; 2 in this case. Character A spends 2 physical to hit character B.
+Consider character A (attacker) attacking character B (defender) with a longsword. Character B has 1 rank in two-handed weapons and 1 rank in the longsword specifically. Meanwhile, character A doesn't have any ranks. Therefore, character B has more knowledge and experience in they type of attack and weapon, this knowledge increases the difficulty position of hitting character B by 1. Difficulty always starts at "Done!" (or position 0); thereby, increasing the difficulty to 2 (or position 1).
 
-Let's take the same scenario and give character B (defender) two friends that must be considered as character A attacks. This might increase the challenge level of hitting character B by 1; because character A's attention is divided.
+Let's take the same scenario and give character B (defender) two friends that must be considered while character A attacks. This might increase the difficulty position by 1 again; thereby, increasing the difficulty to 4 (or position 2).
 
-(It's recommended that the challenge level for combat not go above 7 without a narrative point to explain why.)
+Character A manages to hit character B. In the game we developed, longswords drain 2 points per hit. We aren't using the resistance extension; therefore, character B loses 2 points on their health battery.
 
-Now let's calculate the drain on the health battery. In our game the longsword drains 2 points. Character B absorbs all of that potential energy and loses 2 points from their health battery.
-
-Any method can be used so long as it is consistently applied across all living beings, is known to the player(s), and seems appropriate for the setting and theme.
+It's recommended difficulty of combat not go above 8 without a supporting narrative. Therefore, whatever meathod is determined should consistently applied, known to the player(s), and be setting and theme appropriate; otherwise, it may feel like the physics of the setting and them are loose and this may not be fun for the player(s).
 
 ## Rewarding roleplaying
 
@@ -266,9 +276,9 @@ For example, character A is given a piece of knowledge about a secret room in th
 
 Instead of trying to punish players for *not* roleplaying, Fourth Earth RAW gives multiple ways for the players and narrator to reward roleplaying as an out-of-character action. Of course, if the rewards are given at no cost, the gameplay could become boring; therefore, it's important everyone agree to the mechanics of this type of reward.
 
-Maybe a claustraphobic character goes splunking and moves through a narrow passage. The challenge level, due to the phobia, was set to 5. The player acted out the nervousness of the character, didn't spend any physical (or maybe in this case mental) battery points to lower the level. The character made it through. Maybe the narrator rewards the player with battery points or an extra proficiency point to the skill. Maybe one of the other players transfers one of their battery points to the character.
+Maybe a claustraphobic character goes splunking and moves through a narrow passage. Due to the phobia, the difficulty was 10. The player acted out the anxiety, didn't spend any physical (or maybe in this case mental) battery points to reduce the level. The character made it through. Maybe the narrator rewards the player with battery points or an extra proficiency point to the skill. Maybe one of the other players transfers one of their battery points to the character.
 
-So, while there isn't a specific mechanic meant to reward roleplaying by the players (or tading who owns the narration), the options are there and players (or the narrator) can tell the player, "This is for the killer roleplaying you just did."
+So, while there isn't a specific mechanic meant to reward roleplaying by the players (or trading who owns the narration), the options are there and players (or the narrator) can tell the player, "This is for the killer roleplaying you just did."
 
 ## Conclusion
 
