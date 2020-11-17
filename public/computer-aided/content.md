@@ -16,7 +16,7 @@ For the second we offer a text-based experience in the setting and theme describ
 
 4th.earth subscriber can choose to only subscribe to access tabletop-related game play or, as a player account holder, have access to both.
 
-## Creating the setting
+## Setting
 
 See Fourth Earth SA (and Fourth Earth Lore).
 
@@ -49,6 +49,20 @@ See Fourth Earth RAW (and Fourth Earth Lore).
 See Fourth Earth RAW (and Fourth Earth Lore).
 
 In the tabletop helpers edition, the designated narrator (the one who started the game) defines difficulty and assigns them to players (with associated target battery). The players can then do what they want to do to try and accomplish what they were trying to accomplish.
+
+|Sides       |Level |Success probability |Human-friendly   |
+|:----------:|:----:|:------------------:|:----------------|
+| 1          | 0    |1/1                 |Done!            |
+| 2          | 1    |1/2                 |Safe bet         |
+| 4          | 2    |1/4                 |Simple           |
+| 6          | 3    |1/6                 |Difficult        |
+| 8          | 4    |1/8                 |Long shot        |
+| 10         | 5    |1/10                |Leap of faith    |
+| 12         | 6    |1/12                |Improbable       |
+| 20         | 7    |1/20                |Inconceivable    |
+| No Dice!   | 8    |n/a                 |Impossible, if not lowered |
+| n/a        |infinity |0                |Impossible       |
+
 
 ### Life batteries
 

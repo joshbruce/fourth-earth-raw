@@ -18,7 +18,7 @@ Fourth Earth SA also presumes as little equipment as possible. You will want a w
 
 Generating random numbers can use an online dice roller, there are plenty avaialable, or using a standard, physical set of 7 RPG dice. If what you find doesn't have the ability to create pools, or you only have one set of dice, no worries, you can roll the same die repeatedly to represent the pool (stopping as soon as you hit a 1).
 
-## Creating the setting
+## Setting
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 

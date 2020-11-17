@@ -15,7 +15,7 @@ Anything described here is possible in Fourth Earth SA and Fourth Earth CA as we
 
 Fourth Earth TT presumes a bit more equipment availability. For example, you might have tables, a space to meet (physical or virtual), miniatures, and so on.
 
-## Creating the setting
+## Setting
 
 See Fourth Earth SA (and Fourth Earth Lore).
 
