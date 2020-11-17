@@ -113,28 +113,37 @@ To remain simple, rules-light, and minimize context switching, Fourth Earth RAW 
 
 ### Difficulty
 
-Difficulty describes the initial probability of success for a given interaction with the world. 
+Difficulty describes the initial probability of success for a given interaction with the world. Difficulty starts with the sides of dice available in a standard set of roleplaying game dice set: four-, six-, eight-, ten-, twelve-, and twenty-sided; with a solution for (or actual) two-sided die (recommended to use a [.d4](four-sided die) and accept a roll of an odd number). This gives us four primary ways to refer to a given difficulty:
 
-When calling out a difficulty players should be able to learn the type of dice in a dice pool as well as the life battery to use should they wish to decrease the difficulty; so, a "strength difficulty 2" (or "strength d2 or similar) would mean the player is rolling at least one [.d2](two-sided die). The initial probability can be represented as a fraction as well: 1/2. As a scale, difficulty ranges from "Done!" to "Impossible" where "Done!" does not require rolling any dice and "Impossible" means it cannot be done no matter the modifications involved.
+1. sides of dice in a pool,
+2. level,
+3. probability, and
+4. human-friendly.
 
-|Difficulty |Alternative name |Probability of success |Position  |
-|:---------:|:----------------|:---------------------:|:--------:|
-|Done!      |Done!            |1/1                    |0         |
-|2          |Safe bet         |1/2                    |1         |
-|4          |Simple           |1/4                    |2         |
-|6          |Difficult        |1/6                    |3         |
-|8          |Long shot        |1/8                    |4         |
-|10         |Leap of faith    |1/10                   |5         |
-|12         |Improbable       |1/12                   |6         |
-|20         |Inconceivable    |1/20                   |7         |
-|No dice    |Impossible if unaided |n/a               |8         |
-|Impossible |Impossible       |n/a                    |inifinity |
+When communicating difficulty to a player, it's recommended, that the sides of dice are used: "Roll d4." When modifying difficulty, it's recommended, that level is used where the level is typically the sides of the die divided by 2 ([.d20](twenty-sided die) is the exception): "You reduce the d20 by 1 level, making it a d12 (level 6)." Probability is 1 in the number of sides on the die; also represented as 1/10 or 10 percent. The human-friendly names (or derivations of them) are rarely used in game; usually as reference.
 
-Two-sided dice may be difficult to find. A coin can be used but may be easier to game. Alternatively, players may use any other die so long as odd numbers are considered 1; [.1d4](one four-sided die) may make sense.
+|Sides       |Level |Success probability |Human-friendly   |
+|:----------:|:----:|:------------------:|:----------------|
+| 1          | 0    |1/1                 |Done!            |
+| 2          | 1    |1/2                 |Safe bet         |
+| 4          | 2    |1/4                 |Simple           |
+| 6          | 3    |1/6                 |Difficult        |
+| 8          | 4    |1/8                 |Long shot        |
+| 10         | 5    |1/10                |Leap of faith    |
+| 12         | 6    |1/12                |Improbable       |
+| 20         | 7    |1/20                |Inconceivable    |
+| n/a        | 8    |n/a                 |Impossible, if not lowered |
+| n/a        |infinity |0                |Impossible       |
 
-In general, the scale uses an average person in the setting; however, to keep things challenging for characters, a more relative scale might be useful. For example, character A is not particularly trained in any first aid and decides to attempt stitching a wound in a finger, a physical difficulty of 4 or higher might be realistic. Alternatively, character B is trained in veterinary medicine might receive physical difficulty of 2 or 3. Or, in a mundane world, unassisted flight would be infinite, but the character gains the ability to fly, the first attempt might be a difficulty 8 and becomes 0 over time.
+Note: For the purposes of these guides, referencing "difficulty" refers to "Sides" while any other usage will be modified with appropriately; "difficulty level," for example.
 
-Success is determined by rolling at least one 1 in the results of a dice pool. (See "Dice pool" section.)
+Two-sided dice may be difficult to find. A coin can be used but may be easier to game. Alternatively, players may use any other die so long as odd numbers are considered 1 and even numbers 2 (beyond coins, this may be the arrangement for physical, two-sided dice).
+
+When determining difficulty, the recommendation is to consider an average person in the setting and theme (how likely would they be succeed?). Depending on the setting and theme and to keep characters challenged, a more relative scale might be useful. 
+
+For example, character A is not particularly trained in any first aid and decides to attempt stitching a wound in a finger, a physical difficulty of 8 or higher might be realistic. Alternatively, character B is trained in veterinary medicine and might receive a physical difficulty of 4 or 6. Or, in a mundane world, unassisted flight would be infinity, then character A gains the ability to fly, the first attempt might be a difficulty 8 and becoming 0 over time.
+
+Success is determined by rolling at least one 1 from the dice pool. (See "Dice pool" section.)
 
 ### Life batteries
 
