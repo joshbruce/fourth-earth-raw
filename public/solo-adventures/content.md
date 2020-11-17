@@ -1,6 +1,6 @@
 ---
 title: Solo adventures
-version: 0.3.0
+version: 0.3.1
 ---
 
 # Fourth Earth SA
@@ -138,7 +138,7 @@ If the follow-up roll was an 11 (an exploding die), roll another 1d12 to select 
 
 |Result    |Effect  |
 |:-------|:-------|
-|1       |difficulty of defender reduced 2 positions, recurring and compounding |
+|1       |difficulty of defender reduced 2 levels, recurring and compounding |
 |2, 5, 8 |-1 from defender's physical battery                     |
 |3, 6, 9 |-1 from defender's mental battery                       |
 |4, 7    |-1 from defender's spirit battery                       |
@@ -187,7 +187,7 @@ Character A swings at character B. Character B swings at character A. The potent
 2. If character A has initiative, character B is subdued and nothing happens to character A; a successful hit from character B becomes a failure.
 3. If character B has initiative, character A loses 3 and character B is subdued.
 
-Characters who reduce the difficulty to "Done!" have an initiative of 0. Otherwise, initiative is the total number of 1s rolled in the dice pool for the action; so, initiative can range from 0 to 5 in Fourth Earth SA. Resolution is processed in descending order; all those with initiative 5, then 4, and so on until 0. Ties in initiative result in both actions happening.
+Characters who reduce the difficulty to 1 have an initiative of 0. Otherwise, initiative is the total number of 1s rolled in the action dice pool; so, initiative can range from 0 to 5 in Fourth Earth SA. Resolution is processed in descending order; all those with initiative 5, then 4, and so on until 0. Ties in initiative result in both actions happening.
 
 This means skilled characters have a higher chance of doing their action and doing so in a way that another, less skilled opponent, doesn't get a last minute hit in. 
 
@@ -203,11 +203,11 @@ Skills are limited to 3 ranks. Tools are lmited to 1 rank. 4 successes are requi
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-Fourth Earth Lore uses magic. Spells are tied to stones, carried by characters. Casting magic happens similar to using a tool; if the character has the stone, they can attempt to cast the spell. Each spell has a difficulty to cast. Spells can be classified as mundane and combat as well as occuring from the inside-out and the outside-in.
+Fourth Earth Lore uses magic. Spells are tied to stones, carried by characters. Casting magic happens similar to using a tool; if the character has the stone, they can attempt to cast the spell. Each spell has a difficulty to cast. Spells can be classified as mundane and combat as well as occuring from the inside-out or the outside-in.
  
 A spark spell, for example, might be a mundane, inside-out spell; a spark appears in the middle of inorganic material, usually with the hopes of starting a fire. A fire ball, might be a combat, outside-in spell; starting from the caster and hurled at a target, and taking the resistance of the target into account.
 
-For combat spells, the difficulty position of the defender is reduced by half or 1 position, whichever is greater. If the calculated difficulty is greater than a difficulty position 8, it stays a difficulty position 8; less than 0 becomes 0.
+For combat spells, the difficulty level of the defender is reduced by half or 1 level, whichever is greater. If the calculated difficulty is greater than 8, difficulty level is 8; less than 0 becomes 0.
 
 ### Tool decay and destruction extension
 
@@ -225,13 +225,13 @@ See "Healing, death, resurrection, and reincarnation" section.
 
 See Fourth Earth RAW (and Fourth Earth Lore). 
 
-**Calculating the difficulty** of a defender is done using qualities of the defender. If the running total for the calculated difficulty reaches position 8, the difficulty is 8; no further considerations required. All difficulties start at position 0.
+**Calculating the difficulty** of a defender is done using qualities of the defender. If the running total for the calculated difficulty reaches level 8, the difficulty level is 8; no further considerations required. All difficulties start at level 0.
 
 The following checklist aims to be brief and starts with qualities with the highest return up front:
 
 |Question |Yes |
 |:--------|:---|
-|Defender is subdued, stunned, or unconscious? |Difficulty is "Done!" - no need to continue unless applied to the psychology and morality of the attacker. |
+|Defender is subdued, stunned, or unconscious? |Difficulty is 1 - no need to continue unless applied to the psychology and morality of the attacker. |
 |Defender has active allies?    |+1 for every 2 active allies |
 |Defender is lesser scale?      |+1 for every 2 steps lesser  |
 |Defender is on higher ground?  |+1 |
@@ -247,13 +247,13 @@ The following checklist aims to be brief and starts with qualities with the high
 |Two-handed               |Slow and medium | 3 |
 |Magic                    |Slow and heavy  | 5 |
 
-Fast means able to perform twice in a turn or round, players can choose to only do once. Slow means able to perform once in a turn or round. Fast attacks have the ability to divide the difficulty position in half, when both sub-actions are taken; otherwise, the full difficulty is used (the premise one swing helps prepare the second in some way). If the split results in a fraction, the difficulty position for the first sub-action is rounded down while the second is rounded up.
+Potential energy is not determined by the type of tool but the more general type of usage. The rationale here is, generally speaking, a bat, shovel, or longsword will do roughly the same amount of damage (though maybe not that same type) and the nuanced differences can be imagined or narrated. 
 
-Potential energy is not determined by the type of tool but the more general type of usage. The rationale here is, generally speaking, a bat, shovel, or longsword will do roughly the same damage and the nuanced differences can be imagined or narrated. 
+Fast means able to perform twice in a turn or round, players can choose to only do once. Slow means able to perform once in a turn or round. Fast attacks have the ability to split the difficulty level in half across both sub-actions, when both sub-actions are taken; otherwise, the full difficulty is used (the premise being that one swing helps prepare the second in some way). If the split results in a fraction, the difficulty level for the first sub-action is rounded down while the second is rounded up.
 
 Consider the humanoid and the rat, using all extensions described in Fourth Earth SA; the humanoid is going to punch the rat with both fists:
 
-**Calculating difficulty position:**
+**Calculating difficulty level:**
 
 |Question |Yes |
 |:--------|:---:|
@@ -268,10 +268,10 @@ Consider the humanoid and the rat, using all extensions described in Fourth Eart
 
 |Description |Effect |
 |:-----------|:------|
-|Difficulty position 8                        |1 difficulty position 2 (d4) & 1 difficulty position 3 (d6) |
+|Difficulty level 8                        |1 difficulty level 2 (d4) & 1 difficulty level 3 (d6) |
 |Humanoid spends 2 physical points on both |1d2  |
-|Humanoid has 2 ranks in unarmed combat   |3 dice in pool       |
-|**Dice pool**                            |3d2                  |
+|Humanoid has 2 ranks in unarmed combat    |3 dice in pool       |
+|**Dice pool**                             |3d2                  |
 
 **Calculating potential energy:**
 
@@ -291,7 +291,7 @@ Consider the humanoid and the rat, using all extensions described in Fourth Eart
 |Skin                                     | 40 - (-1)           |
 |**Total drain**                          | 41                  |
 
-Given all life forms in Fourth Earth RAW apply the same rules, the rat would be dead; multiple times over, which could be described in the narration: The rat is a puddle of goo on the ground. 
+Given all life forms in Fourth Earth RAW apply the same rules, the rat would be dead; multiple times over, which could be described in the narration: The rat is a puddle of goo on the floor. 
 
 ### Resistance extension
 
@@ -307,18 +307,18 @@ Every living being has a natural resistance, skin. Fourth Earth SA recognizes th
 
 The rat from the previous section had thin skin; hence the -1. The humanoid would have average. And a whale would have thick skin, which means a human has to work extra hard to subdue or kill a whale.
 
-Let's talk about the idea of a humanoid going against a whale. The whale would be easy to hit, effectively a difficulty of "Done!", unless there were modifiers for being underwater. With that said, if a humanoid threw jabs at the whale, chances are they wouldn't be felt as injuries by the whale unless there were critical rolls involved; a punch that irritates an old wound and the whale dies from internal bleeding might happen:
+Let's talk about the idea of a humanoid going against a whale. The whale would be easy to hit, effectively a difficulty 1, unless there were modifiers for being underwater. With that said, if a humanoid threw jabs at the whale, chances are they wouldn't be felt as injuries by the whale unless there were critical rolls involved; a punch that irritates an old wound and the whale dies from internal bleeding might happen:
 
 |Description |Effect |
 |:-----------|:------|
-|Humanoid succeeds on both                | base 2              |
-|Humanoid achieved criticality            | 2 * 2               |
-|Humanoid is 10 times scale               | 4 * 1/100           |
-|**Total potential energy**               | 1 (can't be 0.04)   |
+|Humanoid succeeds on both                | base 2                 |
+|Humanoid achieved criticality            | 2 * 2                  |
+|Humanoid is 10 times scale               | 4 * 1/100              |
+|**Total potential energy**               | 1 (can't be 0.04 or 0) |
 
 The whale's thick skin resists 1 from the attack, making it 0.
 
-Resistance doesn't make the thing impossible, only adjusts the difficulty from a time scale.
+Resistance doesn't make the thing impossible, only adjusts the difficulty.
 
 There are three grades of armor recognized in Fourth Earth SA:
 

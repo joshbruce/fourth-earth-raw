@@ -1,6 +1,6 @@
 ---
 title: Rules as Written (Extensions)
-version: 0.4.0
+version: 0.4.1
 ---
 
 # Fourth Earth RAW: Extensions
@@ -72,7 +72,7 @@ Complications and partials do not change the success or failure, just the means 
 
 Sometimes it might make narrative sense for an action to pull from more than just its target battery.
 
-Consider a character with a fear of spiders who is going to kill a spider as a mundane (non-combat) action. Killing a spider is normally a difficulty 2 action (position 1), physical. However, this character has an addition mental layer, which increases the action to a difficulty 10, which will require spending 1 physical and 4 mental to get to a difficulty of "Done!"
+Consider a character with a fear of spiders who is going to kill a spider as a mundane (non-combat) action. Killing a spider is normally a physical difficulty 2 (level 1). However, this character has an additional mental layer, which changes it to difficulty 10 requiring the player to spend 1 physical and 4 mental to get reduce it to a difficulty 1.
 
 Guidelines:
 
@@ -202,9 +202,11 @@ Potential energy versus delivered energy.
 
 Character A hits character B (a zombie) with a home run baseball swing; killing the zombie. Character A hits character C (also a zombie) in the same manner; unfortunately, character C is wearing a motorcycle helmet. Without resistance of some type in play, it might feel odd to the player that the zombie doesn't die; or, it might feel odd that the zombie does.
 
-Difficulty describes how hard something is to hit. The potential energy of an action tells us how much damage may be dealt. The resistance level tells us how much of that potential energy can be absorbed before having a noticeable affect.
+- Difficulty describes how hard something is to hit. 
+- The potential energy of an action tells us how much damage may be dealt. 
+- The resistance level tells us how much of that potential energy can be absorbed before having a noticeable affect.
 
-Consider a super human theme. Character A fires a gun as character B who is super human. The difficulty is reduced to "Done!"; character A is going to hit character B. The potential engery of the bullet we decided would be 5. Character B has a resistance to bullets set at 10. Character B's health battery is reduced by 0.
+Consider a super human theme. Character A fires a gun as character B who is super human. The difficulty is reduced to 1; character A is going to hit character B. The potential engery of the bullet we decided would be 5; potential energy is never 0. Character B has a resistance to bullets set at 10. Character B's health battery is reduced by 0 (5 - 10).
 
 Guidelines:
 
