@@ -239,3 +239,13 @@ Guidelines:
 1. Allow for flexibility to widen roleplay potential; sometimes a character may run into that one character they want to kill despite morality.
 2. Establish a default and let players specify when they are going against the default to maintain flow.
 3. Consider whether there is a cost to choosing one over the other; do characters develop something like post-traumatic-stress, for example?
+
+## Re-roll
+
+Sometimes the dice don't cooperate and players would like a way to modify their roll.
+
+One method would be to re-roll an entire pool (even if only one). Another method would be to allow re-rolling one particular die within a pool; criticality or complications, for example.
+
+The main recommendation here is that it should come at a cost to the player.
+
+Fourth Earth RAW has many ways to incorporate this cost; battery or proficiency points, for example. If you're using something equivalent to money, that could also be used. Or, you could come up with some other type of token specifically for such an endeavor that is rewarded on using a different mechanism than any of those.
