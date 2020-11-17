@@ -1,6 +1,6 @@
 ---
 title: Rules as Written
-version: 0.8.0
+version: 0.8.1
 ---
 
 # Fourth Earth RAW
@@ -165,6 +165,7 @@ Your game may have any number of batteries, with the following considerations:
 1. The higher the number of batteries, the harder they are to manage and the tension presented by actions becomes reduced.
 2. Use overflow batteries where points from one or more other batteries can be converted to a single point in another battery; cost should be greater than reward, at least 2 points per 1 generated.
 3. The health battery should not be available as an overflow.
+4. Batteries can be added as gameplay proceeds based on actions taken; running might cause a "physical" battery to be needed, maybe a lot of characters are performing stealth-related skills, prompting the addition of a "stealth" battery.
 
 Consider a system where the cost is the total number of overflow batteries; physical has 2 overflows and health has 3. 
 
