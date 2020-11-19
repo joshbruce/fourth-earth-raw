@@ -5,9 +5,11 @@ version: 0.3.1
 
 # Fourth Earth SA
 
-Fourth Earth [.SA](solo adventures) is an expansion of Fourth Earth [.RAW](rules as written) intended for solo play in a tabletop or pen-and-paper fashion. Fourth Earth SA presumes a single player who is playing one or more characters in the setting. 
+Fourth Earth [.SA](solo adventures) is an expansion of Fourth Earth [.RAW](rules as written) focusing on applying Fourth Earth RAW in the context of a single player playing 1 or more characters with of without the aid of a narrator.
 
-Arguably the main hurdle for solo play is coming up with a world in which the player can be surprised by what is found and what must be done. One solution to this problem is to have a narrator who has the knowledge of the world and provides the story. Another solution is to use a deck of cards (or a deck designed for solo roleplaying) or something similar to alter the building of the setting, theme, and world.
+Arguably the main hurdle for solo play is coming up with a world in which you, the player, can be surprised by what is found and what must be done. 
+
+One solution to this problem is to have a narrator who has the knowledge of the world and provides the story. Another solution is to use a deck of cards (or a deck designed for solo roleplaying) or something similar to alter the building of the setting, theme, and world.
 
 Fourth Earth SA also presumes as little equipment as possible. You will want a way to:
 
