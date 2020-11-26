@@ -1,74 +1,209 @@
 ---
 title: Solo adventures
-version: 0.3.1
+version: 0.4.0
 ---
 
 # Fourth Earth SA
 
-Fourth Earth [.SA](solo adventures) is an expansion of Fourth Earth [.RAW](rules as written) focusing on applying Fourth Earth RAW in the context of a single player playing 1 or more characters with of without the aid of a narrator.
+Fourth Earth [.SA](solo adventures) is a specification wrapper of Fourth Earth [.RAW](rules as written) focusing on a single player playing one or more characters, with or without a narrator.
 
-Arguably the main hurdle for solo play is coming up with a world in which you, the player, can be surprised by what is found and what must be done. 
+Fourth Earth SA offers implementations for multiple Fourth Earth RAW additions, which can be ignored, modified, or added to (see “Fourth Earth RAW: Additions” chapter).
 
-One solution to this problem is to have a narrator who has the knowledge of the world and provides the story. Another solution is to use a deck of cards (or a deck designed for solo roleplaying) or something similar to alter the building of the setting, theme, and world.
+Arguably the main hurdle for solo play is coming up with a world in which you, the player, can be surprised by what is found and what must be done. There are two primary methods for overcoming this:
 
-Fourth Earth SA also presumes as little equipment as possible. You will want a way to:
+1. Invite a narrator (or another player) who would have knowledge of the setting you do not (see "West Marches" addition).
+2. Randomize the creation of the setting and adventures; usually done with cards, dice, or a combination.
 
-- track life batteries,
-- track skill ranks,
-- track tool ranks, and
-- generate random numbers between 1 and 20.
+As of this writing, Fourth Earth SA does not implement a possible solution.
 
-Generating random numbers can use an online dice roller, there are plenty avaialable, or using a standard, physical set of 7 RPG dice. If what you find doesn't have the ability to create pools, or you only have one set of dice, no worries, you can roll the same die repeatedly to represent the pool (stopping as soon as you hit a 1).
+**Required equipment:**
+
+1. A way to track ranks in skills and tools; 4 points per rank.
+
+Another major hurdle is altering outcomes (sometimes referred to as fudging the dice) or otherwise ignoring the rules to minimize negative outcomes while maximizing positive outcomes, or vice versa (or possibly for narrative purposes). This can make the game feel less worth playing; unearned victories. This is also one reason narrators can be helpful. Narrators may still alter outcomes and bend rules but you may not be aware it’s happening.
 
 ## Setting
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-The setting and theme may use Fourth Earth Lore; not required.
+Fourth Earth Lore is available but not required.
 
-## Populating the setting
+### Sufficiently advanced technology and magic
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+See Fourth Earth RAW: Additions (and Fourth Earth Lore).
 
-Fourth Earth SA uses 4 life batteries: health, physical, mental, and spirit.
+Fourth Earth SA provides an implementation of a hard magic system and does not remove the possibility of using a soft magic system. Further, it is possible to ignore the magic system entirely.
 
-### Healing, death, resurrection, and reincarnation
+**Terms:**
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+- Hard magic system: A magic system with defined rules, consistently applied, often used by characters to solve problems in a specific, repeatable, and predictable way; usually at a cost to the character.
+- Soft magic system: A magic system with loose rules often used to introduce (or increase) a sense of wonder or tension in a setting rather than solving problems in predictable ways.
 
-|Type |Effect |
-|:----|:------|
-|Death         | -1 point to all acquired ranks (no change to partials) |
-|Reincarnation | -1 point to all ranks (acquire and partial); loss of physical assets; character awakes in hometown, roughly as if character created anew |
-|Resurrection  | 1 to health battery (others are at 0) |
+Guidelines:
 
-Since proficiency points are taken at death and reincarnation ranks, specifically lower level ranks, will have been reduced by 2 points. Proficiency points are taken at death even if character is immediately resurrected.
+1. Spells originate from physical assets, which are carried by characters in order to cast; nothing else is required to cast the spell. 
+2. Qualities of the spell determine the difficulty to cast, which targets the spirit battery.
+3. Difficulty should start at 0 and be easy to calculate; if difficulty to cast reaches 7, no further calculations are required.
+4. Resolving magic using a roll should only require one roll.
 
-### Offspring extension
+Implementation to calculate difficulty to cast:
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+**Rarity of spell**
 
-See Fourth Earth Lore specifically on how reproduction works in that setting.
+|Quality |Modification |
+|:-------|:------------:|
+|common | 0 |
+|uncommon | 1 |
+|rare    | 2 |
 
-In general, Fourth Earth SA says a character can only be played by one player. This tends to keep a character's decisions consistent and minimizes the risk of what happens if the player is not available and someone elese plays that character; given Fourth Earth SA is geared toward solo adventures, one player per character should not be difficult.
+**Target for spell**
 
-For Fourth Earth SA, we tend to favor using the currency of the setting to simulate time and money spent caring for the child. A flat cost may not simulate reality and might make it impossible for some to reproduce; if that's part of your setting, that's okay. A percentage of current monetary assets (and possibly physical assets) may be interesting as well as it might simulate the child who starts working young help pay bills. Or, it could be a bit of both.
+|Quality |Modification |
+|:-------|:-----------:|
+|inanimate object | 1 |
+|self              | 2 |
+|another           | 3 |
 
-As long as it's consistently applied, the players are aware of how it works, and it's appropriate to the setting and theme.
+**Intent of caster**
 
-## Interacting with the setting
+|Quality |Modification |
+|:-------|:------------:|
+|survival | 0 |
+|heal     | 1 |
+|harm    | 2 | 
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+**Distance from caster**
 
-### Difficulty
+|Quality |Modification |
+|:-------|:------------:|
+|touch    | 0 |
+|distance | 1 |
+|ranged   | 2 |
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+Consider:
+
+A common spell called spark. Character A wants to cast spark to light a campfire by casting it on a small pile of tinder where they plan to build the fire. 
+
+| Quality | Adjustment | Difficulty |
+|:--|:--|:--:|
+| common | 0 + 0 | 0 |
+| inanimate object | 0 + 1 | 1 |
+| survival | 1 + 0 | 1 |
+| touch | 1 + 0 | 1 |
+|  **total** | | **1** |
+
+Or a rare spell called resurrection. Character A wants to resurrect character B who is in a different area or room.
+
+| Quality | Adjustment | Difficulty |
+|:--|:--|:--:|
+| rare | 0 + 2 | 2 |
+| another | 2 + 3 | 5 |
+| heal | 5 + 2 | 7 |
+| ranged | doesn’t matter | 7 |
+|  **total** | | **7** |
+
+Implementation continued (internal or external):
+
+Fourth Earth SA allows spells to have the quality of starting internally or externally to the target. External spells start at the caster and travel to the target and are affected by resistance. Internal spells start within the target and are *not* affected by resistance.
+
+|Origin |Modification |
+|:-|:-:|
+|internal | 0 |
+|external |one-fourth the target’s difficulty rounded down |
+
+Consider:
+
+Character A wants to cast an uncommon fireball spell (external) at character B with an initial difficulty of 5.
+
+|Quality |Adjustment |Difficulty |
+|:-|:-|:-:|
+|uncommon | 0 + 1 | 1 |
+|another | 1 + 3 | 4 |
+|harm | 4 + 2 | 6 |
+|distance | 6 + 1 | 7 |
+|external | 5/4 rounded down (not necessary) | 7 |
+|**total** | n/a | **7** |
+
+Player A spends 7 spirit to reduce the difficulty to 0; character A casts and hits character B. 
+
+The spell has a potential energy of 5 (see Fourth Earth SA "Interacting with other characters" section). Character B has a resistance of 3. The health battery for character B is reduced by 2; the other 3 points are absorbed. 
+
+Alternatively, character A wants to cast an uncommon combustion spell (internal) at character B. Everything else is the same except the spell would not be affected by the resistance of character B.
+
+## Characters
 
 ### Life batteries
 
 See Fourth Earth RAW (and Fourth Earth Lore).
 
-There are **four life batteries**:
+Implementation:
+
+**Four batteries:**
+
+- health,
+- physical,
+- mental, and
+- spirit.
+
+1. Each battery has a maximum of 8 points. 
+2. Difficulty can be reduced 1 level per battery point spent (see "Difficulty" section). 
+3. The health battery cannot remain at 0
+4. See “Overflow batteries addition” section.
+
+**Batteries tend to have** a primary action category, which is used to determine the target battery of a difficulty.
+
+|Name     |Action category                             |
+|:--------|:-------------------------------------------|
+|Health   |Injury and healing                          |
+|Physical |Physically dominant actions                 |
+|Mental   |Mentally or psychologically taxing actions |
+|Spirit   |Magic- or spirituality-related actions      |
+
+**Batteries are recharged** by performing 1 or more of the following, which represents a baseline not an exhaustive list.
+
+|Action        |Time to recharge |Target battery |Target battery increase per unit of time |
+|:-------------|:----------------|:--------------|:-------------:|
+|Rest          |Slow             |Health         | 2 |
+|Nap           |Fast             |Physical       | 3 |
+|Sleep         |Fastest          |Physical       | 4 |
+|Meditate      |Fast             |Mental         | 3 |
+|Revere (pray) |Fast             |Spirit         | 3 |
+
+**Each unit of time recharges all batteries at least 1 point** while the target battery is charged the amount listed in the table above. **These actions may have a difficulty assigned** that makes sense for the setting and players.
+
+Consider:
+
+4 characters on an airplane (setting). They decide to sleep (recharging action). It's loud and one of our characters is afraid of flying. 
+
+3 players roll against physical difficulty 1, while the fourth rolls difficulty 3 (1 physical and 2 mental). 
+
+All manage to sleep the first round. They all regain 4 to their physical batteries and 1 to all the other batteries. 
+
+On the second round, all but the one who's afraid to fly succeeds. The same thing happens the third round. They all fail the fourth round, which is good because the plane is going down.
+
+The character with the fear of flying only received one round of recharge (a bad night's sleep) compared to the other 3 characters who recharged 3 rounds.
+
+Guidelines:
+
+- The number of requirements for rolling can be flexible; sleeping overnight in a mundane house on a lake might result in the narrator saying, "Cool, you're all fully recharged."
+
+Implementation for death, resurrection, and reincarnation:
+
+|Type |Effect |
+|:----|:------|
+|Death         | -1 point to all acquired ranks (no change to partials) |
+|Reincarnation | -1 point to all ranks (acquired and partial); loss of physical assets; character awakes in hometown, roughly as if character created anew |
+|Resurrection  | 1 to health battery (others are 0) |
+
+The effects are immediate.
+
+### Overflow batteries addition
+
+Implementation:
+
+1. Health battery cannot be used as overflow.
+2. Overflow battery points are automatically spent until the health battery has 1 point, if possible.
+3. The other batteries cannot be negative and can remain at 0.
 
 |Name     |Convertible from             |Cost to increase 1 point |
 |:--------|:----------------------------|:---------------:|
@@ -77,169 +212,187 @@ There are **four life batteries**:
 |Mental   |physical and spirit          | 2 |
 |Spirit   |physical and mental          | 2 |
 
-The health battery always tracks injuries. Actions have an associated target battery, which means each battery tends to have a primary action category:
+### Subdue addition
 
-|Name     |Action category                             |
-|:--------|:-------------------------------------------|
-|Health   |Injury and healing                          |
-|Physical |Physically dominant actions                 |
-|Mental   |Mentallly or psychologically taxing actions |
-|Spirit   |Magic- or spirituality-related actions      |
+See Fourth Earth RAW (and Fourth Earth Lore). 
 
-The primary recharging actions are as follows and do not represent all the ways of recharging batteries: 
+Implementation:
 
-|Action        |Time to recharge |Target battery |Target battery increase per time unit |
-|:-------------|:----------------|:--------------|:-------------:|
-|Rest          |Slow             |Health         | 2 |
-|Nap           |Fast             |Physical       | 3 |
-|Sleep         |Fastest          |Physical       | 4 |
-|Meditate      |Fast             |Mental         | 3 |
-|Revere (pray) |Fast             |Spirit         | 3 |
+1. A character with 1 point in their health battery is considered subdued; this is not the only way a character may become subdued.
+2. Subdue not kill by default; expressing intent to kill not subdue can be done at any time with no turn cost (a minor action, if you will).
+3. Subdued characters are unable to act for 4 full rounds or until acted upon by an outside force, whichever is shorter in time.
+4. Subdued characters may be able to speak, they are not able to physically interact with the setting; they are recovering.
 
-For each unit of time all batteries are recharged at least 1 point. The target battery is charged by the amount in the table above.
+Consider:
 
-Because these are actions that can be given a difficulty, whatever happens on success and failure is whatever makes sense to the setting, theme, and players. 
+Character A attacks character B with 5 points of received energy. Character B has 3 points left in their health battery; resulting in 0, which immediately becomes 1 to keep the character alive but subdued.
 
-For example, our characters are in an airplane. They decide to go to sleep. It's loud and one of our characters is afraid of flying, for them it might be a difficulty 10 or 12. Somehow they manage to sleep that first round; everyone gets the recharge for the first unit of time. They roll for the second unit; our friend who's afraid to fly fails. The same player fails the next one. All players fail the next one, which is good because the plane is going down. 
+Character A turns their attention to character C and attacks for 4 points of received energy. Character C has 4 points left in their health battery, which means character C is also at 1 point on their health battery. 
 
-The character who's afraid to fly only got 1 round of recharge while everyone else got 3. The number of rolls and how much is replenished is entirely up to you and your players; it could be a completely safe place during a mundane period and the characters say, "We want to sleep" to which the narrator replies, "Cool. Everyone's batteries are full."
+Before the end of their turn, player A (playing character A) says they wish to kill character C, the nemesis of character A. The killing stroke is performed with no difficulty and before the end of player A’s turn.
 
-### Dice pools
+The fighting continues and the room is cleared over the next 4 rounds. During the fifth round, character B has regained full consciousness but still cannot act. Character A handcuffs character B at the wrists and ankles, character B is subdued but can speak. 
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+### Resurrection addition
 
-### Criticality extension
+See "Life batteries" section.
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+### Reincarnation addition
 
-Criticality is determined by rolling a 1 on [.1d10](one 10-sided die) following or in conjunction with rolling the action dice pool.
+See "Life batteries" section.
 
-**If the success was critical on a non-combat action**, a side effect is randomly selected from the following table using the roll of [.1d12](one twelve-sided die):
+### Offspring addition
+
+Guidelines:
+
+1. If using pregnancy, character mobility and activity levels may be effected. 
+
+Implementation:
+
+1. Roll [.1d12](one twelve-sided die), if the result is 1, there were complications during gestation or pregnancy.
+2. If using a form of liquid assets (money), spend 10 percent or a reasonable flat fee (easily earned in “one day’s work”), whichever is greater; for the gestation or pregnancy.
+3. Roll 1d12, if the result is 1, there were complications during childhood.
+4. If using a form of liquid assets, spend 25 percent or a reasonable flat fee (easily earned in “one month’s work”), whichever is greater; for clothes, education, food, and so on.
+
+## Interacting with the setting
+
+### Criticality addition
+
+See Fourth Earth RAW extensions (and Fourth Earth Lore).
+
+Implementation:
+
+1. Add [.1d10](one ten-sided die) (the criticality die) to the pool.
+2. If a 1 is rolled on the criticality die, the result of the action pool is considered critical; failure or success.
+2. Players may opt-out of rolling the criticality die prior to rolling the action and cannot add it afterward; opting out would remove possibility of complications or partials as well (see “Complications and partials addition” section).
+3. If the difficulty is reduced to 0, the criticality die is not rolled as there is no pool to add it to.
+
+|Action type |Action pool result |Next step |
+|:-|:-|:-|
+|Mundane |Success |Roll [.1d12](one twelve-sided die) and apply effect from the Mundane critical action table |
+|Mundane |Failure |Roll for 1d12 and apply effect from the Mundane critical action table, subtracting instead of adding |
+|Combat |Success |Roll 1d12 and apply effect from the Combat critical success action table |
+|Combat |Failure |Roll 1d12 and apply effect from the Combat critical failure action table |
+
+**Mundane critical action table:**
 
 |Result |Effect  |Narrative |
-|:------|:-------|:---------|
-|Even number |+1 |Elation from success! |
-|1, 5, 9     |+2 |same                  |
-|3, 7        |+3 |same                  |
-|11          |+5 |same                  |
+|:------|:-------:|:---------|
+|Even number |1 |Elation from success! |
+|1, 5, 9     |2 |same                  |
+|3, 7        |3 |same                  |
+|11          |5 |same                  |
 
-These points are applied to the target battery of the action (climbing a tree would be physical and magic would be spirit). If that battery is or becomes full, the remaining points can be distributed as the player sees fit; including the health battery.
+- Points are added to the target battery for the action (climbing a tree would be physical and magic would be spirit). 
+- If that battery is or becomes full, the remaining points can be distributed as the player chooses; including to the health battery.
 
-**If the failure was critical on a non-combat action**, do the same as a non-combat critical success only using negative numbers instead of positive.
-
-**If the success was critical on a combat action**, results in rolling 1d12 to select from the following table:
+**Combat critical success action table:**
 
 |Result |Effect           |
 |:------|:----------------|
 |Even number |+1 to the battery used by the attacker or any other battery, if full |
 |1, 5, 9     |base potential energy times 1.5 |
 |3, 7        |base potential energy times 2   |
-|11          |trauma (see next table) |
+|11          |trauma (roll another 1d12 and apply the effect from the Combat critical success action table extension) |
 
-If the follow-up roll was an 11 (an exploding die), roll another 1d12 to select from the following table:
+**Combat critical success action table extension:**
 
 |Result    |Effect  |
 |:-------|:-------|
-|1       |difficulty of defender reduced 2 levels, recurring and compounding |
-|2, 5, 8 |-1 from defender's physical battery                     |
-|3, 6, 9 |-1 from defender's mental battery                       |
-|4, 7    |-1 from defender's spirit battery                       |
-|10      |-1 from defender's health battery, recurring and compounding |
+|1       |difficulty of defender reduced by 2, recurring and compounding |
+|2, 5, 8 |drain 1 from defender's physical battery; if 0, from a random battery |
+|3, 6, 9 |drain 1 from defender's mental battery; if 0, from a random battery |
+|4, 7    |drain 1 from defender's spirit battery; if 0, from a random battery |
+|10      |drain 1 from defender's health battery, recurring and compounding |
 |11      |base potential energy times 3 targeting the defender    |
 |12      |defender is unable to act for 2 rounds                  |
 
-Recurring means the effect will occur every round until fixed. Compounding means if the same effect happens again, the effect is increased (-2 becomes -4 becomes -6).
+- Recurring effects occur every round until fixed. 
+- Compounding effects can be applied multiple times (-2 becomes -4 becomes -6).
 
-**If the failure was critical on a combat action**, results in rolling 1d12 to select from the following table:
+**Combat critical failure action table:**
 
 |Result |Effect  |
 |:------|:-------|
-|Even number |-1 drained from attacker's target battery, or another battery if at 0 |
-|1, 5, 9     |-2 drained from attacker's target battery, or distributed across multiple batteries if at 0 |
-|3, 7        |Attacker's health battery is drained as though they had attacked themselves; scale of 1 divided by 2, no resistance is applied, no less than 1 |
-|11          |trauma |
+|Even number |drain 1 from attacker's target battery; if 0, from a random battery |
+|1, 5, 9     |drain 2 from attacker's target battery; if 0, distributed across multiple batteries |
+|3, 7        |attacker damages themselves at 1 to 1 scale, no resistance is applied, one-half the potential energy, can’t be less than 1 |
+|11          |trauma (roll another 1d12 and apply the effect from the Combat critical failure action table extension) |
 
-If the follow-up roll was an 11, roll another 1d12. If the result of this follow-on roll was an 11, the tool being used is rendered useuless until repaired or replaced; if no tool was used, use 11 in the following instruction. Select from the secondary critical success table replacing the term "defender" with "attacker".
+**Combat critical failure action table extension:**
 
-### Complication and partials extension
+|Result    |Effect  |
+|:-------|:-------|
+|11      |If a tool was used, it is rendered useless; otherwise, apply 11 from the Combat critical success action table extension, replacing “defender” with “attacker”.|
+|all other numbers      |Apply the effect of the appropriate number from the Combat critical success action table extension, replacing “defender” with “attacker”. |
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+### Complications and partials addition
 
-If the player rolls a 12 (instead of 1) on the criticality die (see "Criticality extension"). Complication means success happens and has an unforseen negative side effect. Partials means failure happens and has unforseen progress made.
+See Fourth Earth RAW extensions (and Fourth Earth Lore).
 
-## Movement
+Implementation:
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+1. Use the same die as criticality (see “Criticality addition” section).
+2. If a 10 is rolled on the criticality die, the result of the action results in complications or partials.
+3. A complication is a mildly negative effect on an otherwise successful action. 
+4. A partial is a mildly positive effect on an otherwise failed action. 
+5. Resolution and type of complications and partials is left to player (and narrator) discretion.
 
-Fourth Earth SA favors real time when practical and distinguishes between traveling and other forms of movement. Using cinematic terms traveling is a "time passes" cut between scenes, with the possibility of a montage or small scene to aid the narrative. Movement on the other hand is the same scene in roughly real time, linear progress of action and uses the mechanics of interacting with the setting.
+### Re-roll addition
 
-Whether using theater of the mind, grid-based movement miniatures, live-action, all of the above, Fourth Earth SA supports you; consistently applied, players are aware (and appreciative), and fits the setting and theme.
+Implementation:
 
-### Initiative extension
+1. Players may spend battery or proficiency points to re-roll the entire pool or a single die; the health battery cannot be used.
+2. To re-roll the entire pool is a cost of 1 point; re-rolling a single die costs 2 points.
+3. As long as the player has points available to spend, the player may continue to re-roll; as long as the spend does change the pool itself (a proficiency point from a rank used to build the pool, for example).
+4. The player chooses which points are spent.
 
-See Fourth Earth RAW (and Fourth Earth Lore).
-
-Fourth Earth SA uses initiative primarily to answer a single question: Will the action of a soon-to-be-subdued participant effect the outside world? 
-
-In other words, initiative isn't about the order of actions, but the order of resolution with the possibility of neutralizing the outcome a participant.
-
-Character A swings at character B. Character B swings at character A. The potential energy of character A, less the resistance of character B, would cause character B to be subdued. The potential energy of character B, less the resistance of character A, would cause character A to drain 3 points on their health. The following possibilities exist (two of which are the same):
-
-1. If neither character has initiative, character A loses 3 and character B is subdued.
-2. If character A has initiative, character B is subdued and nothing happens to character A; a successful hit from character B becomes a failure.
-3. If character B has initiative, character A loses 3 and character B is subdued.
-
-Characters who reduce the difficulty to 1 have an initiative of 0. Otherwise, initiative is the total number of 1s rolled in the action dice pool; so, initiative can range from 0 to 5 in Fourth Earth SA. Resolution is processed in descending order; all those with initiative 5, then 4, and so on until 0. Ties in initiative result in both actions happening.
-
-This means skilled characters have a higher chance of doing their action and doing so in a way that another, less skilled opponent, doesn't get a last minute hit in. 
-
-## Skills and tools
+### Scale addition
 
 See Fourth Earth RAW (and Fourth Earth Lore). 
 
-Skills and tools for the Fourth Earth setting are available in Fourth Earth Lore.
+Implementation (primary):
 
-Skills are limited to 3 ranks. Tools are lmited to 1 rank. 4 successes are required to achieve a rank. 
+Scale is primarily determined dynamically using the smallest participant in the interaction as 1.
 
-### Sufficiently advanced technology and magic extension
+Consider:
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+Most likely, 
 
-Fourth Earth Lore uses magic. Spells are tied to stones, carried by characters. Casting magic happens similar to using a tool; if the character has the stone, they can attempt to cast the spell. Each spell has a difficulty to cast. Spells can be classified as mundane and combat as well as occuring from the inside-out or the outside-in.
- 
-A spark spell, for example, might be a mundane, inside-out spell; a spark appears in the middle of inorganic material, usually with the hopes of starting a fire. A fire ball, might be a combat, outside-in spell; starting from the caster and hurled at a target, and taking the resistance of the target into account.
+- 2 rats would be 1 to 1, 
+- a rat and human would be roughly 1 to 10, 
+- 2 humans would be 1 to 1, 
+- a human and whale would be 1 to roughly 100,
+- 2 whales would be 1 to 1, and
+- a rat and whale would 1 to 1,000.
 
-For combat spells, the difficulty level of the defender is reduced by half or 1 level, whichever is greater. If the calculated difficulty is greater than 8, difficulty level is 8; less than 0 becomes 0.
+### Stance
 
-### Tool decay and destruction extension
+Implementation (combat):
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+| Stance | Attacker affect| Defender affect |
+|:--|:--|:--|
+| Offensive | -1 difficulty | -1 difficulty |
+| Neutral | 0 | 0 |
+| Defensive | 1 difficulty | 1 difficulty |
 
-See "Criticality extension" section.
-
-### Becoming unskilled extension
-
-See Fourth Earth RAW (and Fourth Earth Lore).
-
-See "Healing, death, resurrection, and reincarnation" section.
-
-## Interacting with other living beings
+## Interacting with characters
 
 See Fourth Earth RAW (and Fourth Earth Lore). 
 
-**Calculating the difficulty** of a defender is done using qualities of the defender. If the running total for the calculated difficulty reaches level 8, the difficulty level is 8; no further considerations required. All difficulties start at level 0.
+Implementation (harming others):
 
-The following checklist aims to be brief and starts with qualities with the highest return up front:
+**Calculating difficulty** starts at 0 and should rarely be greater than 7.
 
 |Question |Yes |
 |:--------|:---|
-|Defender is subdued, stunned, or unconscious? |Difficulty is 1 - no need to continue unless applied to the psychology and morality of the attacker. |
-|Defender has active allies?    |+1 for every 2 active allies |
-|Defender is lesser scale?      |+1 for every 2 steps lesser  |
-|Defender is on higher ground?  |+1 |
-|Defender is aware of attacker? |+1 |
+|Defender is subdued, stunned, or unconscious? |Difficulty is 0 - no need to continue unless applied to the psychology and morality of the attacker. |
+|Defender has active allies?    |1 for every 2 active allies |
+|Defender is lesser scale?      |1 for every 2 steps lesser  |
+|Defender is on higher ground?  |1 |
+|Defender is aware of attacker? |1 |
 
-**Calculating potential energy** starts by considering the type of attack partially based on tool used. The following table can be used as a base:
+**Calculating potential energy** uses the type of harmful action favoring stance and usage rather than tools.
 
 |Type |Description |Potential energy |
 |:----|:-----------|:-----:|
@@ -247,59 +400,64 @@ The following checklist aims to be brief and starts with qualities with the high
 |Uppercut, kick, or ram   |Slow and medium | 2 |
 |Dual (tool in each hand) |Fast and medium | 2-4 (4 requires 2 attempts) |
 |Two-handed               |Slow and medium | 3 |
-|Magic                    |Slow and heavy  | 5 |
+|Advanced weapon or magic                    |Slow and heavy  | 5 |
 
-Potential energy is not determined by the type of tool but the more general type of usage. The rationale here is, generally speaking, a bat, shovel, or longsword will do roughly the same amount of damage (though maybe not that same type) and the nuanced differences can be imagined or narrated. 
+- Fast actions can be performed twice in a turn or round, players may choose to perform one of the two at reduced potential energy. 
+- When one fast action is taken, the difficulty remains the same and whole; when both fast actions are taken, difficulty is split evenly between the two.
+- If splitting the difficulty results in fractions, the first is rounded down while the second is rounded up.
+- Slow actions can be performed once in a turn or round.
 
-Fast means able to perform twice in a turn or round, players can choose to only do once. Slow means able to perform once in a turn or round. Fast attacks have the ability to split the difficulty level in half across both sub-actions, when both sub-actions are taken; otherwise, the full difficulty is used (the premise being that one swing helps prepare the second in some way). If the split results in a fraction, the difficulty level for the first sub-action is rounded down while the second is rounded up.
+Example:
 
-Consider the humanoid and the rat, using all extensions described in Fourth Earth SA; the humanoid is going to punch the rat with both fists:
+Character A (a human) attacking Character B (a rat).
 
-**Calculating difficulty level:**
+**Calculating difficulty**
 
-|Question |Yes |
-|:--------|:---:|
-|Defender is subdued, stunned, or unconscious? | --     |
-|Defender has active allies?                   | 0 + 0  |
-|Defender is lesser scale?                     | 0 + 5  |
-|Defender is on higher ground?                 | --     |
-|Defender is aware of attacker?                | --     |
-|**Total**                                     | 5      |
+|Quality |Adjustment |Difficulty level|
+|:-|:-|:-:|
+|initial | n/a | 0 |
+|allies | 0 + 0 | 0 |
+|scale | (one-half 10 steps) + 0 | 5 |
+|neutral | 5 + 0 | 5 |
+|awareness | 5 + 1 | 6 |
+|**total** | n/a | **6** |
 
-**Calculating to hit (with both fists):**
+Character A decided to throw two jabs at the rat; giving us 2 physical actions at difficulty 3. Player A spends 5 battery points to reduce the levels; reducing the first to difficulty 0 and the second to difficulty 1. Player A is hoping they might get a criticality (see “Criticality addition” section).
 
-|Description |Effect |
-|:-----------|:------|
-|Difficulty level 8                        |1 difficulty level 2 (d4) & 1 difficulty level 3 (d6) |
-|Humanoid spends 2 physical points on both |1d2  |
-|Humanoid has 2 ranks in unarmed combat    |3 dice in pool       |
-|**Dice pool**                             |3d2                  |
+**Dice pool**
 
-**Calculating potential energy:**
+For the difficulty 1 swing, player A has a starting pool of 1d2 (down from 1d10). Character A has 2 ranks in unarmed combat, making the pool 3d2 (see “Skills and tools addition” section).
 
-|Description |Effect |
-|:-----------|:------|
-|Humanoid succeeds on both jabs           | base 2 potential engergy |
-|Humanoid achieved criticality            | 2 * 2                    |
-|Humanoid is 10 times scale               | 4 * 10                   |
-|**Total potential energy**               | 40                       |
+**Calculating potential energy**
 
-**Calculating drain:**
+|Action |Result |Potential energy |
+|:-|:-|:-:|
+|first jab |Auto-success | 1 |
+|second jab |Critical success | 1 |second jab (critical) | 2 * 1 | 2 |total initial | n/a | 2 + 1 | 3 |
+|scale | 3 * 10 | 30 |
 
-|Description |Effect |
-|:-----------|:------|
-|Potential energy                         | 40                  |
-|Armor                                    | 40 - 0              |
-|Skin                                     | 40 - (-1)           |
-|**Total drain**                          | 41                  |
+See “Criticality addition” section.
 
-Given all life forms in Fourth Earth RAW apply the same rules, the rat would be dead; multiple times over, which could be described in the narration: The rat is a puddle of goo on the floor. 
+**Calculating resistance**
 
-### Resistance extension
+|Action |Result |Received energy |
+|:-|:-|:-:|
+|potential energy |n/a | 30 |
+|armor |30 - 0 |30 |
+|skin |30 - (-1) | 31 |
+|**total** |n/a | 31 |
+
+See “Resistance addition” section.
+
+The life batteries of the rat are the same as all characters, and the same rules are applied; therefore, the rat is beyond dead, it’s effectively a puddle of goo. The initial 8 would have activated the overflow batteries, which are good for another 8; then it would have been drained another 15.
+
+### Resistance addition
 
 See Fourth Earth RAW (and Fourth Earth Lore). 
 
-Every living being has a natural resistance, skin. Fourth Earth SA recognizes the following skin thickness and associated ability to resist potential energy:
+Implementation:
+
+Every character has some type of flesh, the type and density is used to determine “thickness.” Most characters will likely have average skin. 
 
 |Thickness |Resistance |
 |:---------|:---------:|
@@ -307,37 +465,149 @@ Every living being has a natural resistance, skin. Fourth Earth SA recognizes th
 |Average   | 0         |
 |Thick     | 1         |
 
-The rat from the previous section had thin skin; hence the -1. The humanoid would have average. And a whale would have thick skin, which means a human has to work extra hard to subdue or kill a whale.
+A resistance can also come from modifying the exterior with armor, which has 3 grades.
 
-Let's talk about the idea of a humanoid going against a whale. The whale would be easy to hit, effectively a difficulty 1, unless there were modifiers for being underwater. With that said, if a humanoid threw jabs at the whale, chances are they wouldn't be felt as injuries by the whale unless there were critical rolls involved; a punch that irritates an old wound and the whale dies from internal bleeding might happen:
-
-|Description |Effect |
-|:-----------|:------|
-|Humanoid succeeds on both                | base 2                 |
-|Humanoid achieved criticality            | 2 * 2                  |
-|Humanoid is 10 times scale               | 4 * 1/100              |
-|**Total potential energy**               | 1 (can't be 0.04 or 0) |
-
-The whale's thick skin resists 1 from the attack, making it 0.
-
-Resistance doesn't make the thing impossible, only adjusts the difficulty.
-
-There are three grades of armor recognized in Fourth Earth SA:
-
-|Grade  |Absorption effect |
-|:------|:----------------:|
+|Grade  |Resistance |
+|:------|:---------:|
 |Light  | 1 |
 |Medium | 2 |
 |Heavy  | 3 |
 
-### Scale extension
+Resistance most likely won’t change often.
+
+Consider:
+
+The rat in the previous section had thin skin and no armor, resulting in a negative resistance.
+
+Character A in the previous section had average skin and light armor, resulting in a resistance of 1.
+
+A whale might have thick skin and be covered in metal plates, resulting in a resistance of 4; 1 for thick skin and 3 for the armor.
+
+Character A is a human attacking a whale (character B) with no armor. The scale of the human is 1 and the whale is 100 times larger; making it easier to hit (see “Scale addition” section).
+
+**Calculating difficulty level**
+
+|Quality |Adjustment |Difficulty level|
+|:-|:-|:-:|
+|initial | n/a | 0 |
+|allies | 0 + 0 | 0 |
+|scale | (one-half -100 steps) + 0 | 0 |
+|neutral stance | 0 + 0 | 0 |
+|awareness | 0 + 1 | 1 |
+|**total** | n/a | **1** |
+
+Character A is using a two-handed spear. Player A doesn’t reduce the difficulty hoping for a critical hit (see “Criticality addition” section).
+
+**Dice pool**
+
+Character A has 2 ranks in two-handed tools and 1 rank in the spear, specifically. This adds 3 dice to the pool, making it 4d2 (see “Skills and tools addition” section).
+
+**Calculating potential energy**
+
+|Action |Result |Potential energy |
+|:-|:-|:-:|
+|spear |success | 3 |
+|scale | 3 / 100 | 1 |
+
+Potential energy cannot be less than 1.
+
+**Calculating resistance**
+
+|Resister |Adjustment |Received energy |
+|:-|:-|:-:|
+|potential energy |0 + 1 | 1 |
+|armor |1 - 0 |1 |
+|skin |1 - 1 | 0 |
+|**total** | | 0 |
+
+The whale swims away unfazed by the tiny human with the pointy stick.
+
+### Roll to evade addition
+
+Solo adventures typically only have one player. This means moving and possibly rolling as the opposing character, which may be difficult to do effectively; sub-optimal decisions may be made regarding positioning and difficulty reduction to protect the character.
+
+Implementation:
+
+1. The non-player character always reduces the difficulty
+	- to 0, if possible or
+	- as many levels as possible.
+2. The player reduces and rolls against the opposing difficulty (see Fourth Earth RAW  “Difficulty” section); the number of dice in the pool are the same as if the player's character was performing the opponent's action (basing evasion on knowledge of what the opponent is doing).
+3. Criticality, complications, and partials are resolved as normal where the player character is the target or defender.
+
+Consider:
+
+Note: This example does not look at player A's turns.
+
+NPC A has a physical battery with 8 points and no overflows.
+
+NPC A is attacking Character A. Character A has a physical difficulty 5. 
+
+1. Round 1: NPC A spends 5 points to reduce the difficulty to 0; that’s a hit. (The player does not roll for character A.)
+2. Round 2: NPC A spends 3 points to reduce the difficulty to 2; the opposing difficulty is 6; the player reduces and rolls as normal. 
+3. Round 3: NPC A can't reduce the difficulty from 5; the opposing difficulty is 3; the player reduces and rolls as normal. 
+
+## Ranks
+
+### Skills and tools addition
 
 See Fourth Earth RAW (and Fourth Earth Lore). 
 
-Fourth Earth SA uses dynamic scale. For interactions where scale is used in calculations. The smallest participant is considered 1 and all other participants are a scale compared to that. Two humans would usually be 1 to 1, unless one of them was a giant twice the size of the other, at which point the giant would be 2 and the other would be 1.
+Skills and tools for the Fourth Earth setting are available in Fourth Earth Lore.
 
-### Subdue not kill extension
+Implementation:
 
-See Fourth Earth RAW (and Fourth Earth Lore). 
+1. Skills have 3 ranks.
+2. Tools may have up to 1. 
+3. Ranks require 4 proficiency points to be earned.
+4. Tools may reduce difficulty up to 2 levels. 
 
-Fourth Earth SA uses subdue by default. Subdued characters are unable to act for 4 rounds. Characters may declare their intent to kill and not subdue at any point in the session or game.
+## Time and space
+
+### Initiative addition 
+
+See Fourth Earth RAW extensions (and Fourth Earth Lore).
+
+In Fourth Earth SA, initiative isn’t used to establish the order of action resolution so much as it answers a single question: Will the action of a soon-to-be subdued character be completed before they are subdued?
+
+Guidelines:
+
+- Favor real-time, simultaneous resolution of action; therefore, a tie in initiative results in both actions completing.
+
+Implementation:
+
+1. Initiative for all characters starts at 0. 
+2. Initiative is increased 1 for each 1 rolled in the dice pool. 
+3. Actions are resolved in descending order; highest to lowest initiative.
+4. Players who reduce difficulty to 0 roll no dice; initiative remains 0.
+
+More dice in the pool, higher chance of gaining initiative (see “Skills and tools addition” section).
+
+Consider: 
+
+Character A and character B are in melee combat; each wants to strike the other.
+
+If character A hits, character B is subdued. If character B hits, character A takes 3 damage. 
+
+The player rolls dice pools for both, to hopefully gain initiative; character A rolling 3 dice and character B rolling 5. Both pools are rolled; both succeed.
+
+Three possible outcomes:
+
+1. Character A gains initiative, subduing character B; character A takes no damage. (Despite the success roll of player B for character B, the success becomes a failure.)
+2. Character A loses initiative, both actions proceed; character A takes 3 points and character B is subdued.
+3. Characters tie initiative, see 2.
+
+This allows for two characters to effectively knock each other out; or a complication where both characters become subdued. 
+
+### Tool decay and destruction addition
+
+See Fourth Earth SA "Criticality addition" section.
+
+### Becoming unskilled addition
+
+See Fourth Earth SA "Life Batteries" section.
+
+## Conclusion
+
+As with all of Fourth Earth RAW, if these implementations aren't to your liking, feel free to disregard or modify them in whole or in part. If you’re not seeing additions you would like to use, add or create them.
+
+See Fourth Earth RAW and Fourth Earth RAW: Additions for guidelines and implementations.

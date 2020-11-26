@@ -1,88 +1,38 @@
 ---
 title: Tabletop
-version: 0.3.0
+version: 0.4.0
 ---
 
 # Fourth Earth TT
 
-Fourth Earth [.TT](tabletop) is an expansion of Fourth Earth [.RAW](rules as written) and Fourth Earth [.SA](solo adventures) intended for multiplayer gameplay in a tabletop or pen-and-paper fashion. Fourth Earth TT also acts as a bridge between face-to-face play and digital play by introducing web-based tools that can help automate some aspects and extensions. Fourth Earth TT presumes multiple players and a narrator; both of which are still optional.
+Fourth Earth [.TT](tabletop) presumes two, optional things:
 
-Multiple players creates a layer of potential surprise (pleasant and otherwise) as those players will cause their characters to make choices you would not have made had you been playing them.
+1. there are multiple players and
+2. there is a narrator.
 
-The narrator is a multifaceted role with arguably the primary goal being to facilitate and narrate the story as it unfolds. There are many resources on how to perform this role, which may be named: dungeon master, game master, director, storyteller, and similar.
+If implementations and guidelines are not described here, see Fourth Earth [.RAW](rules as written) and Fourth Earth [.SA](solo adventures). Fourth Earth TT also bridges the gap between pen-and-paper and digital-assisted play. 
 
-Anything described here is possible in Fourth Earth SA and Fourth Earth CA as well.
+## Characters
 
-Fourth Earth TT presumes a bit more equipment availability. For example, you might have tables, a space to meet (physical or virtual), miniatures, and so on.
+Guidelines:
 
-## Setting
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-## Populating the setting
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-### Healing, death, resurrection, and reincarnation
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-### Offspring extension
-
-See Fourth Earth SA (and Fourth Earth Lore).
+1. Non-player characters are typically played by the narrator (see Fourth Earth TT "Player pacts" section).
 
 ## Interacting with the setting
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+### Roll to evade
 
-### Difficulty
+Guidelines:
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+1. Using roll to evade or having the narrator roll to attack for non-player characters should be agreed to by all players (see Fourth Earth TT "Player Pacts" section).
 
-### Life batteries
+## Player pacts
 
-See Fourth Earth SA (and Fourth Earth Lore).
+Guidelines:
 
-### Dice pools
+1. Players (including the narrator) should discuss the role of the narrator; what will be most beneficial and enjoyable for all players, including the narrator?
+2. One role the narrator typically plays is ensuring players keep to the agreed upon pacts.
+3. Another typical role is similar to a referee, which is to blow a whistle and make sure players are playing by the agreed to implementations (or making balanced modifications).
+4. Players should decide and agree to what happens if a player is unable to attend a session, because life happens (see Fourth Earth RAW additions "West marches" section).
 
-See Fourth Earth RAW (and Fourth Earth Lore).
-
-### Criticality extension
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-### Complication and partials extension
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-## Movement
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-### Initiative extension
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-## Skills and tools
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-### Sufficiently advanced technology and magic extension
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-## Interacting with other living beings
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-### Resistance extension
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-### Scale extension
-
-See Fourth Earth SA (and Fourth Earth Lore).
-
-## Subdue not kill
-
-See Fourth Earth SA (and Fourth Earth Lore).
+The "typical" roles listed above can be performed by the players themselves; however, it can sometimes be difficult without a formal narrator.

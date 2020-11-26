@@ -1,26 +1,115 @@
 ---
 title: Computer-aided
-version: 0.2.1
+version: 0.3.0
 ---
 
-# Fourth Earth CA
+# Fourth Earth DA
 
-Fourth Earth [.CA](computer-aided) is an expansion of Fourth Earth [.RAW](rules as written) and Fourth Earth [.TT](tabletop) intended for multiplayer gameplay with the aid of computer. There are two primary areas of application for Fourth Earth CA:
+Fourth Earth [.DA](digital assisted) presumes access to some form of digital assistant or computer; with or without internet access. If implementations are not found here, see Fourth Earth [.RAW](rules as written) and Fourth Earth [.TT](tabletop).
 
-1. computer-aided solo or tabletop play in any setting or theme and
-2. the Fourth Earth [.MORPG](multiplayer online role playing game).
+Digital assistance typically provides:
 
-For the first we offer character sheets, dice towers, and so on for you and others to play in your own settings and themes. One participant must be designated as the narrator; however, they may be playing a character as well. (All participants must have a 4th.earth account.)
+- automations of certain tasks introduced by addition implementations,
+- replace traditionally physical tools (dice, for example), and
+- automate the referee role of a narrator.
 
-For the second we offer a text-based experience in the setting and theme described by Fourth Earth Lore. There are differences and similarities between the two, which are described here.
+Many of these tools are provided by the creators and maintainers of Fourth Earth RAW and the 4th.earth site. Tools are provided per the terms of service and are offered free of charge or on a subscription basis, depending on the tool.
 
-4th.earth subscriber can choose to only subscribe to access tabletop-related game play or, as a player account holder, have access to both.
+**Terms:**
+
+- Fourth Earth [.MUD](multi-user dungeon): A West Marches style text-based, online game using the Fourth Earth RAW system in the Fourth Earth Lore setting.
 
 ## Setting
 
-See Fourth Earth SA (and Fourth Earth Lore).
+Fourth Earth RAW is designed to be setting agnostic and usable within settings that are system agnostic.
 
-As a tabletop subscriber, you are able to create descriptions for multiple settings to invite others to.
+Fourth Earth Lore describes the canonical Fourth Earth setting, which is licensed [under CC BY 4.0](https://creativecommons.org/licenses/by/4.0) designed to be system agnostic. 
+
+## Characters
+
+Fourth Earth Lore provides 8 higher-order sentient species which can be played as characters and provides a bestiary.
+
+Most tracking of character stats can be automated.
+
+## Interacting with the setting
+
+Digitally-assisted tabletop: See Fourth Earth RAW and Fourth Earth [.SA](solo adventures).
+
+Fourth Earth MUD: Interactions occur in real-time.
+
+### Complications and partials addition
+
+Digitally-assisted tabletop: See Fourth Earth RAW and Fourth Earth [.SA](solo adventures).
+
+Fourth Earth MUD: This addition is removed.
+
+### Re-roll addition
+
+Digitally-assisted tabletop: See Fourth Earth RAW and Fourth Earth [.SA](solo adventures).
+
+Fourth Earth MUD: This addition is removed.
+
+### Scale addition
+
+## Interacting with characters
+
+### Resistance addition
+
+### Roll to evade
+
+## Ranks
+
+### Skills and tools addition
+
+## Time and space
+
+### Initiative addition 
+
+### Encumbrance addition
+
+### Aging addition
+
+### Tool decay and destruction addition
+
+### Becoming unskilled addition
+
+## Player pacts
+
+### West Marches addition
+
+## Conclusion
+
+## References and inspirations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Populating the setting
 
