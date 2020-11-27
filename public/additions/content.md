@@ -1,6 +1,6 @@
 ---
 title: Rules as Written (Additions)
-version: 0.9.0
+version: 0.9.1
 ---
 
 {{TOC}}
@@ -223,6 +223,8 @@ Character A wants to climb a tree (difficulty 2). Player A adds an extra die to 
 
 ### Complications and partials
 
+Also known as “Yes, but...” or “No, and...” Yes, they succeeded, but...(something negative). Or no, they failed, and...(something positive).
+
 Sometimes a failure isn't a total failure (and it's not a critical failure); same with success. This is where complications and partials come in.
 
 Guidelines:
@@ -348,6 +350,33 @@ Consider:
 NPC A attacks character B. The calculated difficulty to hit character B is 5. NPC A must reduce it to 2 because they can. The opposing difficulty level is 5, which player A reduces to 3 and rolls. 
 
 NPC A attacks again. Difficulty to hit is still 5. NPC A can’t reduce it. The opposing difficulty is 2, which player A reduces to 0, avoiding the attack.
+
+### Assist
+
+Cooperation entails multiple players and characters working together toward a common goal. 
+
+Guidelines:
+
+1. There should be risk or cost to all players and characters.
+2. Assisting actions should be lower difficulty and take less game-time than the action of the character getting assistance; assisting actions are not turns.
+3. Assisting characters should come as they are and go as they were; no proficiency point gains, for example.
+4. Assisting characters cannot be subdued.
+5. Should not be used during mundane interactions or scenes; just let characters help each other without concern of failure or cost.
+
+Consider:
+
+Character A wants to shoot NPC A who is a physical difficulty 3. Character A is out of physical battery points and is also out of bullets for a firearm they’re holding. Character B is carrying a full speed loader, which means the firearm can be loaded almost instantly. Character C has a full physical battery.
+
+The player(s) decide the characters are going to do the following assists to character A:
+
+1. Character B is going to toss the speed loader to Character A at a physical difficulty 2.
+2. Character C is going to put their hand on the shoulder of character A and transfer 3 physical battery points to them to guarantee a hit.
+
+Player B rolls for the toss and succeeds, character B tosses the full speed loader to character A who catches it. While character A is loading the firearm, with speed, character B puts their hand on the shoulder of character A - and calmly says, “You got this.” Player C reduces the physical battery of character C by 3 points while player A increase the physical battery for character A 3 points; player A reduces the difficulty to 0. Character A takes a breath, raises the firearm, aims, and fires.
+
+The shot hits. NPC A falls to the ground, dead.
+
+That was character A’s turn; characters B and C still have their turns. Character A gained 1 proficiency point for ranged tool use and the firearm specifically. Characters B and C do not gain anything. 
 
 ## Ranks
 

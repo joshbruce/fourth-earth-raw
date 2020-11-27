@@ -1,11 +1,13 @@
 ---
 title: Rules as Written
-version: 0.9.0
+version: 0.9.1
 ---
 
 # Fourth Earth RAW
 
-Fourth Earth [.RAW](Rules as Written) is a cooperative storytelling system for creating “choose your own adventure” experiences and is foundation for creating other game systems. Fourth Earth RAW specifically refers to the core concepts and implementations described in this chapter and more generally includes the additions and specifications captured in other chapters. 
+Fourth Earth [.RAW](Rules as Written) is a cooperative storytelling system for creating “choose your own adventure” experiences and can be used as a foundation for creating other game systems. 
+
+Fourth Earth RAW specifically refers to the core guidelines and implementations described in this chapter and more generally includes the additions and specifications captured in other chapters. 
 
 Fourth Earth RAW is applicable to:
 
@@ -19,7 +21,7 @@ This chapter is Fourth Earth RAW at its most raw, so to speak.
 
 1. A way to track the current value of 1 or more life batteries.
 2. A way to track proficiency points for ranks and the ranks themselves.
-3. A way to randomly select at least 1 (possibly 2) distinguishable items from up 12 items otherwise indistinguishable from one another: dice, random number generators, straws where 2 are different lengths, 1 suit from a deck of playing cards with the king removed and drawing the ace is equivalent to rolling a 1, whatever is handy.
+3. A way to randomly select 1 or more distinguishable items from up 12 otherwise indistinguishable items: dice, random number generators, straws of different lengths, 1 suit from a deck of playing cards with the king removed and drawing the ace is equivalent to rolling a 1, whatever is handy.
 
 While dice are not specifically required, Fourth Earth RAW uses the language of dice for common communication.
 
@@ -34,7 +36,7 @@ While dice are not specifically required, Fourth Earth RAW uses the language of 
 **Principles:**
 
 1. Characters developed by players are played with more care than those arrived at by the system.
-2. Grinding to “level up” before joining friends, being jumped up levels without practice, or being the third low-level wheel holding friends back hinders enjoyment.
+2. Grinding to “level up” before joining friends, being jumped up levels without practice, or being the fifth, low-level wheel holding your friends back hinders enjoyment.
 3. Narrators aren’t the enemy and is a label capturing responsibilities more than a role given to an individual.
 4. Requiring specialty equipment hinders playability and accessibility. 
 
@@ -45,12 +47,12 @@ The following terms are common to the [.RPG](role playing game) community. The t
 - Player: A person playing 1 or more characters and executing game mechanics such as rolling dice and reducing difficulties. 
 - Character: Anything that can intentionally interact with and impact the setting and other characters as determined by players using game mechanics.
 - Narrator: One or more players who facilitate the story by purposefully impeding forward progress in unforeseen and enjoyable ways; tension and release.
-- Non-player character: A character existing outside of those played by the main group of players; often played by the narrator(s).
+- Non-player character: A character existing outside of those created and played by the main group of players; often played by the narrator(s).
 - Opposing character: Often a non-player character acting in opposition to the characters of the main group of players.
 - Guideline: One or more suggestions on developing an implementation.
 - Implementation: A specific method for executing a game mechanic. 
 - Game mechanic: The mechanisms used by players to interact with characters and the game as well as how the game might respond to players and characters. 
-- Metagaming: Using information known by the player to affect decisions made by the character without the character first acquiring that information.
+- Metagaming: Using information the player has to affect decisions made by the character without the character first acquiring that information.
 - Railroading: Players often feel they aren’t given a choice, their choices don’t affect the path of the story and setting, or choices offered tend to be singular or false dichotomies.
 - Role playing: 
 	- Making decisions the player would make in similar circumstances as the character. 
@@ -59,7 +61,7 @@ The following terms are common to the [.RPG](role playing game) community. The t
 
 ## Setting
 
-Settings describe where, when, what, the theme, and possibly a high-level, central tension the characters exist within. The setting may include a specific, short-term plot (sometimes called an adventure) or a generic, long-term campaign or be completely open for exploration. A theme establishes the type of character, technologies, and similar.
+Settings describe where, when, what, the theme, and possibly a high-level, central tension the characters exist within. The setting may include a specific, short-term plot (sometimes called an adventure or quest); a generic, long-term campaign; be open for exploration with no predetermined story; or, a combination. A theme establishes the type of character, technologies, and similar.
 
 Guidelines:
 
@@ -82,7 +84,7 @@ Implementation:
 2. Must have 1 or more life batteries (see “Life batteries” section).
 3. Should include at least 1 broader classification to group the character with characters of a similar type (female, elderly, elf).
 4. Should favor nurture over nature regarding learnable qualities.
-5. Should be played by the same player with every appearance; unless otherwise agreed to by the players (see "Player pacts" section).
+5. Should be played by the same player with every appearance; unless players have previously agreed on alternatives (see "Player pacts" section).
 
 Consider:
 
@@ -107,6 +109,7 @@ Guidelines:
 Implementation:
 
 1. Spending battery points can reduce the difficulty level when interacting with the setting.
+2. All characters should start with the same (or very similar) set of batteries with the same rules governing their operation. 
 
 ## Interacting with the setting
 
@@ -116,9 +119,9 @@ Implementation:
 
 Action resolution has at least the following phases: 
 
-1. intent, 
-2. difficulty using qualities of  the opposing force (see “Difficulty” section), 
-3. opportunity for player to reduce difficulty, and 
+1. character intent, 
+2. assigned difficulty using qualities of  the opposing force (see “Difficulty” section), 
+3. opportunity for the player to reduce difficulty, and 
 4. player roll, if applicable.
 
 Actions are considered resolved when at least the following questions are answered:
@@ -130,17 +133,17 @@ Consider:
 
 Character A wants to climb a tree with a difficulty 3 (see "Difficulty" section). 
 
-If the player spends 3 life battery points, the difficulty would become 0; immediate success (see "Life batteries" section). However, the player only spends 1 point making the difficulty 2.
+If the player spends 3 life battery points, the difficulty would become 0; immediate success (see "Life batteries" section). However, the player only spends 1 making the difficulty 2.
 
 Because the difficulty is greater than 0 after reduction, a dice pool is rolled. There is always 1 die available (see "Dice pool" section). Character A has 1 rank in climbing, which adds another die to the pool (see "Ranks" section). The player rolls [.2d4](two four-sided dice).
 
-If the character succeeds in climbing the tree, they end up in the tree; if they fail, they stay on the ground (see "Difficulty" section). In either case, the action is resolved.
+If the character succeeds in climbing the tree, they end up in the tree; if they fail, they stay on the ground (see "Difficulty" section). Either way, the action is resolved. 
 
 How about attacking a rat? The calculated difficulty for hitting the rat is 3; everything is the same as the tree climb. 
 
 If the character succeeds, the rat is hit; if they fail, the rat is missed.
 
-To remain simple, rules-light, and minimize context switching, Fourth Earth RAW strives to use this same mechanic for all interactions characters have with the setting and other characters.
+To remain simple, rules-light, and minimize context switching, Fourth Earth RAW strives to use this same mechanic for all opposed interactions characters have with the setting and other characters.
 
 ### Difficulty
 
@@ -149,9 +152,10 @@ Difficulty is based on qualities of the opposing force for a given interaction.
 Implementation:
 
 1. Success is achieved by rolling a 1 on at least 1 die in the dice pool (see "Dice pool" section).
-2. Difficulty levels range from 0 to infinity with an inner range of 1 through 7; doubling the level results in the number of sides for the dice in the pool (if using a random number generator, this is the upper limit of the range).
-3. Players should be able to randomly select 1 unique item from a set of otherwise similar items in groups of 2, 4, 6, 8, 10, or 12.
-4. Difficulty 7 doesn’t have a standard die associated; therefore, it is impossible unless reduced by at least 1.
+2. Difficulty levels range from 0 to infinity; where 0 is an automatic success and infinity is strictly impossible.
+3. Difficulty levels have an inner range of 1 through 7; doubling the level number results in the sides of dice in the pool (or the upper limit of the range).
+4. Players should be able to create groups of 2, 4, 6, 8, 10, or 12 similar items and randomly select at least 1 unique item. 
+5. Difficulty 7 is impossible unless reduced as it has no associated standard die. 
 
 There are four standard ways to refer to difficulty:
 
@@ -175,15 +179,15 @@ There are four standard ways to refer to difficulty:
 
 Further guidelines:
 
-1. Favor setting difficulty based on the action being attempted by an average character in the setting with the option of being character-specific: stitching a finger might be difficulty 6 for the average person but a difficulty 2 for someone with related training (see “Dice pools” section).
-2. For difficulty 1, favor dice over coins and a roll of odd numbers over even: This maintains rolling 1 as the target or recognizing any odd number as opposed to dividing, remembering ranges, or similar solutions.
+1. Favor setting difficulty based on an average character in the setting with the option of being character-specific: stitching a finger might be difficulty 6 for the average person but a difficulty 2 for someone with related training (see “Dice pools” section).
+2. For difficulty 1, favor dice over coins and a roll of odd numbers over even; maintains rolling 1 as target or recognizing odd numbers as opposed to dividing, remembering ranges, or similar solutions.
 3. Human-friendly labels are typically used during character introspection, "This seems like a safe bet"; to add tension and simulate under- or over-estimating one's abilities, it might be useful to give a label near the difficulty rather than exactly on it.
 
 ### Dice pools
 
 Dice pools adjust success probability based on ranks (see “Ranks” section). 
 
-“Dice pool” is something of a misnomer as rolling the number of dice in the pool is not necessary; a player could roll the same die repeatedly equal to the number of dice in the pool and achieve the same result.
+“Dice pool” is something of a misnomer as rolling the number of dice in the pool is not necessary; roll the same die (pick from the same grouping) equal to the number of dice in the pool.
 
 Implementation:
 
@@ -219,7 +223,7 @@ Role playing interactions with other characters are left to the players, this se
 Guidelines:
 
 1. Difficulty is derived from qualities of the opposing character; if the target character chooses not to oppose whatever the other character is attempting, the difficulty is 0. 
-2. Whatever method is used, apply modifiers with the greatest impact first; if difficulty reaches 7, it should remain 7 and no further considerations are required (or it is impossible, which might feel like railroading, beware).
+2. Whatever implementation is used, apply modifiers with the greatest impact first; if difficulty reaches 7, it should remain 7 and no further considerations be made (or it is impossible, which might feel like railroading, beware).
 3. Implementations should adjust difficulty level not another quality of difficulty.
 
 Consider:
@@ -230,7 +234,7 @@ In one scenario, player B, who is playing character B says, “I’m okay with t
 
 In another scenario, player A is playing character A and the narrator is playing character B, both of whom are international spies. 
 
-Character A is tied to a chair and badly beaten. Character A is attempting to persuade character B to let them go. Character B is specially trained against persuasion. With this training and having a severe advantage, the difficulty for the persuasion is 7 (if not infinity).
+Character A is tied to a chair and badly beaten. Character A is attempting to persuade character B to let them go. Character B is specially trained against manipulation. With this training and having a severe advantage, the difficulty for the persuasion is 7 (if not infinity).
 
 Implementation (combat):
 
@@ -238,11 +242,11 @@ Implementation (combat):
 
 Consider:
 
-Character A attacking character B with a long sword. Character B has 1 rank in two-handed weapons and another in long sword specifically. The implementation being used makes hitting character B a difficulty 2 (1 per rank).
+Character A attacking character B with a longsword. Character B has 1 rank in two-handed weapons and another in longsword specifically. The implementation being used makes hitting character B a difficulty 2 (1 per rank).
 
 Let’s give character B two allies, which character A must consider while trying to hit character B. This might increase the difficulty 1; now 3.
 
-Character A manages to hit character B. In the game we developed, long swords drain 2 points per hit; character B has 2 points drained from 1 of their life batteries.
+Character A manages to hit character B. In the game we developed, longswords drain 2 points per hit; character B has 2 points drained from 1 of their life batteries.
 
 ## Ranks
 
@@ -255,7 +259,7 @@ Implementation:
 
 1. Ranks are made of 2 or more proficiency points.
 2. Proficiency points are earned by successfully overcoming difficulties with an initial level greater than the current rank achieved. 
-3. Character may still receive proficiency points when reducing a difficulty to 0. 
+3. Characters may still receive proficiency points when reducing a difficulty to 0. 
 4. Proficiency points are added to the lowest unattained rank first. 
 
 Consider:
@@ -266,7 +270,7 @@ Character A has no ranks and is attempting a difficulty 1 action. Player A (who�
 
 Character A now has 1 rank and tries another difficulty 1 action. Player A would roll 2 dice and character A earns 0 proficiency points; the rank of the corresponding difficulty level is full. 
 
-Character A is attempting a difficulty 3 action. Character A has 1 rank, which means Player A rolls 2 dice. 1 proficiency point is earned toward the second, unfilled rank; not the third.
+Character A is attempting a difficulty 3 action. Character A has 1 rank, which means player A rolls 2 dice. 1 proficiency point is earned toward the second, unfilled rank; not the third.
 
 Note: Lower-level ranks tend to be earned quickly and higher ranks are earned slower due in part to lower ranks filling first and from scarcity of higher level difficulties. 
 
@@ -286,7 +290,7 @@ Do characters age? Does that aging occur even when the character is not being ac
 
 Guidelines:
 
-1. Compress the mundane and expand the marvelous.
+1. Compress what players consider the mundane and expand what they consider the marvelous.
 2. Favor cinematic over real-time.
 3. Favor real-time over turn-based.
 4. Be fluid based on narrative.
@@ -300,7 +304,7 @@ Character A just arrived at the gates of a fairly safe and mundane town. Charact
 
 Both versions track the character from the gates to the inn with the possibility of something interesting happening between here and there. Both also *feel* very different from the player perspective. 
 
-In the first, the journey as a whole was given a probability for something interesting to happen (good or bad). In the second, each step was given a difficulty (most were 0 and all were probably less than 5, depending on how good the pastries smelled that day). The second implementation might feel less like “rolling for simulation sake” if the character were encumbered in some way (inebriated and carrying a person over each shoulder, for example).
+In the first, the journey as a whole was given a probability for something interesting to happen (good or bad). In the second, each step was given a difficulty (most were 0 and all were probably less than 5, depending on how good the pastries smelled that day). If the character were encumbered somehow, inebriated or carrying a load, the second implementation might feel less like “rolling for simulation sake.”
 
 Now, character A is at the pub when a fight breaks out; they are not part of, nor do they want to take part in, the fight. Character A decides to walk from the bar to the exit door. 
 
@@ -308,19 +312,19 @@ Under mundane circumstances real-time and game-time would almost be in sync; how
 
 Having made it to the doors, character A realizes they forgot their hat at the bar. The fight is dying down and a path is clear between the doors and the part of the bar where the hat was. 
 
-Unfortunately, someone, character B, appears to have claimed the hat as their own. A look from character B, who's wearing the hat, indicates character A isn't getting it back without a fight. Character A decides to walk over, throat-punch the stranger, take the hat, and walk back out. 
+Unfortunately character B appears to have claimed the hat as their own. A look from character B indicates character A isn't getting it back without a fight. Character A decides to walk over, throat-punch the stranger, take the hat, and walk out. 
 
 We decide it will take 1 turn to get there, another to punch character B, and a third turn to be back at the door (at the height of the brawl, it took 3 turns one-way).
 
-Guidelines for decomposition (tools, skills, characters aging, and other forms of degradation):
+Guidelines for decomposition (tools, skills, aging characters, and other forms of degradation):
 
-1. Favor gradual over drastic decomposition; human-made buildings will fall but rarely all at once without intent or a chain of events starting from an initial failure. 
-2. There should be maintenance actions characters can take (or points players can earn and spend) to reduce any applied rate of decomposition; changing fluids for a combustion motor.
+1. Favor gradual over drastic decomposition: human-made buildings will fall but rarely all at once without intent or a chain of events starting from an initial failure. 
+2. There should be maintenance actions characters can take (or points players can earn and spend) to reduce any applied rate of decomposition: changing fluids for a combustion motor.
 3. Establish life expectancies at the moment of creation.
 
 Consider:
 
-Character A has 1 rank in a skill with 2 more proficiency points in the same skill. Character A hasn’t used that skill in a while; thereby, reducing the number of proficiency points in that skill. 
+Character A has 1 rank in a skill with 2 more proficiency points in the same skill. Character A hasn’t used that skill in a while and is asked to remove 1 proficiency point. 
 
 ## Player pacts
 
@@ -333,7 +337,7 @@ While these don’t need to be formally written and signed like legal contracts,
 Guidelines:
 
 1. Any list of written pacts should be short; possibly limited to those things that are most often forgotten or are considered dealbreakers.
-2. New group members should be informed of at least the dealbreaker pacts up front; if time allows it may be worth introducing the new player to all the pacts. 
+2. New group members should be informed of at least the dealbreaker pacts up front; if time allows, it may be worth introducing the new player to all the pacts. 
 
 Consider:
 
@@ -347,7 +351,7 @@ Preparedness: What are players expected to bring? What should be provided by the
 
 “Table” etiquette: Is eating and drinking at the table okay? What tools are allowed (digital devices to roll dice)? What non-game distractions are permitted (social media)? What’s the tone of the table (idle chitchat with the game as a secondary activity, or vice versa)?
 
-Gameplay: Is it in-person, virtual, hybrid? Are sessions recorded, streamed, published? Theater of the mind, miniatures, live-action, hybrid? Silly, serious, somewhere in-between? What are thoughts and considerations around metagaming and railroading? Are there subjects that should be avoided in the game content?
+Gameplay: Is it in-person, virtual, hybrid? Are sessions recorded, streamed, published? Theater of the mind, miniatures, live-action, hybrid? Silly, serious, somewhere in-between? What are your thoughts and considerations around metagaming and railroading? Are there subjects that should be avoided in the game content?
 
 Changed: How do pacts get changed? How often can pacts change? How is inter-player conflict handled? What happens when players leave? What happens when players join?
 

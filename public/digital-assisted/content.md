@@ -1,6 +1,6 @@
 ---
 title: Computer-aided
-version: 0.3.0
+version: 0.3.1
 ---
 
 # Fourth Earth DA
@@ -10,46 +10,55 @@ Fourth Earth [.DA](digital assisted) presumes access to some form of digital ass
 Digital assistance typically provides:
 
 - automations of certain tasks introduced by addition implementations,
-- replace traditionally physical tools (dice, for example), and
-- automate the referee role of a narrator.
+- replacement for traditionally physical tools (dice, for example), and
+- automations for the referee role of a narrator.
 
-Many of these tools are provided by the creators and maintainers of Fourth Earth RAW and the 4th.earth site. Tools are provided per the terms of service and are offered free of charge or on a subscription basis, depending on the tool.
-
-**Terms:**
-
-- Fourth Earth [.MUD](multi-user dungeon): A West Marches style text-based, online game using the Fourth Earth RAW system in the Fourth Earth Lore setting.
+Many of these tools are provided by the creators and maintainers of Fourth Earth RAW and Fourth Earth Tools (available at 4th.earth). Tools are provided per the terms of service and are offered free of charge or on a subscription basis, depending on the tool.
 
 ## Setting
 
-Fourth Earth RAW is designed to be setting agnostic and usable within settings that are system agnostic.
+Fourth Earth RAW is designed to be setting agnostic and usable within settings that are system agnostic (or that can be modified to be more system agnostic).
 
-Fourth Earth Lore describes the canonical Fourth Earth setting, which is licensed [under CC BY 4.0](https://creativecommons.org/licenses/by/4.0) designed to be system agnostic. 
+Fourth Earth Lore is designed to be system agnostic and describes the canonical Fourth Earth setting, which is licensed under the [Creative Commons, Attribution 4.0 licens](https://creativecommons.org/licenses/by/4.0). 
 
 ## Characters
 
-Fourth Earth Lore provides 8 higher-order sentient species which can be played as characters and provides a bestiary.
+Most tracking of character stats, skills, and tools can be digitized. 
 
-Most tracking of character stats can be automated.
+Official Fourth Earth RAW character sheets are available for both RAW and SA specifications.
 
 ## Interacting with the setting
 
-Digitally-assisted tabletop: See Fourth Earth RAW and Fourth Earth [.SA](solo adventures).
+There are many digital tools available that simulate rolling dice (choosing random numbers) and similar options exist for automating calculations.
 
-Fourth Earth MUD: Interactions occur in real-time.
+The official Fourth Earth Dice Tower, for rolling dice, is available at tower.4th.earth. Official Fourth Earth RAW calculators are available in portable formats.
 
 ### Complications and partials addition
 
-Digitally-assisted tabletop: See Fourth Earth RAW and Fourth Earth [.SA](solo adventures).
-
-Fourth Earth MUD: This addition is removed.
+Complications and partials tend to be more action- and narrative-specific. While the rolling of a criticality or complications die is a relatively simple thing digitally, proper game response isn’t always; therefore, this addition should be removed from most video game versions.
 
 ### Re-roll addition
 
-Digitally-assisted tabletop: See Fourth Earth RAW and Fourth Earth [.SA](solo adventures).
-
-Fourth Earth MUD: This addition is removed.
+Re-rolling mechanics are relatively simple to implement with enhanced tabletop. Video game implementations that don’t hinder flow may be difficult to come up with, especially when using real-time (not strict turn-based) interactions.
 
 ### Scale addition
+
+If you’re looking to automate calculations involving scale, it might be beneficial to generate a static size that can be applied to all characters. Sizes will typically hold character types less than double the size of one another. 
+
+Guidelines:
+
+1. It’s easier to add larger things than smaller things to the static scale. 
+2. Use groups and swarms to help scale up smaller characters (like a bee, for example).
+
+ Consider:
+ 
+ The smallest thing that can be a character in your setting becomes size 1; anything smaller and less than double the size is also a 1. 
+ 
+ With a “floor” established, use multiples to assign a size to other character types in the setting (this can also be done as play continues).
+ 
+ These sizes can then be used to automate scale calculations.
+ 
+ A rat is size 1, a human is 10, and a whale is 100. When the human interacts with the whale it’s a 1 to 10 scale; the whale is 10 times the scale of the human.
 
 ## Interacting with characters
 
