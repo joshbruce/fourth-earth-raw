@@ -1,6 +1,6 @@
 ---
-title: Computer-aided
-version: 0.3.1
+title: Digital-assisted
+version: 0.3.2
 ---
 
 # Fourth Earth DA
@@ -19,11 +19,11 @@ Many of these tools are provided by the creators and maintainers of Fourth Earth
 
 Fourth Earth RAW is designed to be setting agnostic and usable within settings that are system agnostic (or that can be modified to be more system agnostic).
 
-Fourth Earth Lore is designed to be system agnostic and describes the canonical Fourth Earth setting, which is licensed under the [Creative Commons, Attribution 4.0 licens](https://creativecommons.org/licenses/by/4.0). 
+Fourth Earth Lore is designed to be system agnostic and describes the canonical Fourth Earth setting, which is licensed under the [Creative Commons, Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0). 
 
 ## Characters
 
-Most tracking of character stats, skills, and tools can be digitized. 
+Most tracking of character-related qualities can be automated or simplified. 
 
 Official Fourth Earth RAW character sheets are available for both RAW and SA specifications.
 
@@ -33,13 +33,24 @@ There are many digital tools available that simulate rolling dice (choosing rand
 
 The official Fourth Earth Dice Tower, for rolling dice, is available at tower.4th.earth. Official Fourth Earth RAW calculators are available in portable formats.
 
+### Criticality addition 
+
+Implementation:
+
+1. See Fourth Earth SA, “Criticality addition” section.
+2. Only applies to combat interactions; includes opposing characters.
+
 ### Complications and partials addition
 
-Complications and partials tend to be more action- and narrative-specific. While the rolling of a criticality or complications die is a relatively simple thing digitally, proper game response isn’t always; therefore, this addition should be removed from most video game versions.
+Guidelines (video game):
+
+1. Should be removed as complications and partials do not lend themselves as easily to automated game responses.
 
 ### Re-roll addition
 
-Re-rolling mechanics are relatively simple to implement with enhanced tabletop. Video game implementations that don’t hinder flow may be difficult to come up with, especially when using real-time (not strict turn-based) interactions.
+Guidelines (video game):
+
+1. For real-time video games, this addition should be removed as there may be no pause between turns.
 
 ### Scale addition
 
@@ -47,7 +58,7 @@ If you’re looking to automate calculations involving scale, it might be benefi
 
 Guidelines:
 
-1. It’s easier to add larger things than smaller things to the static scale. 
+1. It’s easier to add larger things than smaller things to a static scale. 
 2. Use groups and swarms to help scale up smaller characters (like a bee, for example).
 
  Consider:

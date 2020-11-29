@@ -1,6 +1,6 @@
 ---
 title: Solo adventures
-version: 0.4.1
+version: 0.4.2
 ---
 
 # Fourth Earth SA
@@ -12,7 +12,7 @@ Fourth Earth SA offers implementations for multiple Fourth Earth RAW additions, 
 Arguably the main hurdle for solo play is coming up with a world in which you, the player, can be surprised by what is found and what must be done. There are two primary methods for overcoming this:
 
 1. Invite a narrator (or another player) who would have knowledge of the setting you do not (see Fourth Earth RAW: Additions, "West Marches" section).
-2. Randomize the creation of the setting and adventures, or, use random generation to inspire calculated creation; usually done with cards, dice, or a combination.
+2. Randomize the creation of the setting and adventures or use random generation to inspire calculated creation; usually done with cards, dice, or a combination.
 
 As of this writing, Fourth Earth SA does not implement a possible solution.
 
@@ -42,7 +42,7 @@ Fourth Earth SA provides an implementation of a hard magic system and does not r
 
 Guidelines:
 
-1. Spells originate from physical assets, which are carried by characters in order to cast; without the asset, the spell cannot be cast. 
+1. Spells originate from physical assets, which are carried by characters in order to cast; if the asset is not equipped or being carried by the character, the spell cannot be cast. 
 2. Qualities of the spell determine the difficulty to cast, which targets the spirit battery.
 3. Difficulty should start at 0 and be easy to calculate; if difficulty to cast reaches 7, no further calculations are required.
 4. Resolving magic with a roll should only require one roll.
@@ -116,6 +116,10 @@ External spells start at the caster and travel to the target and are affected by
 |internal | 0 |
 |external |one-fourth the target’s difficulty rounded down |
 
+Guidelines:
+
+1. It is left to the players to decide how differences in difficulty to cast and difficulty to hit are managed; maybe higher of the 2 or a multi-faceted action (see Fourth Earth: Additions, “Multi-faceted actions” addition).
+
 Consider:
 
 Character A wants to cast an uncommon fireball spell (external) at character B with an initial difficulty of 5.
@@ -131,7 +135,7 @@ Character A wants to cast an uncommon fireball spell (external) at character B w
 
 Player A spends 7 spirit to reduce the difficulty to 0; character A casts and hits character B. 
 
-The spell has a potential energy of 5 (see Fourth Earth SA "Interacting with other characters" section). Character B has a resistance of 3, the potential energy is reduced by 3, leaving 2 received energy. The health battery for character B is reduced by 2. 
+The spell has a potential energy of 5 (see "Interacting with other characters" section). Character B has a resistance of 3, the potential energy is reduced by 3, leaving 2 received energy. The health battery for character B is reduced by 2. 
 
 Alternatively, character A wants to cast an uncommon combustion spell (internal) at character B. Everything else is the same except the spell would not be affected by the resistance of character B; health battery reduces by 5.
 
@@ -143,18 +147,16 @@ See Fourth Earth RAW (and Fourth Earth Lore).
 
 Implementation:
 
-**Four batteries:**
-
-- health,
-- physical,
-- mental, and
-- spirit.
-
-1. Each battery has a maximum of 8 points. 
-2. Difficulty can be reduced 1 level per battery point spent (see Fourth Earth SA "Difficulty" section). 
-3. The health battery cannot remain 0.
-4. Battery points may be traded between characters (see Fourth Earth SA “Assist addition” section).
-4. See Fourth Earth SA “Overflow batteries addition” section.
+1. Four batteries:
+	- health,
+	- physical,
+	- mental, and
+	- spirit.
+2. Each battery has a maximum of 8 points. 
+3. Difficulty can be reduced 1 level per battery point spent (see "Difficulty" section). 
+4. The health battery cannot remain 0.
+5. Battery points may be traded between characters (see “Assist addition” section).
+6. See “Overflow batteries addition” section.
 
 Implementation (difficulty target):
 
@@ -233,9 +235,9 @@ Implementation:
 
 Consider:
 
-Character A attacks character B with 5 points of received energy; character B has 3 points left in their health battery. The health battery is set to 1 point to keep the character alive but subdued.
+Character A attacks character B with 5 points of received energy; character B has 3 points left in their health battery. The health battery is set to 1; alive but subdued.
 
-Character A turns their attention to character C and attacks for 4 points of received energy. Character C has 4 points left in their health battery, which means character C is also at 1 point and subdued. 
+Character A turns their attention to character C and attacks for 4 points of received energy. Character C has 4 points left in their health battery, which means character C’s health battery is also at 1 and they are subdued. 
 
 Before the end of their turn, player A (playing character A) says they wish to kill character C, the nemesis of character A. The killing stroke is performed with no difficulty and before the end of player A’s turn.
 
@@ -272,11 +274,13 @@ See Fourth Earth RAW extensions (and Fourth Earth Lore).
 
 Implementation:
 
-1. Add [.1d10](one ten-sided die) (the criticality die) to the pool.
-2. If a 1 is rolled on the criticality die, the success or failure result of the action pool is considered critical.
-2. Players may opt-out of rolling the criticality die prior to rolling the action and cannot add it afterward; opting out would remove possibility of complications or partials as well (see Fourth Earth SA “Complications and partials addition” section).
-3. If the difficulty is reduced to 0, the criticality die is not rolled as there is no pool to add it to.
-4. Base outcome of criticality uses the following table.
+1. Criticality does not always mean otherwise impossible series of events.
+2. Opposing characters also get to use criticality.
+2. Add [.1d10](one ten-sided die) (the criticality die) to the pool.
+3. If a 1 is rolled on the criticality die, the success or failure result of the action pool is considered critical.
+4. Players may opt-out of rolling the criticality die prior to rolling the action and cannot add it afterward; opting out would remove possibility of complications or partials as well (see “Complications and partials addition” section).
+5. If the difficulty is reduced to 0, the criticality die is not rolled as there is no pool to add it to.
+6. Base outcome of criticality uses the following table.
 
 |Action type |Action pool result |Next step |
 |:-|:-|:-|
@@ -306,7 +310,7 @@ Implementation (successful combat action):
 |3, 7        |base potential energy times 2   |
 |11          |trauma (roll another 1d12 and apply the successful combat action extension implementation) |
 
-**Successful combat action extension:**
+*Successful combat action extension:*
 
 1. Recurring effects occur every round until fixed. 
 2. Compounding effects can be applied multiple times (-2 becomes -4 becomes -6).
@@ -330,7 +334,7 @@ Implementation (failed combat action):
 |3, 7        |attacker damages themselves at 1 to 1 scale, no resistance is applied, one-half the potential energy, can’t be less than 1 |
 |11          |trauma (roll another 1d12 and apply the failed combat action extension implementation) |
 
-**Failed combat action extension:**
+*Failed combat action extension:*
 
 |Result    |Effect  |
 |:-------|:-------|
@@ -343,7 +347,7 @@ See Fourth Earth RAW extensions (and Fourth Earth Lore).
 
 Implementation:
 
-1. Use the same die as criticality (see Fourth Earth SA “Criticality addition” section).
+1. Use the same die as criticality (see “Criticality addition” section).
 2. If a 10 is rolled on the criticality die, the result of the action results in complications or partials.
 3. A complication is a mildly negative effect on an otherwise successful action. 
 4. A partial is a mildly positive effect on an otherwise failed action. 
@@ -381,7 +385,8 @@ Most likely,
 
 Implementation (combat):
 
-1. Affect is not compounding.
+1. Default stance is neutral. 
+2. Stance is set or changed for all characters at the beginning of each round and cannot be changed during the round.
 
 | Stance | Attacker affect| Defender affect |
 |:--|:--|:--|
@@ -391,11 +396,13 @@ Implementation (combat):
 
 Consider:
 
-Character A is in offensive stance attacking character B who is in a neutral stance. The difficulty of hitting character B is reduced by 1. 
+Character A is attacking character B. The following table lists each combination and subsequent modification to the difficulty of hitting character B.
 
-If character B were in an offensive stance, difficulty would be reduced by 1.
-
-If character B were in a defensive stance, difficulty would be reduced by 0.
+|  | A:Offensive | A:Neutral | A:Defensive |
+|:--|:--:|:--:|:--:|
+| B:Offensive | -2 | -1 | 0 |
+| B:Neutral   | -1 | 0 | 1 |
+| B:Defensive | 0 | 1 | 2 |
 
 ## Interacting with characters
 
@@ -413,7 +420,7 @@ Implementation (harming others):
 |Defender is on higher ground?  |1 |
 |Defender is aware of attacker? |1 |
 
-2. Calculating potential energy is based on action type using the following table, which favors stance and use, not tools.
+2. Calculating potential energy is based on action type using the following table, which favors stance and tool use, not specific tool.
 3. Fast actions can be performed twice in a turn or round, players may choose to perform one of the two at reduced potential energy. 
 4. When one fast action is taken, the difficulty remains the same and whole; when both fast actions are taken, difficulty is split evenly between the two.
 5. If splitting the difficulty results in fractions, the first is rounded down while the second is rounded up.
@@ -453,10 +460,12 @@ For the difficulty 1 swing, player A has a starting pool of 1d2 (down from 1d10)
 |Action |Result |Potential energy |
 |:-|:-|:-:|
 |first jab |Auto-success | 1 |
-|second jab |Critical success | 1 |second jab (critical) | 2 * 1 | 2 |total initial | n/a | 2 + 1 | 3 |
+|second jab |Critical success | 1 |
+|second jab (critical) | 2 * 1 | 2  |
+|total initial | 2 + 1 | 3 |
 |scale | 3 * 10 | 30 |
 
-See Fourth Earth SA “Criticality addition” section.
+See “Criticality addition” section.
 
 **Resistance**
 
@@ -467,7 +476,7 @@ See Fourth Earth SA “Criticality addition” section.
 |skin |30 - (-1) | 31 |
 |**total** |n/a | 31 |
 
-See Fourth Earth SA “Resistance addition” section.
+See “Resistance addition” section.
 
 The life batteries of the rat are the same as all characters, and the same rules are applied; therefore, the rat is beyond dead, it’s effectively a puddle of goo. The initial 8 would have activated the overflow batteries, which are good for another 8; then it would have been drained another 15.
 
@@ -502,7 +511,7 @@ Character A in the previous section had average skin and light armor, resulting 
 
 A whale might have thick skin and be covered in metal plates, resulting in a resistance of 4; 1 for thick skin and 3 for the armor.
 
-Character A is a human attacking a whale (character B) with no armor. The scale of the human is 1 and the whale is 100 times larger; making it easier to hit (see “Scale addition” section).
+Character A is a human attacking a whale (character B) with no armor. The scale of the human is 1 and the whale is 100; making it easier to hit (see “Scale addition” section).
 
 **Difficulty**
 
@@ -562,8 +571,8 @@ NPC A has a physical battery with 8 points and no overflows.
 NPC A is attacking Character A. Character A has a physical difficulty 5. 
 
 1. Round 1: NPC A spends 5 points to reduce the difficulty to 0; that’s a hit. (The player does not roll for character A.)
-2. Round 2: NPC A spends 3 points to reduce the difficulty to 2; the opposing difficulty is 6; the player reduces and rolls as normal. 
-3. Round 3: NPC A can't reduce the difficulty from 5; the opposing difficulty is 3; the player reduces and rolls as normal. 
+2. Round 2: NPC A spends 3 points to reduce the difficulty to 2, the opposing difficulty is 6, and the player reduces and rolls as normal. 
+3. Round 3: NPC A can't reduce the difficulty from 5, the opposing difficulty is 3, and the player reduces and rolls as normal. 
 
 ### Assist addition 
 
@@ -607,7 +616,7 @@ In Fourth Earth SA, initiative isn’t used to establish the order of turns so m
 
 Guidelines:
 
-- Favor real-time, simultaneous resolution of action; therefore, a tie in initiative results in both actions completing.
+1. Favor real-time, simultaneous resolution of action; therefore, a tie in initiative results in both actions completing.
 
 Implementation:
 
@@ -616,7 +625,7 @@ Implementation:
 3. Actions are resolved in descending order; highest to lowest.
 4. Players who reduce difficulty to 0 roll no dice; initiative remains 0.
 
-More dice in the pool, higher chance of gaining initiative (see Fourth Earth SA “Skills and tools addition” section).
+More dice in the pool, higher chance of gaining initiative (see “Skills and tools addition” section).
 
 Consider: 
 
@@ -626,21 +635,21 @@ If character A hits, character B is subdued. If character B hits, character A ta
 
 The player rolls dice pools for both, to hopefully gain initiative; character A rolling 3 dice and character B rolling 5. Both pools are rolled; both succeed.
 
-Three possible outcomes:
-
-1. Character A gains initiative, subduing character B; character A takes no damage. (Despite the success roll for character B, the success becomes a failure.)
-2. Character A loses initiative, both actions proceed; character A takes 3 points and character B is subdued.
-3. Characters tie initiative, see 2.
+| Initiative | A:Outcome | B:Outcome |
+|:--|:--|:-|
+|Character A |no damage |subdued; success effectively becomes failure |
+|Character B |3 points reduced from health battery |subdued |
+|Tie |same |same |
 
 This allows for two characters to effectively subdue each other. 
 
 ### Tool decay and destruction addition
 
-See Fourth Earth SA "Criticality addition" section.
+See "Criticality addition" section.
 
 ### Becoming unskilled addition
 
-See Fourth Earth SA "Life Batteries" section.
+See "Life Batteries" section.
 
 ## Conclusion
 

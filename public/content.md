@@ -1,6 +1,6 @@
 ---
 title: Rules as Written
-version: 0.9.1
+version: 0.9.2
 ---
 
 # Fourth Earth RAW
@@ -23,7 +23,7 @@ This chapter is Fourth Earth RAW at its most raw, so to speak.
 2. A way to track proficiency points for ranks and the ranks themselves.
 3. A way to randomly select 1 or more distinguishable items from up 12 otherwise indistinguishable items: dice, random number generators, straws of different lengths, 1 suit from a deck of playing cards with the king removed and drawing the ace is equivalent to rolling a 1, whatever is handy.
 
-While dice are not specifically required, Fourth Earth RAW uses the language of dice for common communication.
+While dice are not specifically required, Fourth Earth RAW uses the language of dice for common reference.
 
 **Values:**
 
@@ -218,7 +218,7 @@ Put another way, doubling the dice in the pool is an increase of 2.9 percent (co
 
 ## Interacting with characters
 
-Role playing interactions with other characters are left to the players, this section discusses interactions where dice may resolve an outcome or an intent is opposed by another character. 
+Role playing interactions with other characters is left to the players, this section discusses interactions where dice may resolve an outcome or an intent is opposed by another character. 
 
 Guidelines:
 
@@ -268,7 +268,7 @@ Character A successfully completes a difficulty 0 action; no proficiency points 
 
 Character A has no ranks and is attempting a difficulty 1 action. Player A (who’s playing character A) reduces the difficulty to 0. 1 proficiency point is earned toward the first rank, which completes that rank for character A. 
 
-Character A now has 1 rank and tries another difficulty 1 action. Player A would roll 2 dice and character A earns 0 proficiency points; the rank of the corresponding difficulty level is full. 
+Character A now has 1 rank and tries another difficulty 1 action. Player A would roll 2 dice and character A earns 0 proficiency points; the rank of the corresponding difficulty is full. 
 
 Character A is attempting a difficulty 3 action. Character A has 1 rank, which means player A rolls 2 dice. 1 proficiency point is earned toward the second, unfilled rank; not the third.
 
@@ -300,7 +300,7 @@ Consider:
 Character A just arrived at the gates of a fairly safe and mundane town. Character A wants to go to the inn 1 kilometer away. Of the following implementations, tend toward the first:
 
 1. There’s a 10 percent chance something interesting will happen in that distance over time. [.1d10](one ten-sided die) is rolled, nothing interesting happens and character A arrives at the inn without incident. The walk took less than 1 minute real-time and roughly 15 minutes game-time.
-2. 1 kilometer will be roughly 1,200 steps. Each step will be given a difficulty based on terrain, distractions caused by the surroundings (the smell of pastries), and crowd density. The players wait as difficulty calculations are made for each step, if difficulty is 1 or higher, players reduce difficulties and roll dice, followed by narration of outcomes along with detailed descriptions of every shopfront. This could take 1 hour real-time and cover the same 15 minutes game-time.
+2. 1 kilometer will be roughly 1,200 steps. Each step will be given a difficulty based on terrain, distractions caused by the surroundings (the smell of pastries), and crowd density. The players wait as difficulty calculations are made for all 1,200 steps, if difficulty is 1 or higher, players reduce difficulties and roll dice, followed by narration of outcomes along with detailed descriptions of every shopfront. This could take 1 hour real-time and cover the same 15 minutes game-time.
 
 Both versions track the character from the gates to the inn with the possibility of something interesting happening between here and there. Both also *feel* very different from the player perspective. 
 
@@ -314,9 +314,13 @@ Having made it to the doors, character A realizes they forgot their hat at the b
 
 Unfortunately character B appears to have claimed the hat as their own. A look from character B indicates character A isn't getting it back without a fight. Character A decides to walk over, throat-punch the stranger, take the hat, and walk out. 
 
-We decide it will take 1 turn to get there, another to punch character B, and a third turn to be back at the door (at the height of the brawl, it took 3 turns one-way).
+We decide character A can overcome 1 difficulty 6 action to execute the entire plan (fairly mundane); or, it will take 1 turn to get there, another to punch character B (a difficulty 3 action), and a third turn to be back at the door.
 
-Guidelines for decomposition (tools, skills, aging characters, and other forms of degradation):
+At the height of the brawl, it took 3 turns just to walk out.
+
+Guidelines (decomposition):
+
+Tools decay. Skills are forgotten without use or practice. Characters age. Even mountains erode.
 
 1. Favor gradual over drastic decomposition: human-made buildings will fall but rarely all at once without intent or a chain of events starting from an initial failure. 
 2. There should be maintenance actions characters can take (or points players can earn and spend) to reduce any applied rate of decomposition: changing fluids for a combustion motor.
@@ -345,7 +349,7 @@ Reference preference: How should people be referred (character name, legal name,
 
 Session schedule: When can I arrive? When does play begin? When does play end? When do I need to leave? How long is the play session? Will there be breaks? How rigid or fluid is time kept? 
 
-Gaming schedule: Is this a one-shot (1 session, less than 2 hours), adventure (1 or 2 sessions, 4 to 6 hours), or campaign (3 or more sessions, 12 or more hours)? How likely are characters to die (should 1 or 2 backup characters be available)? Is this more about gathering with friends regularly or about playing the game regularly? How often do we meet and when? What if I can’t make it (character in safety bubble, played by fallback player, session rescheduled)?
+Gaming schedule: Is this a one-shot (1 session, less than 2 hours), adventure (1 or 2 sessions, 4 to 6 hours), or campaign (3 or more sessions, 12 or more hours)? How likely are characters to die (should 1 or 2 backup characters be prepared)? Is this more about gathering with friends regularly or about playing the game regularly? How often do we meet and when? What if I can’t make it (character in safety bubble, played by fallback player, session rescheduled)?
 
 Preparedness: What are players expected to bring? What should be provided by the host? Do players have specific needs (standing up to think, visual impairments, first aid and medical needs)?
 
@@ -373,7 +377,7 @@ Each successive specification wraps the previous.
 
 Fourth Earth DA describes using digital tools to aid both tabletop and video game play.
 
-Thank you for making the time and considering Fourth Earth RAW. All feedback (and contributions) welcome. The easiest way to give feedback is to post a [GitHub](https://github.com/joshbruce/fourth-earth-raw) issue (contributions can be made via pull requests or issues). Github is also where you can get an early glimpse into upcoming changes and new releases.
+Thank you for making the time and considering Fourth Earth RAW. All feedback (and contributions) welcome. The most direct way to give feedback is to post a [GitHub](https://github.com/joshbruce/fourth-earth-raw) issue (contributions can be made via pull requests or issues). Github is also where you can get an early glimpse into upcoming changes and new releases.
 
 ## Inspirations and alternatives
 

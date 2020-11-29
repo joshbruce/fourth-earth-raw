@@ -1,6 +1,6 @@
 ---
 title: Tabletop
-version: 0.4.1
+version: 0.4.2
 ---
 
 # Fourth Earth TT
@@ -16,7 +16,7 @@ If implementations and guidelines are not described here, see Fourth Earth [.RAW
 
 Guidelines:
 
-1. Non-player characters are typically played by the narrator (see Fourth Earth TT "Player pacts" section).
+1. Non-player characters are typically played by the narrator (see "Player pacts" section).
 
 ## Interacting with the setting
 
@@ -24,7 +24,7 @@ Guidelines:
 
 Guidelines:
 
-1. Using roll to evade or having the narrator roll to attack for non-player characters should be agreed to by all players (see Fourth Earth TT "Player Pacts" section).
+1. Using roll to evade or having the narrator roll to attack for non-player characters should be agreed to by all players (see "Player Pacts" section).
 
 ## Player pacts
 
