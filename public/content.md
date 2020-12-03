@@ -105,11 +105,11 @@ Guidelines:
 5. One or more ways to recharge should be something players can initiate: “I would like to rest.”
 6. Favor “both way” solutions: If the battery can recharge over time, there should be a way for the battery to drain over time (starvation or poison, for example).
 7. Batteries can be added as you play; maybe a lot of characters are performing stealth-related actions prompting the creation of a "stealth" battery.
+8. All characters should start with the same (or similar) set of batteries operating with the same implementation.
 
 Implementation:
 
-1. Spending battery points can reduce the difficulty level when interacting with the setting.
-2. All characters should start with the same (or very similar) set of batteries with the same rules governing their operation. 
+1. 1 battery must exist.
 
 ## Interacting with the setting
 
@@ -121,7 +121,7 @@ Action resolution has at least the following phases:
 
 1. character intent, 
 2. assigned difficulty using qualities of  the opposing force (see “Difficulty” section), 
-3. opportunity for the player to reduce difficulty, and 
+3. opportunity for the player to reduce difficulty (if reduction is available), and 
 4. player roll, if applicable.
 
 Actions are considered resolved when at least the following questions are answered:
@@ -131,9 +131,9 @@ Actions are considered resolved when at least the following questions are answer
 
 Consider:
 
-Character A wants to climb a tree with a difficulty 3 (see "Difficulty" section). 
+Character A wants to climb a tree with a difficulty 3 (see "Difficulty" section).
 
-If the player spends 3 life battery points, the difficulty would become 0; immediate success (see "Life batteries" section). However, the player only spends 1 making the difficulty 2.
+The system we're using allows players to spend battery points to reduce difficulty. If the player spend 3 points, the character succeeds automatically. The play only spends 1, making the difficulty 2. 
 
 Because the difficulty is greater than 0 after reduction, a dice pool is rolled. There is always 1 die available (see "Dice pool" section). Character A has 1 rank in climbing, which adds another die to the pool (see "Ranks" section). The player rolls [.2d4](two four-sided dice).
 
@@ -155,7 +155,7 @@ Implementation:
 2. Difficulty levels range from 0 to infinity; where 0 is an automatic success and infinity is strictly impossible.
 3. Difficulty levels have an inner range of 1 through 7; doubling the level number results in the sides of dice in the pool (or the upper limit of the range).
 4. Players should be able to create groups of 2, 4, 6, 8, 10, or 12 similar items and randomly select at least 1 unique item. 
-5. Difficulty 7 is impossible unless reduced as it has no associated standard die. 
+5. Difficulty 7 is impossible unless reduced somehow as it has no associated standard die. 
 
 There are four standard ways to refer to difficulty:
 
@@ -255,20 +255,23 @@ Ranks serve two primary purposes:
 1. represent character improvement (progression) through intentional action and
 2. offer an alternative means of increasing success probability.
 
+Guidelines:
+
+1. Ranks should be earned by succeeding or failing difficulties greater than the current rank achieved.
+2. Using success or failure should be consistently applied during play either per session or for the system developed; success causes ranks to be earned slower than using failure.
+2. If using success (rather than failure) to earn proficiency points, consider giving players a means by which to reduce difficulties (see Fourth Earth RAW: Additions, "Difficulty reduction" section), which may add another layer of strategy for players as well.
+
 Implementation:
 
 1. Ranks are made of 2 or more proficiency points.
-2. Proficiency points are earned by successfully overcoming difficulties with an initial level greater than the current rank achieved. 
-3. Characters may still receive proficiency points when reducing a difficulty to 0. 
-4. Proficiency points are added to the lowest unattained rank first. 
+2. 1 proficiency point is earned on either success or failure against a difficulty; the choice of using success or failure should be consistent for the session, if not longer.
+2. Proficiency points are added to the lowest unattained rank first.
 
 Consider:
 
 Character A successfully completes a difficulty 0 action; no proficiency points are earned. 
 
-Character A has no ranks and is attempting a difficulty 1 action. Player A (who’s playing character A) reduces the difficulty to 0. 1 proficiency point is earned toward the first rank, which completes that rank for character A. 
-
-Character A now has 1 rank and tries another difficulty 1 action. Player A would roll 2 dice and character A earns 0 proficiency points; the rank of the corresponding difficulty is full. 
+Character A now has 1 rank and tries a difficulty 1 action. Player A rolls 2 dice and character A earns 0 proficiency points; the rank of the corresponding difficulty is full. 
 
 Character A is attempting a difficulty 3 action. Character A has 1 rank, which means player A rolls 2 dice. 1 proficiency point is earned toward the second, unfilled rank; not the third.
 
@@ -276,9 +279,9 @@ Note: Lower-level ranks tend to be earned quickly and higher ranks are earned sl
 
 Guidelines:
 
-1. The number of proficiency points per rank should be consistent across all types of ranks.
+1. The number of proficiency points per rank should be consistent across all rank-able aspects.
 2. Ranks should be earned at least by using skills associated with actions.
-3. 1 successful action may result in proficiency points being earned on multiple rank-able aspects of the character. 
+3. Earning 1 proficiency point may increase multiple rank-able aspects of the character. 
 
 ## Time and space
 

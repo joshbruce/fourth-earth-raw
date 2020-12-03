@@ -210,6 +210,25 @@ The offspring implementation being used causes the following:
 
 ## Interacting with the setting
 
+### Difficulty reduction
+
+Succeeding at a difficulty 1 can sometimes feel too difficult; a 50-50 shot. A way to help players (and characters) feel a bit more mature from a development perspective is to either use failure as a way to earn ranks; or, give players a way to reduce the difficulty without using dice and waiting for ranks to adjust the probability.
+
+Guidelines:
+
+1. Reduction should come at a cost; immediate, previously spent, or both.
+2. Characters should still receive proficiency points as though they had performed at the initial difficulty.
+
+Consider:
+
+We allow battery points and tools to reduce difficulty.
+
+Character A has 2 ranks in a skill related to the action.
+
+Character A is presented with a difficulty 3. Player A (playing character A) spends 2 life battery points to reduce the difficulty to 1. Player A has character A use a tool that also reduces the difficulty of the action by 1; making the difficulty 0.
+
+Character A still earns 1 proficiency point to the third ranks of both the skill and the tool, if available.
+
 ### Criticality
 
 Sometimes a success is more than a success and a failure is more than a failure; a perfect bullseye versus missing the target entirely and hitting the wall behind it. Such things can be narrated and it may be helpful to have the dice remind players and narrators to describe things beyond “you succeeded.”
@@ -257,6 +276,8 @@ Consider:
 Player A rolls a failure and pays 1 battery point to re-roll the entire pool.
 
 Player A rolls a success with a complication (see “Complications and partials” addition) and pays 2 battery points to re-roll the complication die by itself in the hopes of not rolling another complication.
+
+See [Inspiration] section.
 
 ### Multi-faceted actions
 
@@ -585,3 +606,48 @@ Guidelines (extended, more optional):
 2. Time should be shared for each character who is either relaxing or actively and passively pursuing their own desires; a character cannot be in two places at the same point in time unless the setting allows for this.
 3. Limit how often certain players can group with another player to avoid formation of multiple small parties or cliques; conversely, this could be a way for certain players to avoid other players before resolving an underlying issue, which we hope they do.
 4. If using a narrator, it may be worthwhile to have multiple narrators available to players to accommodate multiple sessions running simultaneously or on different real-time days close together; or, consider which sessions can be run by one or more players without a narrator (technically all of them).
+
+### Fate points
+
+Fate points are a positive and negative reenforcement mechanism allowing the player(s) or narrator to have actions in the real world affect current or future in-game narrative and situations in positive or negative ways.
+
+Guidelines:
+
+1. Should feel special and earned; there are simpler ways to make it easier (or harder) for characters without introducing a new mechanic (increase or decrease battery points for characters but not non-player characters, for example).
+2. Should be consumable in an agreed to, semi-predictable or very predictable way.
+3. When points are awarded, an announcement should be made as to how many (usually 1) and what behavior prompted the award; when points are awarded in response to undesirable behavior, it may be beneficial to give warning before the point is awarded, “I’m going to award a fate if...continues.”
+4. If it seems fate points are the root cause of negative behavior, they should be reset, re-engineered, or removed immediately.
+5. See “Re-roll” and “Assist” sections.
+
+Consider:
+
+Players (including the narrator) are given an extra life battery called fate. 
+
+The players agree on what circumstances allow points to be added:
+
+1. A declaration of intent to award is made, which includes the reason (a real world action) and is always 1 point; good role playing, a well timed joke.
+2. Two-thirds of the players should agree to the award.
+3. Fate points become available for spending at the end of the current scene or round. 
+4. The more extravagant the narrative change, the more fate points required. 
+
+The players agree on a flow for spending fate:
+
+1. The player or narrator must declare the desire to spend fate.
+2. Other players must decide whether to block the spend prior to knowing what the point will be used to do.
+3. The narrative change must be reasonable to all players.
+
+The narrator awards player A 1 fate point. Player A adds a fate point to the fate battery.
+
+The players are taking a long time to make a decision on whether or not to open a door. The narrator says, “In 10 seconds I’m going to start awarding myself fate.” A few seconds later, the narrator says, “I’m awarding myself 1 fate for indecisiveness.”
+
+The players step into the door, changing the scene. The narrator says, “I’m going to spend fate.”
+
+Player A asks, “How many?”
+
+“Just 1,” the narrator shrugs. 
+
+Player A contemplates a moment, they had planned on using it as an overflow at some point. Then they say, “I’m going to block it.”
+
+Player A and the narrator reduce their fate batteries by 1 point and play continues.
+
+The players never find out the narrator was going play the fate point to let the characters find a key on the ground for the next door they’ll come to.

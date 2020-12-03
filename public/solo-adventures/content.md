@@ -268,6 +268,18 @@ Implementation:
 
 ## Interacting with the setting
 
+### Difficulty reduction addition
+
+Implementation:
+
+1. Difficulty level can be reduced by spending battery points; 1 level per 1 point.
+2. Proficiency points are earned based on initial difficulty level, not the reduced difficulty level.
+2. See "Skills and tools" section.
+
+Consider:
+
+See Fourth Earth RAW: Additions "Difficulty reduction" section.
+
 ### Criticality addition
 
 See Fourth Earth RAW extensions (and Fourth Earth Lore).
