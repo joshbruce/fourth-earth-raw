@@ -3,6 +3,8 @@ title: Solo adventures
 version: 0.5.0
 ---
 
+{{TOC}}
+
 # Fourth Earth SA
 
 Fourth Earth [.SA](solo adventures) is a specification wrapper of Fourth Earth [.RAW](rules as written) focusing on a single player playing one or more characters, with or without a narrator.

@@ -1,7 +1,9 @@
 ---
 title: Rules as Written
-version: 0.10.0
+version: 0.10.1
 ---
+
+{{TOC}}
 
 # Fourth Earth RAW
 
@@ -21,7 +23,7 @@ This chapter is Fourth Earth RAW at its most raw, so to speak.
 
 1. A way to track the current value of 1 or more life batteries.
 2. A way to track proficiency points for ranks and the ranks themselves.
-3. A way to randomly select 1 or more distinguishable items from up 12 otherwise indistinguishable items: dice, random number generators, straws of different lengths, 1 suit from a deck of playing cards with the king removed and drawing the ace is equivalent to rolling a 1, whatever is handy.
+3. A way to randomly select 1 or more distinguishable items from up 12 otherwise indistinguishable items: dice, random number generators, 1 suit from a deck of playing cards with the king removed and drawing the ace is equivalent to rolling a 1, whatever is handy.
 
 While dice are not specifically required, Fourth Earth RAW uses the language of dice for common reference.
 
@@ -29,31 +31,31 @@ While dice are not specifically required, Fourth Earth RAW uses the language of 
 
 1. Additive over Reductive: afford players opportunities to add complexity as opposed to filtering to simplicity.
 2. Narrative over Simulation: favor creating stories not simulating every aspect of a reality.
-3. Flow over Grinding: minimize activities that break the flow of action and storytelling (don’t roll for every step taken).
+3. Flow over Grinding: minimize activities that break flow and storytelling (don’t roll for every step).
 4. Power ceilings over Threat escalation: causing a 1 point reduction from something with 10 points is the same as reducing 10 points from something with 100 points.
 5. Progressive disclosure over Detail saturation: players should be able to start playing having never read the rules and specifications; learning them as they play.
 
 **Principles:**
 
-1. Characters developed by players are played with more care than those arrived at by the system.
+1. Characters developed by players are played with more care than characters created by the system.
 2. Grinding to “level up” before joining friends, being jumped up levels without practice, or being the fifth, low-level wheel holding your friends back hinders enjoyment.
-3. Narrators aren’t the enemy and is a label capturing responsibilities more than a role given to an individual.
+3. Narrators aren’t the enemy; more a label capturing responsibilities than a role given to an individual.
 4. Requiring specialty equipment hinders playability and accessibility. 
 
 **Terms:**
 
-The following terms are common to the [.RPG](role playing game) community. The terms are listed with how they are meant in Fourth Earth RAW, which may be the common definition.
+The following terms are common to the [.RPG](role playing game) community, the definitions in the context of Fourth Earth RAW may not be.
 
-- Player: A person playing 1 or more characters and executing game mechanics such as rolling dice and reducing difficulties. 
-- Character: Anything that can intentionally interact with and impact the setting and other characters as determined by players using game mechanics.
+- Player: A person playing 1 or more characters and executing game mechanics such as rolling dice. 
+- Character: Anything able to intentionally interact with and impact the setting and other characters as determined by players using game mechanics.
 - Narrator: One or more players who facilitate the story by purposefully impeding forward progress in unforeseen and enjoyable ways; tension and release.
-- Non-player character: A character existing outside of those created and played by the main group of players; often played by the narrator(s).
+- Non-player character: A character existing outside of those created by the main group of players; often played by the narrator(s).
 - Opposing character: Often a non-player character acting in opposition to the characters of the main group of players.
 - Guideline: One or more suggestions on developing an implementation.
 - Implementation: A specific method for executing a game mechanic. 
 - Game mechanic: The mechanisms used by players to interact with characters and the game as well as how the game might respond to players and characters. 
-- Metagaming: Using information the player has to affect decisions made by the character without the character first acquiring that information.
-- Railroading: Players often feel they aren’t given a choice, their choices don’t affect the path of the story and setting, or choices offered tend to be singular or false dichotomies.
+-  (colloquial): Using information the player has to affect decisions made by the character without the character first acquiring that information.
+- Railroading: Players feel they aren’t given a choice, their choices don’t affect the path of the story and setting, or choices offered tend to be singular or false dichotomies.
 - Role playing: 
 	- Making decisions the player would make in similar circumstances as the character. 
 	- Making decisions an idealized version of the player would make in similar circumstances as the character.
@@ -61,14 +63,14 @@ The following terms are common to the [.RPG](role playing game) community. The t
 
 ## Setting
 
-Settings describe where, when, what, the theme, and possibly a high-level, central tension the characters exist within. The setting may include a specific, short-term plot (sometimes called an adventure or quest); a generic, long-term campaign; be open for exploration with no predetermined story; or, a combination. A theme establishes the type of character, technologies, and similar.
+Settings describe where, when, what, the theme, and possibly a high-level, central tension the characters exist within. The setting may include a specific, short-term plot (sometimes called an adventure or quest); a generic, long-term campaign; be open for exploration with no predetermined story; or, a combination.
 
 Guidelines:
 
-1. Settings may come from the player(s), the narrator, the outside world (books, movies, purchased campaigns or adventures), or a combination.
+1. Settings may come from the player(s), narrator, outside world (books, movies, purchased campaigns or adventures), or a combination.
 2. There must be enough to give flavor and establish preliminary player expectations; the rest can be built as play proceeds. 
 
-Examples of settings include:
+Consider:
 
 - Jungle, 1955, Vietnam, hospital camp, filled with ordinary people, using technology appropriate to the time; mainly for healing (a serial war story).
 - Greek mythos, specifically The Underworld during the 12th labor of Hercules involving deities and demigods (a one-shot mythology hero quest).
@@ -78,27 +80,30 @@ Examples of settings include:
 
 Characters include anything in the setting that can be personified by the player(s).
 
+Guidelines:
+
+1. Should include at least 1 broader classification to group similar characters; female, elderly, elf.
+2. Should favor nurture over nature regarding learnable qualities.
+3. Should be played by same player with every appearance; unless players have agreed on alternatives (see "Player pacts" section).
+4. Should have a unique name to distinguish characters from one another. 
+
 Implementation:
 
-1. Must include a name that easily distinguishes one character from another.
-2. Must have 1 or more life batteries (see “Life batteries” section).
-3. Should include at least 1 broader classification to group the character with characters of a similar type (female, elderly, elf).
-4. Should favor nurture over nature regarding learnable qualities.
-5. Should be played by the same player with every appearance; unless players have previously agreed on alternatives (see "Player pacts" section).
+1. Must have 1 or more life batteries (see “Life batteries” section).
 
 Consider:
 
-Cally the earthworm, for example.
+Cally the earthworm with a health battery, for example.
 
 At this point, a basic Fourth Earth RAW character is created.
 
 ### Life batteries
 
-Life batteries represent a character's overall life force and store battery points. 
+Life batteries represent a character's overall life force using battery points. 
 
 Guidelines:
 
-1. Each battery should have the same number of maximum battery points.
+1. Each battery should have the same maximum battery points.
 2. When all (or one) life battery is reduced to and remains 0, the character should be considered dead.
 3. Keep the number of life batteries minimal as each life battery increases administrative overhead and tends to reduce tension in action performance.
 4. Life batteries should recharge; usually in multiple ways. 
@@ -133,7 +138,7 @@ Consider:
 
 Character A wants to climb a tree with a difficulty 3 (see "Difficulty" section).
 
-The system we're using allows players to spend battery points to reduce difficulty. If the player spend 3 points, the character succeeds automatically. The play only spends 1, making the difficulty 2. 
+The system we're using allows players to spend battery points to reduce difficulty. If the player spends 3 points, the character succeeds automatically. The play only spends 1, making the difficulty 2. 
 
 Because the difficulty is greater than 0 after reduction, a dice pool is rolled. There is always 1 die available (see "Dice pool" section). Character A has 1 rank in climbing, which adds another die to the pool (see "Ranks" section). The player rolls [.2d4](two four-sided dice).
 
@@ -223,7 +228,7 @@ Role playing interactions with other characters is left to the players, this sec
 Guidelines:
 
 1. Difficulty is derived from qualities of the opposing character; if the target character chooses not to oppose whatever the other character is attempting, the difficulty is 0. 
-2. Whatever implementation is used, apply modifiers with the greatest impact first; if difficulty reaches 7, it should remain 7 and no further considerations be made (or it is impossible, which might feel like railroading, beware).
+2. Whatever implementation is used, apply modifiers with the greatest impact first; if difficulty reaches 7, it should remain 7 and no further considerations made (or it is impossible, which might feel like railroading, beware).
 3. Implementations should adjust difficulty level not another quality of difficulty.
 
 Consider:
@@ -253,34 +258,41 @@ Character A manages to hit character B. In the game we developed, longswords dra
 Ranks serve two primary purposes:
 
 1. represent character improvement (progression) through intentional action and
-2. offer an alternative means of increasing success probability.
+2. a way of increasing success probability.
 
 Guidelines:
 
-1. Ranks should be earned by succeeding or failing difficulties greater than the current rank achieved.
-2. Using success or failure should be consistently applied during play either per session or for the system developed; success causes ranks to be earned slower than using failure.
-2. If using success (rather than failure) to earn proficiency points, consider giving players a means by which to reduce difficulties (see Fourth Earth RAW: Additions, "Difficulty reduction" section), which may add another layer of strategy for players as well.
+1. Earning ranks should require 2 or more proficiency points.
+2. The implementation should favor proficiency points earned on success or failure (not both equally) and should be consistent across the entire session or longer; ranks tend to be earned faster using failure than success.
+3. When favoring success, players should be able to reduce difficulties somehow (see Fourth Earth RAW: Additions “Difficulty reduction” section).
+4. Proficiency points should be earned from difficulties greater than the current achieved rank.
 
 Implementation:
 
-1. Ranks are made of 2 or more proficiency points.
-2. 1 proficiency point is earned on either success or failure against a difficulty; the choice of using success or failure should be consistent for the session, if not longer.
-2. Proficiency points are added to the lowest unattained rank first.
+1. Proficiency points are added to the lowest unattained rank first.
 
 Consider:
 
-Character A successfully completes a difficulty 0 action; no proficiency points are earned. 
+In their solo adventuring, Player A normally uses proficiency on success. Player A has been playing character A who has achieved multiple ranks in various skills. Player B decides to join with their newly created character B, no ranks achieved.
 
-Character A now has 1 rank and tries a difficulty 1 action. Player A rolls 2 dice and character A earns 0 proficiency points; the rank of the corresponding difficulty is full. 
+To minimize complexity and maximize growth for character A, player A and B agree to favor proficiency on failure this session; 2 points on failure and 1 point on success. Each rank requires 4 points.
 
-Character A is attempting a difficulty 3 action. Character A has 1 rank, which means player A rolls 2 dice. 1 proficiency point is earned toward the second, unfilled rank; not the third.
+Character A has 1 rank against a difficulty 1, they succeed and earn 0 proficiency points; the initial difficulty was not greater than their current rank. 
 
-Note: Lower-level ranks tend to be earned quickly and higher ranks are earned slower due in part to lower ranks filling first and from scarcity of higher level difficulties. 
+Character B has 0 ranks against the same action, they fail and earn 2 proficiency points (halfway to the rank of character A).
 
-Guidelines:
+Character A is attempting something they have 1 rank in, which increases success probability. The difficulty is 3. They succeed, earning 1 proficiency point toward the second rank (progressing while not effectively abandoning character B). 
 
-1. The number of proficiency points per rank should be consistent across all rank-able aspects.
-2. Ranks should be earned at least by using skills associated with actions.
+In the next session, player A teaches player B how they normally play, which is:
+
+- earn 1 proficiency point on success (no change),
+- no points on failure (change), and 
+- the ability to reduce difficulty levels by spending battery points.
+
+Further guidelines:
+
+1. Ranks should be earned at least by using skills associated with actions.
+2. The number of proficiency points per rank should be consistent across all rank-able aspects of the character.
 3. Earning 1 proficiency point may increase multiple rank-able aspects of the character. 
 
 ## Time and space
