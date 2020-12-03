@@ -1,6 +1,6 @@
 ---
 title: Rules as Written
-version: 0.9.2
+version: 0.10.0
 ---
 
 # Fourth Earth RAW
