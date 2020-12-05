@@ -1,13 +1,13 @@
 ---
 title: Rules as Written (Additions)
-version: 0.9.4
+version: 0.9.5
 ---
 
 {{TOC}}
 
 # Fourth Earth RAW: Additions
 
-The following sections describe additions players may want to include in their systems; the list is neither limiting nor exhaustive.
+The following sections describe additions players may want in their systems; the list is neither limiting nor exhaustive.
  
 Additions are designed to be self-contained while working together effectively. They can be used as needed, only once, or as an integral part of the setting. They can be added as play progresses or up front. 
 
@@ -15,7 +15,7 @@ This chapter offers descriptions and guidelines not implementations.
 
 Guidelines:
 
-1. Implementations should favor simplicity in keeping with the Fourth Earth RAW values and principles (see Fourth Earth RAW introduction).
+1. Implementations should favor simplicity in keeping with Fourth Earth RAW values and principles (see Fourth Earth RAW introduction).
 2. The additions and implementations should be known and agreed to (see Fourth Earth RAW “Player Pacts” section); even if the implementation is, "We'll figure it out when we get there” or “narrator discretion.”
 2. Implementations should be consistently applied to all character types (or renegotiated by players) once in place.
 3. Avoid implementing all additions as integral features of the overall experience without assistance from tools or distributed administration (like a computer to automate an aspect or one player takes care of the calendar while another handles aging).
