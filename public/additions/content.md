@@ -7,18 +7,18 @@ version: 0.9.4
 
 # Fourth Earth RAW: Additions
 
-The following sections describe additions players may want to consider for their own systems. The list is neither limiting nor exhaustive.
+The following sections describe additions players may want to include in their systems; the list is neither limiting nor exhaustive.
  
-Additions are designed to be completely self-contained while working effectively with one another. They can be used as needed, only once, or as an integral part of the setting. They can be added as play progresses or up front. 
+Additions are designed to be self-contained while working together effectively. They can be used as needed, only once, or as an integral part of the setting. They can be added as play progresses or up front. 
 
 This chapter offers descriptions and guidelines not implementations.
 
 Guidelines:
 
-1. Implementations should favor simplicity in keeping with the Fourth Earth RAW values and principles.
+1. Implementations should favor simplicity in keeping with the Fourth Earth RAW values and principles (see Fourth Earth RAW introduction).
 2. The additions and implementations should be known and agreed to (see Fourth Earth RAW “Player Pacts” section); even if the implementation is, "We'll figure it out when we get there” or “narrator discretion.”
-2. Implementations should be consistently applied (or renegotiated) once in place; including player characters, non-player characters, and opposing characters.
-3. Don’t implement all additions as integral features of the overall experience without assistance through tools or distributed administration (like a computer or one player takes care of the calendar while another handles aging).
+2. Implementations should be consistently applied to all character types (or renegotiated by players) once in place.
+3. Avoid implementing all additions as integral features of the overall experience without assistance from tools or distributed administration (like a computer to automate an aspect or one player takes care of the calendar while another handles aging).
 
 Consider:
 
@@ -42,9 +42,13 @@ Guidelines:
 
 ### Sufficiently advanced technology and magic
 
-One of Arthur C. Clarke's three laws is: Any sufficiently advanced technology is indistinguishable from magic.
+One of Arthur C. Clarke's three laws is: 
 
-A quote from William Gibson: I think I actually believe that [possibly every] technology is morally neutral until you do something with it.
+> Any sufficiently advanced technology is indistinguishable from magic.
+
+A quote from William Gibson goes: 
+
+> I think I actually believe that [possibly every] technology is morally neutral until you do something with it.
 
 Settings will tend to have degrees of technology, abilities, or both.
 
@@ -52,7 +56,7 @@ Guidelines:
 
 1. Technology and abilities may span from the mundane to the magnificent or rare.
 2. Setting and characters should inform character responses.
-2. Gameplay consistency and balance should be considered, characters can become boring if too perfect and indestructible; maybe casting a spell always costs a predetermined amount from a life battery or has a similar cost associated with it or the “Disintegrater Gun 3000” can only be fired once every 3 rounds.
+2. Gameplay consistency and balance should be considered, characters can become boring if too perfect and indestructible; maybe casting a spell always costs a predetermined amount from a life battery or has a similar cost associated with it or the “Disintegrator Gun 3000” can only be fired once every 3 rounds.
 
 Consider:
 
@@ -62,15 +66,15 @@ Character A is wandering down a farm road in America during the 1920s. They noti
 
 Character A slips the ring on their pinky finger anyway. 
 
-When character A opens their eyes they find themselves on what appears to be a different planet. They’re surrounded by humanoids who aren’t human and are visually distinct from one another. The humanoids are all wearing the same ring and appear to be manifesting tangible objects from nothing using only the ring and their imagination; it has to be the ring, it’s the only thing they have in common. Character A looks down at the magical ring in shock.
+When character A opens their eyes they find themselves on what appears to be a different planet. They’re surrounded by humanoids who aren’t human and are visually distinct from each other. The humanoids are all wearing the same ring and appear to be manifesting tangible objects from nothing using only the ring and their imagination; it has to be the ring, it’s the only thing they have in common. Character A looks down at the magical ring in shock.
 
-Character A imagines a malt shake from their favorite soda shop, which immediately appears in their hand. Character A feels a little confused (mental battery drained by 1). They sniff shake; smells fine. They take a sip. 
+Character A imagines a malt shake from their favorite soda shop, which immediately appears in their hand. Character A feels a little confused (mental life battery drained by 1). They sniff the shake; smells fine. They take a sip. 
 
 It *is* a malt shake from the soda shop!
 
 Character A throws the glass to the ground and strips the ring from their finger.
 
-Opening their eyes they’re back on Earth, ring in hand. Character A throws the ring as far as they can off the road and starts running the opposite direction vowing never to speak of it or go to the soda shop again.
+Opening their eyes they’re back on Earth, ring in hand. Character A throws the ring as far as they can off the road and run the opposite direction vowing never to speak of it or go to the soda shop again.
 
 ## Characters
 
@@ -80,12 +84,12 @@ Overflow batteries simulate the ability for the character to give a little extra
 
 Guidelines:
 
-1. Conversion cost should be more than 1; 2 points from the other(s) for every 1 point added to the target, for example.
+1. Conversion cost should be more than 1: 2 points from the other(s) for every 1 point added to the target, for example.
 2. Points drained for conversion should rotate through multiple life batteries; cost conversion and distribution outweigh player choice.
 
 Consider:
 
-4 batteries, the conversion cost is the number of overflow batteries for each battery. The health battery cannot be used as an overflow and cannot remain at 0. Therefore, health has 3 overflow batteries and the others each have 2. 
+4 batteries, the conversion cost is the number of overflow batteries for each battery. The health battery cannot be used as an overflow and cannot remain at 0. The health battery has 3 overflow batteries and the others each have 2. 
 
 Player A spends 1 point from the physical battery; notice the character has 0 physical points available at the start: 
 
@@ -122,9 +126,9 @@ Guidelines:
 
 Consider:
 
-Character A has dealt a killing blow to character B. The players have chosen to subdue by default. Character B is given 1 battery point and cannot act for 4 rounds plus 1 round of non-physical action.
+Character A has dealt a blow to character B that drained their life batteries. The players have chosen subdue by default. Character B is given 1 battery point and cannot act for 4 rounds plus 1 round of non-physical action.
 
-Character A wants to subdue character B by sneaking up behind character B and hitting them with a blackjack. One or more difficulties are set and resolved, damage calculations may be skipped. Character A succeeds, character B is subdued.
+Or, character A wants to subdue character B by sneaking up behind character B and hitting them with a blackjack. One or more difficulties are set and resolved, damage calculations may be skipped. Character A succeeds, character B is subdued.
 
 ### Resurrection
 
@@ -134,7 +138,7 @@ Guidelines:
 
 1. There should be a point where a character cannot be resurrected.
 2. Resurrection should require an external force, not a roll by the player of a dead character: CPR, a defibrillator, a spell, an herb, whatever.
-3. The character should experience a loss (simulating recovery time and need).
+3. The character should experience a loss (simulating recovery).
 4. The character can awaken in the same place they died.
 
 Consider:
@@ -160,15 +164,18 @@ Consider:
 4 batteries, one of which is a health battery. Character A is dead and decides to be reincarnated.
 
 1. Death caused the loss of 1 proficiency point from all acquired ranks; reincarnation caused the loss of 1 more proficiency point from all acquired ranks.
-2. Reincarnation caused the loss of all proficiency points for ranks that were not yet acquired.
+2. Reincarnation caused the loss of all proficiency points from ranks not yet acquired.
 3. All physical assets no longer have an owner and may be rediscovered by the character or another character.
 4. The character is back in the location they started (or last rested, or some other relatively peacetime location).
+5. While they have the same name and body, they are completely the same character; distinguishing reincarnation from resurrection. 
 
 ### Ailments 
 
 Generally speaking, more people die from ailments than from war, adventures, or accidents.
 
-Caution: The premise of this addition has been the primary feature of many intricate games; they can be complex. If it is not intended as a prominent feature of the system, it may be difficult to balance simplicity, narrative, and simulation. 
+Caution: 
+
+The premise of this addition has been the primary feature of many intricate games; they can be complex. If it is not intended as a prominent feature of the system, it may be difficult to balance simplicity, narrative, and simulation. 
 
 Guidelines:
 
@@ -212,7 +219,7 @@ The offspring implementation being used causes the following:
 
 ### Difficulty reduction
 
-Succeeding at a difficulty 1 can sometimes feel too difficult; a 50-50 shot. A way to help players (and characters) feel a bit more mature from a development perspective is to either use failure as a way to earn ranks; or, give players a way to reduce the difficulty without using dice and waiting for ranks to adjust the probability.
+Difficulty 1 (50 percent success probability) can feel too difficult or like an interruption to flow. Giving players a way to reduce difficulty at a cost and still progress their character can help. 
 
 Guidelines:
 
@@ -237,7 +244,7 @@ Guidelines:
 
 1. Minimize the number of consecutive rolls unless it escalates the positive or negative outcome (sometimes referred to as “exploding dice”).
 2. Separate success or failure entirely from criticality; criticality doesn’t change the result, only severity and impact.
-3. Players should know (and possibly agree) ahead of time what types of actions can include the criticality addition.
+3. Players should know (and possibly agree) ahead of time what types of actions can include the criticality addition: no criticality on negotiations, for example.
 4. Players should know (and possibly agree) ahead of time whether criticality is always possible or can be opted into prior to rolling success or failure.
 
 Consider:
@@ -254,13 +261,13 @@ Guidelines:
 
 1. See “Criticality” extension.
 2. The implementation of complications and partials should be such that it can be used seamlessly with or without any other addition, specifically criticality.
-3. Complications *hinder* further progress following a successful completion while partials *support* further progress following a failed attempt. 
+3. Complications should *hinder* progress following a successful completion while partials should *support* progress following a failed attempt. 
 4. Players should know (and possibly agree) ahead of time what types of actions can include the complications and partials addition.
 5. Players should know (and possibly agree) ahead of time whether complications and partials are always possible or can be opted into prior to rolling success or failure.
 
 Consider:
 
-Character A wants to climb a tree (difficulty 2). Player A adds an extra die to the pool (the complications die, which could be the same as the criticality die). The action roll was a success and the complications die lands on the highest number on the die (instead of 1 for criticality), making the result a success with complications: character A cut their hand on the way up (increase difficulty of future activities using the hands by 1 until healed). 
+Character A wants to climb a tree (difficulty 2). Player A adds an extra die to the pool (the complications die, which could be the same as the criticality die). The action roll was a success and the complications die lands on the highest number on the die (instead of 1 for criticality), making the result a success with complications: character A cut their hand on the way up (increase difficulty of future actions using the hands by 1 until healed). 
 
 ### Re-roll
 
@@ -277,7 +284,7 @@ Player A rolls a failure and pays 1 battery point to re-roll the entire pool.
 
 Player A rolls a success with a complication (see “Complications and partials” addition) and pays 2 battery points to re-roll the complication die by itself in the hopes of not rolling another complication.
 
-See [Inspiration] section.
+See “Fate points” section.
 
 ### Multi-faceted actions
 
@@ -285,7 +292,7 @@ It’s rare that an action requires only one aspect (life battery) of a characte
 
 Guidelines:
 
-1. The primary battery for the action should be generic to the action (all players experience this), while the second battery is specific to the character.
+1. The primary battery for the action should be generic to the action (all players experience this), while the other batteries and difficulties are specific to the character.
 2. The number of batteries for multi-faceted actions should be less than 4; difficulties begin to feel diluted and harder to keep reasonable (less than difficulty 5).
 
 Consider:
@@ -294,7 +301,7 @@ Character A wants to kill a spider (physical difficulty 1). Character A has a fe
 
 Instead of treating these as two, separate actions they can be combined; a difficulty 6.
 
-The player can spend 1 physical and (up to) 5 mental to reduce the difficulty.
+The player can spend 1 physical and (up to) 5 mental to reduce the difficulty (see “Difficulty reduction” section).
 
 ## Interacting with characters
 
@@ -311,7 +318,7 @@ Potential energy being converted to received energy.
 Guidelines:
 
 1. Resistance should be easy to calculate.
-2. Resistance should use qualities of the defender that help it absorb energy; similar to how calculated difficulty should use qualities that help the defender evade.
+2. Resistance should use qualities of the defender that help them block or absorb energy; similar to how calculated difficulty should use qualities that help the defender evade.
 
 Consider:
 
@@ -343,7 +350,7 @@ If the semi-truck had hit the motorcycle, the motorcycle would have taken 50 dam
 
 Try two semis using a dynamic scale. Both are 1. Both cause 1 damage to each other.
 
-Try two semis using a static scale. Both are 50. Both cause 50 damage to each other. Or, the scales are compared to wind up with a ratio of 1 to 1 (shame result as the dynamic scale). (Scale might be used as part of resistance when using a static scale.)
+Try two semis using a static scale. Both are 50. Both cause 50 damage to each other. Or, the scales are compared to wind up with a ratio of 1 to 1 (same result as the dynamic scale). (Scale might be used as part of resistance when using a static scale.)
 
 ### Stance
 
@@ -351,7 +358,7 @@ Stance affects a character’s difficulty to hit or evade.
 
 Guidelines:
 
-1. Stance can be changed at the beginning of a character’s turn.
+1. Stance can be changed at the beginning of a character’s turn and should remain the same until their next turn.
 
 Consider:
 
@@ -379,19 +386,25 @@ NPC A attacks again. Difficulty to hit is still 5. NPC A can’t reduce it. The 
 
 ### Assist
 
-Cooperation entails multiple players and characters working together toward a common goal. While any multiplayer, cooperate game is assistive at a macro scale, this addition facilitates creating mechanics at a micro scale. 
+Cooperation entails multiple players and characters working together toward a common goal. While any multiplayer, cooperative game is assistive at a macro scale, this addition facilitates creating mechanics at a micro scale. 
+
+Note:
+
+Typically used when action resolution is turn-based.
 
 Guidelines:
 
 1. There should be risk or cost to all players and characters.
-2. Assisting actions should be lower difficulty and take less game-time than the action of the character getting assistance; assisting actions are not turns.
+2. Assisting actions should be lower difficulty and take less game-time than the action of the character receiving assistance; assisting actions are not turns, they aid the turn of another.
 3. Assisting characters should come as they are and go as they were; no proficiency point gains, for example.
 4. Assisting characters cannot be subdued during the turn of the assisted character.
 5. Should not be used during mundane interactions or scenes; just let characters help each other without concern of failure or cost.
 
 Consider:
 
-Character A wants to shoot NPC A who is a physical difficulty 3. Character A is out of physical battery points and is also out of bullets for a firearm they’re holding. Character B is carrying a full speed loader, which means the firearm can be loaded almost instantly. Character C has a full physical battery.
+Character A wants to shoot NPC A who is a physical difficulty 3. Character A is out of physical battery points and is also out of bullets for a firearm they’re holding. 
+
+Character B is carrying a full speed loader, which means the firearm can be loaded almost instantly. Character C has a full physical battery.
 
 The player(s) decide the characters are going to do the following assists to character A:
 
@@ -400,7 +413,7 @@ The player(s) decide the characters are going to do the following assists to cha
 
 Player B rolls for the toss and succeeds, character B tosses the full speed loader to character A who catches it. 
 
-While character A is loading the firearm, with speed, character B puts their hand on the shoulder of character A - and calmly says, “You got this.” Player C reduces character C’s physical battery by 3 while player A increases players A’s physical battery by 3.
+While character A is loading the firearm, with speed, character B puts their hand on the shoulder of character A - and calmly says, “You got this.” Player C reduces character C’s physical battery by 3 while player A increases character A’s physical battery by 3.
 
 Player A reduces the difficulty to 0. Character A takes a breath, raises the firearm, aims, and fires.
 
@@ -421,13 +434,13 @@ Guidelines:
 
 Guidelines for skills:
 
-1. Skills may be created as players and characters attempt actions as opposed to having a list of skills upfront and choosing a subset. 
+1. Skills may be created as players and characters attempt actions as opposed to having a list of skills upfront and choosing a subset the character has access to. 
 2. Skills may overlap where performing an action gains proficiency points in more than one rank; rolling should only use one of these skills and overlapping should be minimal through more encompassing skills (“stealth” instead of “hide” and “sneak”).
 3. Skills used by characters may inform the creation of additional life batteries. 
 
 Consider:
 
-Characters in our game are consistently performing actions that require stealth. This prompts the creation of a stealth battery. 
+Characters in our game are consistently performing actions that require stealth. This prompts the creation of a stealth life battery. 
 
 We also decided the hiding and sneaking skills overlap; both involve being unseen and only one requires movement.
 
@@ -437,7 +450,7 @@ All the qualities of hiding are in sneaking, plus more. However, the distinguish
 
 Guidelines for tools:
 
-1. Tools may decrease the difficulty level of an action, regardless of rank; characters could whittle wood with their fingernails but it would be easier with a knife.
+1. Tools may decrease the difficulty level of an action, regardless of rank: characters could whittle wood with their fingernails but it would be easier with a knife.
 2. Tools may be added to the setting as play continues; as part of character creation or upon request. 
 
 Consider:
@@ -480,11 +493,13 @@ General guidelines:
 
 Consider:
 
-While playing with a narrator the group uses a double pass, round-robin approach. 
+While playing with a narrator the group uses a double pass, round-robin, and turn-based approach. 
 
-The narrator chooses a random player, player A. Player A says what their character plans to do. The narrator assigns a difficulty for that plan and moves to player B, giving player A time to determine how to address the difficulty. Player B states their plan and is given a difficulty.
+The narrator chooses a random player, player A. Player A states the intent of their character. The narrator assigns a difficulty for that plan and moves to player B, giving player A time to determine how to address the difficulty. Player B states their character’s intent.
 
 The narrator finishes going around and returns to player A who has decided to reduce the level and roll. They succeed. The narrator (or player or both) describe the success. The turn for player A is resolved. 
+
+The narrator continues with character B and the other characters. 
 
 Guidelines favoring real-time:
 
@@ -499,7 +514,7 @@ Each intent is given a difficulty. Players determine how much to reduce the diff
 
 Resolution order (initiative) is determined by how many 1s were rolled in each dice pool in descending order. All the characters with three 1s go first, then two 1s, then one 1; the characters who did not need to roll are resolved last. 
 
-As rolls are resolved, characters may be subdued, which may nullify their action or desire to help or be helped by another character. 
+As rolls are resolved, characters may be subdued, which may nullify their action or a desire to help or be helped by another character. 
 
 Guidelines for turn-based:
 
@@ -511,7 +526,7 @@ Consider:
 
 The players decided that order would alternate between their characters and opposing characters in a clockwise fashion for turns (and encounters).
 
-For this encounter, player B starts. Player B starts a timer for 4 minutes representing the real-time for the round, which they decided is roughly 10 seconds game-time. Player B speaks their intent, is given a difficulty, reduces the difficulty and resolves their turn. Two of the opposing characters, also played by player B, do the same. Player C goes next doing the same. Player A finishes the round. And it continues until the encounter is complete.
+For this encounter, player B starts. Player B starts a timer for 4 minutes representing the real-time for the round, which they decided is roughly 10 seconds game-time. Player B speaks their character’s intent, it’s given a difficulty, reduces the difficulty and resolves their turn. Two of the opposing characters, also played by player B, do the same. Player C goes next doing the same. Player A finishes the round. And it continues until the encounter is complete.
 
 At the next encounter, player C starts.
 
@@ -545,7 +560,7 @@ Like time itself, it can be difficult to implement mechanics for aging; there ar
 
 Guidelines:
 
-1. Consider keeping it as simple as age in years (or equivalent for setting) held against an average life expectancy for the type of character and setting. 
+1. Consider keeping it as simple as age in years (or equivalent for the setting) held against an average life expectancy for the type of character. 
 2. Beware of costs seemingly due to age alone feeling ageist; not all elderly people have arthritis and can barely get out of bed in the morning and not all young adults are partying all the time and able to pull all-nighters.
 3. Beware of benefits seemingly due to age alone feeling ageist; “Each generation imagines itself to be more intelligent than the one that went before it, and wiser than the one that comes after it” (George Orwell).
 
@@ -557,8 +572,8 @@ Guidelines:
 
 1. Items should be given a useable life; represented by time, uses, a combination, or other means.
 2. The implementation should be easy to manage and administer; an item with a twenty year lifespan probably isn't worth tracking unless it becomes an heirloom (see “Offspring” addition).
-3. This addition could be tied to other additions; for example, a critical failure from the criticality addition may cause a tool to become useless (see “Criticality” addition).
-4. Decay should only be tallied on characters actively playing the game; a player with a gap in playing characters shouldn’t be concerned about the character not aging a day but losing all their tools and skills because “time waits for no player.”
+3. This addition could be tied to other additions: a critical failure from the criticality addition may cause a tool to become useless (see “Criticality” addition).
+4. Tool decay should only be tallied on characters actively playing the game; a player with a gap in playing shouldn’t be concerned about the character not aging a day but losing all their tools and skills because “time waits for no player.”
 5. The player(s) should be given a method by which to intentionally maintain tools and practice skills at a cost; a maintenance tax.
 
 Consider:
@@ -569,15 +584,15 @@ Chances are both shirts lasted a similar number of wearable time and wash cycles
 
 ### Becoming unskilled
 
-Fourth Earth RAW does not inherently limit what skills characters can learn nor does it implement the concept of skill atrophy, which means characters can become (and stay) experts at every skill available; not normally how life works.
+Fourth Earth RAW does not explicitly limit what skills characters can learn nor does it implement the concept of skill atrophy, which means characters can become (and stay) experts at every skill available; not normally how life works.
 
 Guidelines:
 
 1. Keep decay simple; maybe it's an artifact of being subdued, death and resurrection, reincarnation, some combination (see “Subdue,” “Resurrection,” and “Reincarnation” additions).
-2. A rank should rarely, if ever, return to 0; like riding a bike, it will tend to take less time to return to a previously held proficiency level than it took to initially attain it.
+2. A rank should rarely, if ever, return to 0; like riding a bike, it will tend to take less effort to return to a previously held proficiency.
 3. Ranks should be balanced using a mundane to rare spectrum of difficulties; chances are most difficulties aren't a 5 or higher, making it harder to reach high-level ranks.
 4. Succeeding at a skill with a given difficulty should rejuvenate the proficiency points in the lower ranks.
-5. Similar to the "Tool decay and destruction" addition, players could pay a tax to maintain skill proficiency; simulating joining a gym, for example.
+5. Similar to the "Tool decay and destruction" addition, players may pay a tax to maintain skill proficiency; simulating joining a gym, for example.
 
 Consider:
 
@@ -587,25 +602,25 @@ See “Reincarnation” addition.
 
 ### West Marches
 
-“West Marches” is a term used to describe a style that tends to be more player-driven and -focused, which may help resolve pragmatic problems in groups of players.
+“West Marches” is a term used to describe a style that tends to be more player-driven and -focused, which may help resolve pragmatic problems in player groups.
 
-The West Marches style of play emphasizes exploration and setting as opposed to plots the characters find themselves thrust into. The characters are born into a setting and explore that setting; many multiplayer online video games are of this style.
+The West Marches style of play emphasizes exploration and setting as opposed to characters being thrust into plots. Characters are born into a setting and explore that setting; many multiplayer online video games use this style.
 
 Basic guidelines:
 
 1. Individual players can choose to have their own adventure or be part of a group.
 2. If there is a narrator, players will coordinate with the narrator regarding the content and timing of their session; if player content overlaps, a group session may be in order.
-3. The player pool may be as large as there are players wanting to interact with the setting; however, when working in groups, keep the size to roughly 6 players.
+3. The player pool may be as large as there are players wanting to interact with the setting; however, when working in groups, their size should be roughly 3 players plus or minus 2.
 4. Share what has occurred in each session when the character (not the player) is in a position to share with other characters; technology within the setting can be used to help here.
-5. The setting is common amongst all players in the pool; regional knowledge may be limited to only what characters have direct knowledge of or have learned of through other means.
+5. The setting is common amongst all players in the pool; regional knowledge may be limited to only what characters have direct knowledge of or have learned through other means.
 6. The desire of the player or group should be accomplished in one session.
 
-Guidelines (extended, more optional):
+Guidelines (extended, even more optional):
 
 1. Each session starts and ends in the same location; how this is accomplished and communicated should be setting-, theme-, and character-appropriate.
-2. Time should be shared for each character who is either relaxing or actively and passively pursuing their own desires; a character cannot be in two places at the same point in time unless the setting allows for this.
-3. Limit how often certain players can group with another player to avoid formation of multiple small parties or cliques; conversely, this could be a way for certain players to avoid other players before resolving an underlying issue, which we hope they do.
-4. If using a narrator, it may be worthwhile to have multiple narrators available to players to accommodate multiple sessions running simultaneously or on different real-time days close together; or, consider which sessions can be run by one or more players without a narrator (technically all of them).
+2. Time should be shared across all characters who are either relaxing or actively and passively pursuing their own desires; a character cannot be in two places at the same point in time unless the setting allows for this and tracking multiple points in time can be difficult: “Did I get that cool thing before or after This day in the game?”
+3. Limit how often certain players form groups with the same player(s) to mitigate forming multiple cliques or small parties; conversely, this could be a way for certain players to avoid other players before resolving an underlying issue, which we hope they do.
+4. If using a narrator, it may be worthwhile to have multiple narrators available to accommodate multiple sessions running simultaneously or on different real-time days close together; or, consider which sessions can be run by one or more players without a narrator (technically all of them).
 
 ### Fate points
 
@@ -646,8 +661,10 @@ Player A asks, “How many?”
 
 “Just 1,” the narrator shrugs. 
 
-Player A contemplates a moment, they had planned on using it as an overflow at some point. Then they say, “I’m going to block it.”
+Player A contemplates a moment, they had planned on using their fate points as an overflow at some point. Then player A says, “I’m going to neutralize it by spending 1 of my fate.”
 
 Player A and the narrator reduce their fate batteries by 1 point and play continues.
 
-The players never find out the narrator was going play the fate point to let the characters find a key on the ground for the next door they’ll come to.
+The players never finds out the narrator was going to play the fate point to let the characters find a key on the ground for the next door they’ll come to.
+
+Repeat.

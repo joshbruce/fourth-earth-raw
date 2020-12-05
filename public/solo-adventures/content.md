@@ -9,21 +9,22 @@ version: 0.5.0
 
 Fourth Earth [.SA](solo adventures) is a specification wrapper of Fourth Earth [.RAW](rules as written) focusing on a single player playing one or more characters, with or without a narrator.
 
-Fourth Earth SA offers implementations for multiple Fourth Earth RAW additions, which can be ignored, modified, or added to (see “Fourth Earth RAW: Additions” chapter).
+Fourth Earth SA offers implementations for multiple Fourth Earth RAW additions, which can be ignored, modified, or added to (see Fourth Earth RAW: Additions chapter).
 
-Arguably the main hurdle for solo play is coming up with a world in which you, the player, can be surprised by what is found and what must be done. There are two primary methods for overcoming this:
+Arguably the main hurdle for solo play is coming up with a world in which you, the player, can be surprised by what you find and what can be done. There are two primary methods for overcoming this:
 
-1. Invite a narrator (or another player) who would have knowledge of the setting you do not (see Fourth Earth RAW: Additions, "West Marches" section).
-2. Randomize the creation of the setting and adventures or use random generation to inspire calculated creation; usually done with cards, dice, or a combination.
+1. Invite a narrator (or another player) who would have knowledge of the setting you do not (see Fourth Earth RAW: Additions "West Marches" section).
+2. Use randomization to create (or inspire the creation of) the setting and adventures; often using cards, dice, or a combination.
 
-As of this writing, Fourth Earth SA does not implement a possible solution.
+As of this writing, Fourth Earth SA does not offer an implementation for this.
 
 **Required equipment:**
 
 1. See Fourth Earth RAW introduction.
-2. A way to track ranks in skills and tools; 4 points per rank.
+2. A way to track ranks in skills and tools; 8 points per rank.
+3. A way to track 8 points on 4 life batteries.
 
-Another major hurdle is altering outcomes to favor positive or negative outcomes (sometimes referred to as “fudging the dice”) or otherwise ignoring the rules. This can make the game feel less worth playing; unearned victories and random defeats. This is also one reason narrators are helpful. Narrators may alter outcomes and bend rules but you may not be aware it’s happening.
+Another major hurdle is altering results to favor positive or negative outcomes (sometimes referred to as “fudging the dice”) or otherwise ignoring the rules. This can make the game feel less worth playing; unearned victories and random defeats. This is also one reason narrators are helpful. Narrators may alter outcomes and bend rules but you may not be aware it’s happening.
 
 ## Setting
 
@@ -49,7 +50,7 @@ Guidelines:
 3. Difficulty should start at 0 and be easy to calculate; if difficulty to cast reaches 7, no further calculations are required.
 4. Resolving magic with a roll should only require one roll.
 
-Implementation to calculate difficulty to cast:
+Implementation (calculating difficulty to cast):
 
 **Rarity of spell**
 
@@ -137,7 +138,7 @@ Character A wants to cast an uncommon fireball spell (external) at character B w
 
 Player A spends 7 spirit to reduce the difficulty to 0; character A casts and hits character B. 
 
-The spell has a potential energy of 5 (see "Interacting with other characters" section). Character B has a resistance of 3, the potential energy is reduced by 3, leaving 2 received energy. The health battery for character B is reduced by 2. 
+The spell has a potential energy of 5 (see "Interacting with other characters" section). Character B has a resistance of 3 (see “Resistance” section), the potential energy is reduced by 3, leaving 2 received energy. The health battery for character B is reduced by 2. 
 
 Alternatively, character A wants to cast an uncommon combustion spell (internal) at character B. Everything else is the same except the spell would not be affected by the resistance of character B; health battery reduces by 5.
 
@@ -172,7 +173,7 @@ Implementation (difficulty target):
 Implementation (recharging batteries):
 
 1. Characters can take specific actions to recharge batteries.
-2. Actions may have a difficulty assigned.
+2. Recharging actions may have a difficulty assigned.
 3. Each unit of time recharges all batteries by 1 point and the target battery based on the following table (not exhaustive or restrictive list).
 
 |Action        |Time to recharge |Target battery |Target battery increase per unit of time |
@@ -193,7 +194,7 @@ All manage to sleep the first round. They all regain 4 to their physical batteri
 
 On the second round, all characters but the one who's afraid to fly succeeds. The same thing happens the third round. They all fail the fourth round, which is good because the plane is going down.
 
-The character with the fear of flying only received one round of recharge (a bad night's sleep) compared to the other 3 characters who recharged 3 rounds.
+The character with the fear of flying only received 1 round of recharge (a bad night's sleep) compared to the other 3 characters who recharged 3 rounds.
 
 Guidelines:
 
@@ -213,7 +214,7 @@ Implementation for death, resurrection, and reincarnation:
 
 Implementation:
 
-1. The health battery cannot be used as overflow; overflow points are spent automatically until the health battery has 1 point or all batteries are 0, whichever comes first.
+1. The health battery cannot be used as overflow; overflow points are spent automatically until the health battery has 1 point or all batteries are 0, whichever comes first. If a character is dead, all batteries should be at 0.
 2. The other batteries cannot be negative and can remain at 0.
 3. Overflow batteries are defined in the following table.
 
@@ -275,7 +276,7 @@ Implementation:
 Implementation:
 
 1. Difficulty level can be reduced by spending battery points; 1 level per 1 point.
-2. Proficiency points are earned based on initial difficulty level, not the reduced difficulty level.
+2. Proficiency points are earned based on initial difficulty, not reduced difficulty.
 2. See "Skills and tools" section.
 
 Consider:
@@ -288,11 +289,11 @@ See Fourth Earth RAW extensions (and Fourth Earth Lore).
 
 Implementation:
 
-1. Criticality does not always mean otherwise impossible series of events.
-2. Opposing characters also get to use criticality.
+1. Criticality does not always mean some series of otherwise impossible events.
+2. Criticality is also available to opposing characters.
 2. Add [.1d10](one ten-sided die) (the criticality die) to the pool.
-3. If a 1 is rolled on the criticality die, the success or failure result of the action pool is considered critical.
-4. Players may opt-out of rolling the criticality die prior to rolling the action and cannot add it afterward; opting out would remove possibility of complications or partials as well (see “Complications and partials addition” section).
+3. If a 1 is rolled on the criticality die, the success or failure is considered critical.
+4. Players may opt-out of rolling the criticality die prior to rolling the action and cannot add it afterward; opting out would remove the possibility of complications or partials as well (see “Complications and partials addition” section).
 5. If the difficulty is reduced to 0, the criticality die is not rolled as there is no pool to add it to.
 6. Base outcome of criticality uses the following table.
 
@@ -332,9 +333,9 @@ Implementation (successful combat action):
 |Result    |Effect  |
 |:-------|:-------|
 |1       |difficulty of defender reduced by 2, recurring and compounding |
-|2, 5, 8 |drain 1 from defender's physical battery; if 0, from a random battery |
-|3, 6, 9 |drain 1 from defender's mental battery; if 0, from a random battery |
-|4, 7    |drain 1 from defender's spirit battery; if 0, from a random battery |
+|2, 5, 8 |drain 1 from defender's physical battery |
+|3, 6, 9 |drain 1 from defender's mental battery |
+|4, 7    |drain 1 from defender's spirit battery |
 |10      |drain 1 from defender's health battery, recurring and compounding |
 |11      |base potential energy times 3 targeting the defender    |
 |12      |defender is unable to act for 2 rounds                  |
@@ -343,17 +344,17 @@ Implementation (failed combat action):
 
 |Result |Effect  |
 |:------|:-------|
-|Even number |drain 1 from attacker's target battery; if 0, from a random battery |
-|1, 5, 9     |drain 2 from attacker's target battery; if 0, distributed across multiple batteries |
-|3, 7        |attacker damages themselves at 1 to 1 scale, no resistance is applied, one-half the potential energy, can’t be less than 1 |
+|Even number |drain 1 from attacker's target battery |
+|1, 5, 9     |drain 2 from attacker's target battery |
+|3, 7        |attacker damages themselves at 1 to 1 scale, no resistance is applied, one-half the potential energy (rounded down for fractions), can’t be less than 1 |
 |11          |trauma (roll another 1d12 and apply the failed combat action extension implementation) |
 
 *Failed combat action extension:*
 
 |Result    |Effect  |
 |:-------|:-------|
-|11      |If a tool was used, it is rendered useless; otherwise, apply 11 from the successful combat action extension implementation, replacing “defender” with “attacker”. |
-|all other numbers      |Apply the corresponding effect from the successful combat extension implementation, replacing “defender” with “attacker”. |
+|11      |If a tool was used, it is rendered useless; otherwise, apply 11 from the successful combat action extension implementation, replacing the word “defender” with “attacker”. |
+|all other numbers      |Apply the corresponding effect from the successful combat extension implementation, replacing the word “defender” with “attacker”. |
 
 ### Complications and partials addition
 
@@ -400,7 +401,9 @@ Most likely,
 Implementation (combat):
 
 1. Default stance is neutral. 
-2. Stance is set or changed for all characters at the beginning of each round and cannot be changed during the round.
+2. Characters may change their stance at the beginning of their turn, which may be the beginning of the round when using a roll at once style.
+3. The change should be made known and current stance should be visible or readily accessible. 
+4. Changing stance does not take time from the turn.
 
 | Stance | Attacker affect| Defender affect |
 |:--|:--|:--|
@@ -424,7 +427,7 @@ See Fourth Earth RAW (and Fourth Earth Lore).
 
 Implementation (harming others):
 
-1. Calculating difficulty starts at 0 and increased using the following table; should rarely exceed 7. 
+1. Calculating difficulty starts at 0 and is increased using the following table; should rarely exceed 7. 
 
 |Question |Yes |
 |:--------|:---|
@@ -435,7 +438,7 @@ Implementation (harming others):
 |Defender is aware of attacker? |1 |
 
 2. Calculating potential energy is based on action type using the following table, which favors stance and tool use, not specific tool.
-3. Fast actions can be performed twice in a turn or round, players may choose to perform one of the two at reduced potential energy. 
+3. Fast actions can be performed twice in a turn or round, players may choose to perform one of the two at reduced potential energy but not reduced difficulty. 
 4. When one fast action is taken, the difficulty remains the same and whole; when both fast actions are taken, difficulty is split evenly between the two.
 5. If splitting the difficulty results in fractions, the first is rounded down while the second is rounded up.
 6. Slow actions can be performed once in a turn or round.
@@ -479,7 +482,7 @@ For the difficulty 1 swing, player A has a starting pool of 1d2 (down from 1d10)
 |total initial | 2 + 1 | 3 |
 |scale | 3 * 10 | 30 |
 
-See “Criticality addition” section.
+See “Criticality addition” and “Scale addition” sections.
 
 **Resistance**
 
@@ -492,7 +495,7 @@ See “Criticality addition” section.
 
 See “Resistance addition” section.
 
-The life batteries of the rat are the same as all characters, and the same rules are applied; therefore, the rat is beyond dead, it’s effectively a puddle of goo. The initial 8 would have activated the overflow batteries, which are good for another 8; then it would have been drained another 15.
+The life batteries of the rat are the same as all characters, and the same rules apply; therefore, the rat is beyond dead, it’s effectively a puddle of goo. The initial 8 would have activated the overflow batteries, which are good for another 8; then the rat would have been drained another 15.
 
 ### Resistance addition
 
@@ -566,14 +569,14 @@ The whale swims away unfazed by the tiny human with the pointy stick.
 
 ### Roll to evade addition
 
-Solo adventures typically only have one player. This means moving and possibly rolling as the opposing character(s), which may be difficult to do effectively; sub-optimal decisions may be made regarding positioning and reducing difficulties to protect the character. This can be overcome by rolling to evade rather than to hit.
+Solo adventures will typically have one player. This means moving and possibly rolling as the opposing character(s), which may be difficult to do effectively; sub-optimal decisions may be made regarding positioning and reducing difficulties to protect the character. This natural tendency can be overcome by rolling to evade rather than to hit.
 
 Implementation:
 
-1. The non-player character always reduces the difficulty
+1. The opposing character always reduces the difficulty
 	- to 0, if possible or
 	- as many levels as possible.
-2. The player reduces and rolls against the opposing difficulty (see Fourth Earth RAW  “Difficulty” section); the number of dice in the pool are based on the player's character performing the opponent's action (basing evasion on knowledge of what the opponent is doing).
+2. The player reduces and rolls against the opposing difficulty (see Fourth Earth RAW  “Difficulty” section); the number of dice in the pool is determined as if the action of the opposing character was performed by the player's character (evasion based on knowledge of what the opponent is doing).
 3. Criticality, complications, and partials are resolved as normal where the player character is the target or defender.
 
 Consider:
@@ -617,8 +620,9 @@ Implementation:
 
 1. Skills have 3 ranks.
 2. Tools may have up to 1 rank. 
-3. Ranks require 4 proficiency points to be earned.
+3. Ranks require 8 proficiency points to be earned.
 4. Tools may reduce difficulty up to 2 levels. 
+5. 2 proficiency points are earned on success and 1 on failure.
 
 ## Time and space
 
@@ -645,7 +649,7 @@ Consider:
 
 Character A and character B are in melee combat; each wants to strike the other.
 
-If character A hits, character B is subdued. If character B hits, character A takes 3 damage. 
+If character A hits, character B is subdued. If character B hits, character A’s health battery is reduced 3 points. 
 
 The player rolls dice pools for both, to hopefully gain initiative; character A rolling 3 dice and character B rolling 5. Both pools are rolled; both succeed.
 
