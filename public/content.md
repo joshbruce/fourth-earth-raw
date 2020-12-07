@@ -1,6 +1,6 @@
 ---
 title: Rules as Written
-version: 0.10.1
+version: 0.10.2
 ---
 
 {{TOC}}
@@ -11,7 +11,7 @@ Fourth Earth [.RAW](Rules as Written) is a cooperative storytelling system for c
 
 Fourth Earth RAW specifically refers to the core guidelines and implementations described in this chapter and more generally includes additions and specifications captured in other chapters. 
 
-Fourth Earth RAW is applicable to; with or without a separate narrator:
+Fourth Earth RAW, with or without a separate narrator, is applicable to:
 
 - solo adventures (1 player of 1 or more characters), 
 - tabletop (more than 1 player of 1 or more characters each, possibly with the aid of digital devices), and 
@@ -30,8 +30,8 @@ While dice are not specifically required, Fourth Earth RAW uses the language of 
 **Values:**
 
 1. Additive over Reductive: opportunities to opt-in to complexity instead of reducing to simplicity.
-2. Narrative over Simulation: create stories more than simulations.
-3. Flow over Grinding: don’t roll every step and don’t momentum based on progression.
+2. Narrative over Simulation: create stories more than replicate reality.
+3. Flow over Grinding: don’t roll every step.
 4. Power ceilings over Threat escalation: having saved the town, then the village, then the world, and now the universe what will they do next?
 5. Progressive disclosure over Detail saturation: players should be able to start playing having never read the rules and specifications; learning them as they play.
 
@@ -45,17 +45,17 @@ While dice are not specifically required, Fourth Earth RAW uses the language of 
 
 **Terms:**
 
-Common terms in the [.RPG](role playing game) community with Fourth Earth RAW definitions which be uncommon.
+Common terms in the [.RPG](role playing game) community with Fourth Earth RAW definitions which may be uncommon.
 
 - Player: A person playing 1 or more characters and executing game mechanics such as rolling dice. 
-- Character: Anything able to intentionally interact with and impact the setting and characters as determined by players using game mechanics.
+- Character: Anything in the setting that can be personified by the player(s).
 - Narrator: One or more players who facilitate the story by purposefully introducing tension released by characters.
 - Non-player character: A character existing outside of those played by the main group of players; often played by the narrator(s).
 - Opposing character: Often a non-player character acting in opposition to the characters of the main group of players.
 - Guideline: 1 or more recommendations for developing an implementation.
 - Implementation: A specific method for executing a game mechanic. 
 - Game mechanic: The mechanisms used by players to interact with characters and the game as well as how the game might respond to players and characters. 
-- Grinding: Repeating an action at a nominal cost in order to increase character's ability to successfully complete or gain access to other content or resources; effectively correlating time-played with character ability or content access while not advancing the established or generated plot for the character.
+- Grinding: Repeating an action at a nominal cost to increase character abilities to successfully complete or gain access to other content or resources; effectively correlating time-played with character ability or content access while not advancing the established or generated plot for the character.
 - Metagaming (colloquial): Using information the player has to affect character decisions without the character first acquiring that information.
 - Railroading: Players feel they aren’t given a choice, their choices don’t affect the path of the story and setting, or choices offered tend to be singular or false dichotomies.
 - Role playing: 
@@ -116,7 +116,7 @@ Guidelines:
 Implementation:
 
 1. 1 battery must exist.
-2. When all (or one) life battery is reduced to and remains 0, the character is considered dead.
+2. Characters are considered dead when a specific life battery is reduced to 0 or all life batteries are reduced to 0.
 3. Some player decisions, character actions, and other components of the setting should drain 1 or more battery points from 1 or more life batteries.
 
 ## Interacting with the setting
@@ -145,7 +145,7 @@ The system we're using allows players to spend life battery points to reduce dif
 
 The player only spends 1, making the difficulty 2. 
 
-Because the difficulty is greater than 0 after reduction, a dice pool is rolled. There is always 1 die available (see "Dice pool" section). Character A has 1 rank in climbing, which adds another die to the pool (see "Ranks" section). The player rolls [.2d4](two four-sided dice).
+Because the difficulty is greater than 0 after reduction, a dice pool is rolled. There is always 1 die available (see "Dice pool" section). Character A has 1 rank in climbing, which adds another die to the pool (see "Ranks" section); player rolls [.2d4](two four-sided dice).
 
 If the character succeeds in climbing the tree, they end up in the tree; if they fail, they stay on the ground (see "Difficulty" section). Either way, the action is resolved. 
 
@@ -153,7 +153,7 @@ How about attacking a rat? The calculated difficulty for hitting the rat is 3; e
 
 If the character succeeds, the rat is hit; if they fail, the rat is missed.
 
-To remain simple, rules-light, and minimize context switching, Fourth Earth RAW strives to use this same mechanic for all opposed interactions characters have with the setting and characters.
+To remain simple, rules-light, and minimize context switching, Fourth Earth RAW strives to use this same mechanic for all opposed interactions a character has with the setting and characters.
 
 ### Difficulty
 
@@ -162,7 +162,7 @@ Difficulty is based on qualities of the opposing force for a given interaction.
 Implementation:
 
 1. Success is achieved by rolling a 1 on at least 1 die in the dice pool (see "Dice pool" section).
-2. Difficulty levels range from 0 to infinity; where 0 is immediate success and infinity is strictly impossible.
+2. Difficulty levels range from 0 to infinity; where 0 is automatic success and infinity is strictly impossible.
 3. Difficulty levels have an inner range of 1 through 7; the result of doubling the level is the number of sides for the dice in the pool; difficulty 7 is impossible unless reduced as there is no standard die with 14 sides.
 4. Players should be able to create groups of 2, 4, 6, 8, 10, or 12 similar items and randomly select at least 1 unique item: 2-, 4-, 6-, 8-, 10-, and 12-sided dice. 
 
@@ -188,7 +188,7 @@ There are four standard ways to refer to difficulty:
 
 Further guidelines:
 
-1. Favor setting difficulty based on an average character in the setting with the option of being character-specific: stitching a finger might be difficulty 6 for the average person but a difficulty 2 for someone with related training (see “Dice pools” section).
+1. Favor assigning difficulty based on an average character in the setting with the option of being character-specific: stitching a finger might be difficulty 6 for the average person but a difficulty 2 for someone with related training (see “Dice pools” section).
 2. For difficulty 1, favor dice over coins and a roll of odd numbers over even; maintains rolling 1 or recognizing odd numbers as opposed to dividing, remembering ranges, or similar solutions.
 3. Human-friendly labels are typically used during character introspection, "This seems like a safe bet"; to add tension and simulate under- or over-estimating one's abilities, it might be useful to give a label near the difficulty rather than exactly on it.
 
@@ -196,7 +196,7 @@ Further guidelines:
 
 Dice pools adjust success probability based on ranks (see “Ranks” section). 
 
-“Dice pool” is a slight misnomer as it’s not required to roll the same number of dice in the pool at once, you can roll the same die once per die in the pool.
+“Dice pool” is a slight misnomer as it’s not required to roll the same number of dice in the pool at once, you can roll the same die once for every die in the pool.
 
 Implementation:
 
@@ -211,10 +211,10 @@ Difficulty 6 has roughly an 8 percent base success probability; with 2 dice, it'
 
 Guidelines:
 
-1. When customizing the system￼, player(s) and the narrator(s) should determine a maximum dice pool, subtract 1 for the base die, and split the rest to create ranks. 
+1. When customizing the system￼, the player(s) and the narrator(s) should determine a maximum dice pool, subtract 1 for the base die, and split the rest to create ranks. 
 2. Dice pools should not exceed 5 dice to: 
 	- allow space for non-action dice, 
-	- keep the pool more physically manageable, and
+	- keep the pool more physically manageable when using dice, and
 	- account for diminishing returns for pools of more than 5. 
 
 Consider:
@@ -227,7 +227,7 @@ Put another way, doubling the dice in the pool is an increase of 2.9 percent (co
 
 ## Interacting with characters
 
-Role playing interactions with other characters is left to the players, this section discusses interactions where dice may resolve an intent opposed by another character. 
+Role playing interactions with other characters is left to the players, this section discusses interactions where dice are used to resolve an intent opposed by another character. 
 
 Guidelines:
 
@@ -264,7 +264,7 @@ Ranks serve two primary purposes:
 1. represent character improvement (progression) through intentional action and
 2. a way of increasing success probability.
 
-Proficiency is a complex matter with many factors to be simplified; how much does one learn from:
+Proficiency is a complex matter with many factors to try and simplify; how much does one learn from:
 
 - outright success,
 - reflecting on one's own failures, and
@@ -272,11 +272,11 @@ Proficiency is a complex matter with many factors to be simplified; how much doe
 
 Guidelines:
 
-1. Earning ranks should require 2 or more proficiency points and be achievable in roughly 4 attempts (based on the highest proficiency point gain).
-2. When using both success and failure, the number of proficiency points earned on failure should be greater or less than those earned by learning from success; with the understanding that failure will most likely occur more often than success in the beginning (see Fourth Earth SA).
-3. When using success only, players should be able to reduce difficulties somehow (see Fourth Earth RAW: Additions “Difficulty reduction” section); this is not recommended if using failure only.
+1. Earning ranks should require 2 or more proficiency points and be achievable in roughly 4 attempts (using the highest proficiency point gain).
+2. When using both success and failure, the number of proficiency points earned should be different for success and failure; with the understanding that failure will most likely occur more often than success in the beginning (see Fourth Earth SA).
+3. When using success only, players should be able to reduce difficulties somehow (see Fourth Earth RAW: Additions “Difficulty reduction” section); this is not recommended when using failure only.
 4. The implementation should be stable for the entire session or across multiple sessions as it may be beneficial to favor failure when introducing a new character to an already existing group of characters.
-5. Ranks should be earned as play proceeds to give characters immediate benefit for "learning on the job" as opposed to waiting for a "leveling up" session.
+5. Ranks should be earned as play proceeds to give characters immediate benefit for "learning on the job" as opposed to waiting for a "leveling up" session or time.
 
 Implementation:
 
@@ -286,7 +286,9 @@ Implementation:
 
 Consider:
 
-In their solo adventuring game, Player A has character A earn 1 proficiency point upon success. Player A has been playing character A who has achieved multiple ranks in various skills. Player A invites Player B to join with a newly created character B, with no ranks.
+In their solo adventuring game, Player A has character A earn 1 proficiency point upon success. Character A has achieved multiple ranks in various skills. 
+
+Player A invites Player B to join with a newly created character B, who has no ranks.
 
 To minimize complexity and maximize growth for character B, player A and B agree to favor proficiency on failure this session; 2 points on failure and 1 point on success. Each rank requires 4 points.
 
@@ -334,25 +336,25 @@ Character A just arrived at the gates of a fairly safe and mundane town. Charact
 
 Both versions track the character from the gates to the inn with the possibility of something interesting happening between here and there. Both also *feel* very different from the player perspective. 
 
-In the first, the journey as a whole was given a probability for something interesting to happen (good or bad). In the second, each step was given a difficulty (most were 0 and all were probably less than 5, depending on how good the pastries smelled that day). If the character were encumbered somehow, inebriated or carrying a load, the second implementation might feel less like “rolling for simulation sake.”
+In the first, the journey as a whole was given a probability for something interesting to happen (good or bad). In the second, each step was given a difficulty (most were 0 and all were probably less than 5, depending on how good the pastries smelled that day). If the character were encumbered somehow or inebriated, the second implementation might feel less like “rolling for simulation sake.”
 
-Now, character A is at the pub when a fight breaks out; they are not part of, nor do they want to take part in, the fight. Character A decides to walk from the bar to the exit door. 
+Now, character A is at the pub when a fight breaks out; character A wants no part of it. They decide to walk from the bar to the exit. 
 
-Under mundane circumstances real-time and game-time would almost be in sync; however, in a brawl it might take character A 2 or 3 turns as they avoid being pulled into the fight and watch for flying objects.
+Under mundane circumstances real-time and game-time would almost be in sync; however, in a brawl it might take character A 2 or 3 turns (5 or 10 minutes real-time) as they avoid being pulled into the fight and watch for flying objects.
 
-Having made it to the doors, character A realizes they forgot their hat at the bar. The fight is dying down and a path is clear between the door and the part of the bar where the hat was. 
+Having made it to the exit, character A realizes they forgot their hat at the bar. The fight is dying down and a path is clear between the door and the part of the bar where the hat was. 
 
 Unfortunately character B appears to have claimed the hat as their own. A look from character B indicates character A isn't getting it back without a fight. Character A decides to walk over, throat-punch the stranger, take the hat, and walk out. 
 
-We decide character A can overcome a single difficulty 6 action to execute the entire plan (fairly mundane); or, it will take 1 turn to get there, another to punch character B (a difficulty 3 action), and a third turn to be back at the door.
+We decide character A can overcome a single difficulty 6 action to execute the entire plan (treating the plan as more mundane); or, it will take 1 turn to get there, another to punch character B (a difficulty 3 action), and a third turn to be back at the door (treating the plan as more marvelous).
 
 At the height of the brawl, it took 3 turns just to walk to the door.
 
-Guidelines (decomposition):
+Guidelines (decomposition and decay):
 
-In life, tools decay, skills reduce without use or practice, and people age; even mountains erode.
+In life, tools decay, skills atrophy without use or practice, and people age; even mountains erode.
 
-1. Favor gradual over drastic decomposition: human-made buildings will fall but rarely all at once without intent or a chain of events starting from an initial failure. 
+1. Favor gradual over drastic decomposition: human-made buildings will fall but rarely without an outside force or a chain of events starting from an initial failure. 
 2. There should be maintenance actions characters can take (or points players can earn and spend) to reduce any applied rate of decomposition: changing fluids for a combustion motor.
 3. Establish life expectancies at the moment of creation.
 
@@ -364,14 +366,14 @@ Character A has 1 rank in a skill with 2 more proficiency points in the same ski
 
 To use the parlance of our time, player pacts are the terms of service for the game.
 
-Just like Fourth Earth RAW describes the physics for interacting with the setting, player pacts describe the physics for collaboration and communication across players; establishing social norms and mores to set baseline expectations, boundaries, and accommodate player needs.
+If Fourth Earth RAW describes the physics for interacting with the setting, player pacts describe the physics for collaboration and communication between players; establishing social norms and mores to set baseline expectations, boundaries, and accommodate player needs.
 
-While these don’t need to be formally written and signed like legal contracts, players may find it useful to write them down for easy reference and modification later. Groups of players who are close friends or have played together for years with established, rarely forgotten norms and mores could be an exception; until a new player arrives. 
+Pacts don’t need to be formally written and signed like legal contracts; however, players may find it useful to write them down for easy reference and modification later. Groups of players who are close friends or have played together for years with established, rarely forgotten norms and mores could be an exception; until a new player arrives. 
 
 Guidelines:
 
 1. Any list of written pacts should be short; possibly limited to those things that are most often forgotten or are considered dealbreakers.
-2. New group members should be informed of at least the dealbreaker pacts up front; if time allows, it may be worth introducing the new player to all the pacts. 
+2. Dealbreaker pacts should be told to new members at minimum. 
 
 Consider:
 
@@ -395,7 +397,7 @@ Addressing these questions up front can help smooth out a potentially bumpy road
 
 Fourth Earth RAW aims to allow you to focus on setting and characters rather than game mechanics while affording players the opportunity to strategically interact with the setting through their character(s) who, in turn, grow within the setting.
 
-Fourth Earth RAW has multiple additions to increase realism or resolve specific concerns. Various guidelines, not implementations, are in the "Fourth Earth RAW: Additions" chapter.
+Fourth Earth RAW has multiple additions to add nuance and resolve specific concerns. Various guidelines, not implementations, are in the Fourth Earth RAW: Additions chapter.
 
 Specifications wrap the core Fourth Earth RAW system and offer specific implementations for various additions tailored to specific contexts. Specifications include:
 
@@ -407,7 +409,7 @@ Each successive specification wraps the previous.
 
 Fourth Earth DA describes using digital tools to aid both tabletop and video game play.
 
-Thank you for making the time and considering Fourth Earth RAW. All feedback (and contributions) welcome. The most direct way to give feedback is to post a [GitHub](https://github.com/joshbruce/fourth-earth-raw) issue (contributions can be made via pull requests or issues). Github is also where you can get an early glimpse into upcoming changes and new releases.
+Thank you for making the time and considering Fourth Earth RAW. All feedback (and contributions) welcome. The most direct way to give feedback is to post a [GitHub](https://github.com/joshbruce/fourth-earth-raw) issue (contributions can be made via pull requests or issues). You can also see and discuss potential changes by looking at submitted pull requests. 
 
 ## Inspirations and alternatives
 

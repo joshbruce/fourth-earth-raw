@@ -1,22 +1,24 @@
 ---
 title: Solo adventures
-version: 0.6.0
+version: 0.6.1
 ---
 
 {{TOC}}
 
 # Fourth Earth SA
 
-Fourth Earth [.SA](solo adventures) is a specification wrapper of Fourth Earth [.RAW](rules as written) focusing on a single player playing one or more characters, with or without a narrator.
+Fourth Earth [.SA](solo adventures) is a specification of Fourth Earth [.RAW](rules as written) focusing on a single player playing one or more characters, with or without a separate narrator.
 
-Fourth Earth SA offers implementations for multiple Fourth Earth RAW additions, which can be ignored, modified, or added to (see Fourth Earth RAW: Additions chapter).
+Fourth Earth SA offers implementations for multiple Fourth Earth RAW additions, which can be ignored, modified, or amended (see Fourth Earth RAW: Additions chapter).
 
-Arguably the main hurdle for solo play is coming up with a world in which you, the player, can be surprised by what you find and what can be done. There are two primary methods for overcoming this:
+Arguably the main hurdle for solo play is being surprised in a world you create. There are two primary methods for overcoming this:
 
-1. Invite a narrator (or another player) who would have knowledge of the setting you do not (see Fourth Earth RAW: Additions "West Marches" section).
+1. Invite a separate narrator (or another player) who would have knowledge of the setting you do not (see Fourth Earth RAW: Additions "West Marches" section).
 2. Use randomization to create (or inspire the creation of) the setting and adventures; often using cards, dice, or a combination.
 
-As of this writing, Fourth Earth SA does not offer an implementation for this.
+Another major hurdle is altering results to favor positive or negative outcomes (sometimes referred to as “fudging dice”) or otherwise ignoring implementations. This can make the game feel less worth playing; unearned victories and random defeats.
+
+As of this writing, Fourth Earth SA does not offer an implementation for either of these.
 
 **Required equipment:**
 
@@ -24,33 +26,32 @@ As of this writing, Fourth Earth SA does not offer an implementation for this.
 2. A way to track ranks in skills and tools; 8 points per rank.
 3. A way to track 8 points on 4 life batteries.
 
-Another major hurdle is altering results to favor positive or negative outcomes (sometimes referred to as “fudging the dice”) or otherwise ignoring the rules. This can make the game feel less worth playing; unearned victories and random defeats. This is also one reason narrators are helpful. Narrators may alter outcomes and bend rules but you may not be aware it’s happening.
-
 ## Setting
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+See Fourth Earth RAW.
 
 Fourth Earth Lore is available but not required.
 
 ### Sufficiently advanced technology and magic
 
-See Fourth Earth RAW: Additions (and Fourth Earth Lore).
+See Fourth Earth RAW: Additions.
 
-Fourth Earth SA provides an implementation of a hard magic system and does not remove the possibility of using a soft magic system. Further, it is possible to ignore the magic system entirely.
+The following implementation describes a hard magic system and does not remove the possibility of a soft magic system.
 
 **Terms:**
 
-- Hard magic system: A magic system with defined rules, consistently applied, often used by characters to solve problems in a specific, repeatable, and predictable way; usually at a cost to the character, setting, or both.
-- Soft magic system: A magic system with loose rules often used to introduce (or increase) a sense of wonder or tension in a setting rather than solving problems in predictable ways.
+- Hard magic system: A magic system with defined rules, consistently applied, often used by characters to solve problems in predictable ways; usually at a cost to the character, setting, or both.
+- Soft magic system: A magic system with loose rules often used to introduce (or increase) a sense of wonder or tension in a setting rather than solve problems in predictable ways.
 
 Guidelines:
 
-1. Spells originate from physical assets, which are carried by characters in order to cast; if the asset is not equipped or being carried by the character, the spell cannot be cast. 
-2. Qualities of the spell determine the difficulty to cast, which targets the spirit battery.
-3. Difficulty should start at 0 and be easy to calculate; if difficulty to cast reaches 7, no further calculations are required.
-4. Resolving magic with a roll should only require one roll.
+1. Difficulty should start at 0 and be easy to calculate; if difficulty to cast reaches 7, no further calculations are required.
+2. Resolving magic with a roll should only require one roll.
 
 Implementation (calculating difficulty to cast):
+
+1. Spells originate from physical assets, which are carried by characters in order to cast; if the asset is not equipped or being carried by the character, the spell cannot be cast. 
+2. Qualities of the spell determine the difficulty to cast, which targets the spirit battery (see "Life batteries" section).
 
 **Rarity of spell**
 
@@ -110,22 +111,20 @@ Or a rare spell called resurrection. Character A wants to resurrect character B 
 
 Implementation continued (internal or external):
 
-Fourth Earth SA recognizes spells with the quality of starting internally or externally to the target. 
-
 External spells start at the caster and travel to the target and are affected by resistance. Internal spells start within the target and are *not* affected by resistance.
 
-|Origin |Modification |
+|Quality |Modification |
 |:-|:-:|
 |internal | 0 |
 |external |one-fourth the target’s difficulty rounded down |
 
 Guidelines:
 
-1. It is left to the players to decide how differences in difficulty to cast and difficulty to hit are managed; maybe higher of the 2 or a multi-faceted action (see Fourth Earth: Additions, “Multi-faceted actions” addition).
+1. It is left to the players to decide how differences in difficulty to cast and difficulty to hit are managed; maybe higher of the 2 or a multi-faceted action (see Fourth Earth: Additions “Multi-faceted actions” addition).
 
 Consider:
 
-Character A wants to cast an uncommon fireball spell (external) at character B with an initial difficulty of 5.
+Character A wants to cast an uncommon fireball spell (external) at character B who has a difficulty of 5.
 
 |Quality |Adjustment |Difficulty |
 |:-|:-|:-:|
@@ -136,17 +135,21 @@ Character A wants to cast an uncommon fireball spell (external) at character B w
 |external | doesn’t matter | 7 |
 |**total** | n/a | **7** |
 
-Player A spends 7 spirit to reduce the difficulty to 0; character A casts and hits character B. 
+Player A spends 7 spirit battery points to reduce the difficulty to 0; character A casts and hits character B (see "Difficulty reduction addition" section). 
 
-The spell has a potential energy of 5 (see "Interacting with other characters" section). Character B has a resistance of 3 (see “Resistance” section), the potential energy is reduced by 3, leaving 2 received energy. The health battery for character B is reduced by 2. 
+The spell has a potential energy of 5 (see "Interacting with other characters" section). Character B has a resistance of 3 (see “Resistance” section), the potential energy is reduced by 3, leaving 2 energy. 
 
-Alternatively, character A wants to cast an uncommon combustion spell (internal) at character B. Everything else is the same except the spell would not be affected by the resistance of character B; health battery reduces by 5.
+The health battery for character B is reduced by 2. 
+
+Alternatively, character A wants to cast an uncommon combustion spell (internal) at character B. Everything else is the same except the spell would not be affected by the resistance of character B.
+
+Character B's health battery is reduced by 5.
 
 ## Characters
 
 ### Life batteries
 
-See Fourth Earth RAW (and Fourth Earth Lore).
+See Fourth Earth RAW.
 
 Implementation:
 
@@ -227,7 +230,7 @@ Implementation:
 
 ### Subdue addition
 
-See Fourth Earth RAW (and Fourth Earth Lore). 
+See Fourth Earth RAW. 
 
 Implementation:
 
@@ -246,7 +249,7 @@ Before the end of their turn, player A (playing character A) says they wish to k
 
 The fighting continues and the room is cleared over the next 4 rounds. 
 
-During the fifth round, character B has regained consciousness and can speak but cannot act. Character A handcuffs character B at the wrists and ankles, character B remains subdued and able to speak until the handcuffs are removed. 
+During the fifth round, character B has regained consciousness and cannot act but can speak. Character A handcuffs character B at the wrists and ankles, character B remains subdued and able to speak until the handcuffs are removed. 
 
 ### Resurrection addition
 
@@ -285,7 +288,7 @@ See Fourth Earth RAW: Additions "Difficulty reduction" section.
 
 ### Criticality addition
 
-See Fourth Earth RAW extensions (and Fourth Earth Lore).
+See Fourth Earth RAW extensions.
 
 Implementation:
 
@@ -358,7 +361,7 @@ Implementation (failed combat action):
 
 ### Complications and partials addition
 
-See Fourth Earth RAW extensions (and Fourth Earth Lore).
+See Fourth Earth RAW extensions.
 
 Implementation:
 
@@ -379,7 +382,7 @@ Implementation:
 
 ### Scale addition
 
-See Fourth Earth RAW (and Fourth Earth Lore). 
+See Fourth Earth RAW. 
 
 Implementation (primary):
 
@@ -423,7 +426,7 @@ Character A is attacking character B. The following table lists each combination
 
 ## Interacting with characters
 
-See Fourth Earth RAW (and Fourth Earth Lore). 
+See Fourth Earth RAW. 
 
 Implementation (harming others):
 
@@ -499,7 +502,7 @@ The life batteries of the rat are the same as all characters, and the same rules
 
 ### Resistance addition
 
-See Fourth Earth RAW (and Fourth Earth Lore). 
+See Fourth Earth RAW. 
 
 Implementation:
 
@@ -612,7 +615,7 @@ See Fourth Earth RAW: Additions “Assist” section.
 
 ### Skills and tools addition
 
-See Fourth Earth RAW (and Fourth Earth Lore). 
+See Fourth Earth RAW. 
 
 Skills and tools for the Fourth Earth setting are available in Fourth Earth Lore.
 
@@ -628,7 +631,7 @@ Implementation:
 
 ### Initiative addition 
 
-See Fourth Earth RAW extensions (and Fourth Earth Lore).
+See Fourth Earth RAW extensions.
 
 In Fourth Earth SA, initiative isn’t used to establish the order of turns so much as it answers a single question: Will the action of a soon-to-be subdued character be completed before they are subdued?
 
