@@ -288,7 +288,7 @@ See Fourth Earth RAW: Additions "Difficulty reduction" section.
 
 ### Criticality addition
 
-See Fourth Earth RAW extensions (and Fourth Earth Lore).
+See Fourth Earth RAW extensions.
 
 Implementation:
 
@@ -361,7 +361,7 @@ Implementation (failed combat action):
 
 ### Complications and partials addition
 
-See Fourth Earth RAW extensions (and Fourth Earth Lore).
+See Fourth Earth RAW extensions.
 
 Implementation:
 
@@ -382,7 +382,7 @@ Implementation:
 
 ### Scale addition
 
-See Fourth Earth RAW (and Fourth Earth Lore). 
+See Fourth Earth RAW. 
 
 Implementation (primary):
 
@@ -426,7 +426,7 @@ Character A is attacking character B. The following table lists each combination
 
 ## Interacting with characters
 
-See Fourth Earth RAW (and Fourth Earth Lore). 
+See Fourth Earth RAW. 
 
 Implementation (harming others):
 
@@ -502,7 +502,7 @@ The life batteries of the rat are the same as all characters, and the same rules
 
 ### Resistance addition
 
-See Fourth Earth RAW (and Fourth Earth Lore). 
+See Fourth Earth RAW. 
 
 Implementation:
 
@@ -615,7 +615,7 @@ See Fourth Earth RAW: Additions “Assist” section.
 
 ### Skills and tools addition
 
-See Fourth Earth RAW (and Fourth Earth Lore). 
+See Fourth Earth RAW. 
 
 Skills and tools for the Fourth Earth setting are available in Fourth Earth Lore.
 
@@ -631,7 +631,7 @@ Implementation:
 
 ### Initiative addition 
 
-See Fourth Earth RAW extensions (and Fourth Earth Lore).
+See Fourth Earth RAW extensions.
 
 In Fourth Earth SA, initiative isn’t used to establish the order of turns so much as it answers a single question: Will the action of a soon-to-be subdued character be completed before they are subdued?
 
