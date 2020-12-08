@@ -1,6 +1,6 @@
 ---
 title: Rules as Written
-version: 0.10.2
+version: 0.10.3
 ---
 
 {{TOC}}
@@ -15,7 +15,7 @@ Fourth Earth RAW, with or without a separate narrator, is applicable to:
 
 - solo adventures (1 player of 1 or more characters), 
 - tabletop (more than 1 player of 1 or more characters each, possibly with the aid of digital devices), and 
-- digital-assist (1 or more players favoring digital solutions to facilitate gameplay).
+- digital-assisted (1 or more players favoring digital solutions to facilitate gameplay).
 
 This chapter is Fourth Earth RAW at its most raw, so to speak.
 
@@ -86,7 +86,7 @@ Guidelines:
 
 1. Should include at least 1 broader classification to group similar characters: female, elderly, elf.
 2. Should favor nurture over nature regarding learnable qualities.
-3. Should be played by same player with every appearance; unless players have agreed on alternatives (see "Player pacts" section).
+3. Should be played by the same player with every appearance; unless players have agreed on alternatives (see "Player pacts" section).
 4. Should have a unique name to distinguish characters from one another. 
 
 Implementation:
@@ -95,7 +95,7 @@ Implementation:
 
 Consider:
 
-Cally the earthworm with a health battery, for example.
+Cally the earthworm has a health battery with 8 maximum points, for example.
 
 At this point, a basic Fourth Earth RAW character is created.
 
@@ -109,9 +109,9 @@ Guidelines:
 2. The number of life batteries should be minimal as each increases overhead and tends to reduce tension in action performance.
 3. Life batteries should recharge; usually in multiple ways. 
 4. One or more ways to recharge should be something players can initiate: “I would like to rest.”
-5. Favor “both way” solutions; if the battery can recharge over time, it should be able to drain over time (starvation or poison, for example).
-6. Batteries can be added as you play; maybe a lot of characters are performing stealth-related actions prompting the creation of a "stealth" battery.
-7. All characters should start with the same (or similar) set of batteries operating with the same implementation.
+5. Favor “both way” solutions; if the battery can recharge over time, it should be able to drain over time: starvation or poison, for example.
+6. Batteries can be added as you play: for example, if characters are constantly performing stealth-related actions maybe create a "stealth" battery.
+7. All characters should start with the same (or similar) set of batteries operating with the same implementations.
 
 Implementation:
 
@@ -145,9 +145,11 @@ The system we're using allows players to spend life battery points to reduce dif
 
 The player only spends 1, making the difficulty 2. 
 
-Because the difficulty is greater than 0 after reduction, a dice pool is rolled. There is always 1 die available (see "Dice pool" section). Character A has 1 rank in climbing, which adds another die to the pool (see "Ranks" section); player rolls [.2d4](two four-sided dice).
+Because the difficulty is greater than 0 after reduction, a dice pool is rolled. There is always 1 die available (see "Dice pool" section). Character A has 1 rank in climbing, which adds another die to the pool (see "Ranks" section); player A rolls [.2d4](two four-sided dice).
 
-If the character succeeds in climbing the tree, they end up in the tree; if they fail, they stay on the ground (see "Difficulty" section). Either way, the action is resolved. 
+If the character succeeds in climbing the tree, they end up in the tree; if they fail, they stay on the ground (see "Difficulty" section). 
+
+Either way, the action is resolved. 
 
 How about attacking a rat? The calculated difficulty for hitting the rat is 3; everything is the same as climbing tree tree. 
 
@@ -188,7 +190,7 @@ There are four standard ways to refer to difficulty:
 
 Further guidelines:
 
-1. Favor assigning difficulty based on an average character in the setting with the option of being character-specific: stitching a finger might be difficulty 6 for the average person but a difficulty 2 for someone with related training (see “Dice pools” section).
+1. Favor basing difficulty on an average character in the setting with the option of being character-specific: stitching a finger might be difficulty 6 for the average person but a difficulty 2 for someone with related training (see “Dice pools” section).
 2. For difficulty 1, favor dice over coins and a roll of odd numbers over even; maintains rolling 1 or recognizing odd numbers as opposed to dividing, remembering ranges, or similar solutions.
 3. Human-friendly labels are typically used during character introspection, "This seems like a safe bet"; to add tension and simulate under- or over-estimating one's abilities, it might be useful to give a label near the difficulty rather than exactly on it.
 
@@ -205,17 +207,17 @@ Implementation:
 
 Consider:
 
-Difficulty 1 has a 50 percent (1/2) base success probability; with 2 dice in the pool, the actual success probability is 75 percent.
+Difficulty 1 has a 50 percent (1/2) base success probability; with 2 dice in the pool, the actual success probability is 75 percent (3/4).
 
 Difficulty 6 has roughly an 8 percent base success probability; with 2 dice, it's roughly 16 percent.
 
 Guidelines:
 
-1. When customizing the system￼, the player(s) and the narrator(s) should determine a maximum dice pool, subtract 1 for the base die, and split the rest to create ranks. 
+1. When creating a system￼, the player(s) and narrator(s) should set the maximum dice pool size, subtract 1 for the base die, and split the rest to create ranks. 
 2. Dice pools should not exceed 5 dice to: 
 	- allow space for non-action dice, 
-	- keep the pool more physically manageable when using dice, and
-	- account for diminishing returns for pools of more than 5. 
+	- keep the pool physically manageable when using dice, and
+	- account for diminishing returns for larger pools. 
 
 Consider:
 
@@ -227,7 +229,7 @@ Put another way, doubling the dice in the pool is an increase of 2.9 percent (co
 
 ## Interacting with characters
 
-Role playing interactions with other characters is left to the players, this section discusses interactions where dice are used to resolve an intent opposed by another character. 
+Role playing interactions with other characters is left to the player(s), this section discusses interactions where dice are used to resolve an intent opposed by another character. 
 
 Guidelines:
 
@@ -247,7 +249,7 @@ Character A is tied to a chair and badly beaten. Character A is attempting to pe
 
 Implementation (combat):
 
-1. Difficulty refers specifically to difficulty to hit; therefore, qualities used to calculate difficulty help the defender evade, not block or absorb (see Fourth Earth RAW: Additions "Resistance" section).
+1. Difficulty refers specifically to difficulty to hit; therefore, qualities that help the character evade, not block or absorb, are used to calculate difficulty (see Fourth Earth RAW: Additions "Resistance" section).
 
 Consider:
 
@@ -366,13 +368,13 @@ Character A has 1 rank in a skill with 2 more proficiency points in the same ski
 
 To use the parlance of our time, player pacts are the terms of service for the game.
 
-If Fourth Earth RAW describes the physics for interacting with the setting, player pacts describe the physics for collaboration and communication between players; establishing social norms and mores to set baseline expectations, boundaries, and accommodate player needs.
+If Fourth Earth RAW describes the physics for interacting with the setting, player pacts describe the physics for collaboration and communication between players; establishing social norms and mores to set expectations, boundaries, and accommodate player needs.
 
 Pacts don’t need to be formally written and signed like legal contracts; however, players may find it useful to write them down for easy reference and modification later. Groups of players who are close friends or have played together for years with established, rarely forgotten norms and mores could be an exception; until a new player arrives. 
 
 Guidelines:
 
-1. Any list of written pacts should be short; possibly limited to those things that are most often forgotten or are considered dealbreakers.
+1. Any list of written pacts should be short; possibly limited to those things that are most often forgotten or considered dealbreakers.
 2. Dealbreaker pacts should be told to new members at minimum. 
 
 Consider:
@@ -381,7 +383,7 @@ Reference preference: How should people be referred (character name, legal name,
 
 Session schedule: When can I arrive? When does play begin? When does play end? When do I need to leave? How long is the session? Will there be breaks? How rigid or fluid is time kept? 
 
-Gaming schedule: Is this a one-shot (1 session, less than 2 hours), adventure (1 or 2 sessions, 4 to 6 hours), or campaign (3 or more sessions, 12 or more hours)? How likely are characters to die (should 1 or 2 backup characters be prepared)? Is this more about gathering with friends regularly or about playing the game regularly? How often do we meet and when? What if I can’t make it (character in safety bubble, played by agreed upon fallback player, session rescheduled)?
+Gaming schedule: Is this a one-shot (1 session, less than 2 hours), adventure (1 or 2 sessions, 4 to 6 hours), or campaign (3 or more sessions, 12 or more hours)? How likely are characters to die (should 1 or 2 backup characters be prepared)? Is this more about gathering with friends regularly (social) or playing the game regularly (gaming)? How often do we meet and when? What if I can’t make it (character in safety bubble, played by agreed upon fallback player, session rescheduled)?
 
 Preparedness: What are players expected to bring? What should be provided by the host? Do players have specific needs (standing up to think, visual impairments, first aid and medical needs)?
 
@@ -397,7 +399,7 @@ Addressing these questions up front can help smooth out a potentially bumpy road
 
 Fourth Earth RAW aims to allow you to focus on setting and characters rather than game mechanics while affording players the opportunity to strategically interact with the setting through their character(s) who, in turn, grow within the setting.
 
-Fourth Earth RAW has multiple additions to add nuance and resolve specific concerns. Various guidelines, not implementations, are in the Fourth Earth RAW: Additions chapter.
+Fourth Earth RAW: Additions offers offers guidelines, not implementations for multiple additions that add nuance and resolve specific concerns.
 
 Specifications wrap the core Fourth Earth RAW system and offer specific implementations for various additions tailored to specific contexts. Specifications include:
 
@@ -407,9 +409,11 @@ Specifications wrap the core Fourth Earth RAW system and offer specific implemen
 
 Each successive specification wraps the previous.
 
-Fourth Earth DA describes using digital tools to aid both tabletop and video game play.
+Thank you for making the time and considering Fourth Earth RAW. 
 
-Thank you for making the time and considering Fourth Earth RAW. All feedback (and contributions) welcome. The most direct way to give feedback is to post a [GitHub](https://github.com/joshbruce/fourth-earth-raw) issue (contributions can be made via pull requests or issues). You can also see and discuss potential changes by looking at submitted pull requests. 
+- Give feedback and discuss ideas with [GitHub Discussion](https://github.com/joshbruce/fourth-earth-raw/discussions).
+- Report an issue or desired improvement with [GitHub Issues](https://github.com/joshbruce/fourth-earth-raw/issues).
+- See upcoming changes or contribute using [GitHub Pull Requests](https://github.com/joshbruce/fourth-earth-raw/pulls).
 
 ## Inspirations and alternatives
 

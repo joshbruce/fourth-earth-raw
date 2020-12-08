@@ -1,14 +1,16 @@
 ---
 title: Tabletop
-version: 0.4.2
+version: 0.4.3
 ---
+
+{{TOC}}
 
 # Fourth Earth TT
 
 Fourth Earth [.TT](tabletop) presumes two, optional things:
 
-1. there are multiple players and
-2. there is a narrator.
+1. multiple players and
+2. a designated narrator.
 
 If implementations and guidelines are not described here, see Fourth Earth [.RAW](rules as written) and Fourth Earth [.SA](solo adventures). Fourth Earth TT also bridges the gap between pen-and-paper and digital-assisted play. 
 
@@ -31,8 +33,9 @@ Guidelines:
 Guidelines:
 
 1. Players (including the narrator) should discuss the role of the narrator; what will be most beneficial and enjoyable for all players, including the narrator?
-2. One role the narrator typically plays is ensuring players keep to the agreed upon pacts.
-3. Another typical role is similar to a referee, which is to blow a whistle and make sure players are playing by the agreed to implementations (or helping the group make balanced modifications).
+2. Typical narrator responsibilities: 
+3. ensure players keep their pacts and
+3. ensure players play by the agreed to implementations (or assist making balanced modifications).
 4. Players should decide and agree to what happens if a player is unable to attend a session, because life happens (see Fourth Earth RAW: Additions "West marches" section).
 
-The "typical" roles listed above can be performed by the players themselves; however, it can sometimes be difficult without a formal narrator.
+The typical responsibilities listed above can be performed by the players themselves; however, it can sometimes be difficult without a separate narrator.

@@ -11,14 +11,14 @@ Fourth Earth [.SA](solo adventures) is a specification of Fourth Earth [.RAW](ru
 
 Fourth Earth SA offers implementations for multiple Fourth Earth RAW additions, which can be ignored, modified, or amended (see Fourth Earth RAW: Additions chapter).
 
-Arguably the main hurdle for solo play is being surprised in a world you create. There are two primary methods for overcoming this:
+Arguably the main hurdle for solo play is how to be surprised in a world you create. There are two primary methods for overcoming this:
 
 1. Invite a separate narrator (or another player) who would have knowledge of the setting you do not (see Fourth Earth RAW: Additions "West Marches" section).
 2. Use randomization to create (or inspire the creation of) the setting and adventures; often using cards, dice, or a combination.
 
 Another major hurdle is altering results to favor positive or negative outcomes (sometimes referred to as “fudging dice”) or otherwise ignoring implementations. This can make the game feel less worth playing; unearned victories and random defeats.
 
-As of this writing, Fourth Earth SA does not offer an implementation for either of these.
+As of this writing, Fourth Earth SA does not offer an implementation to overcome either of these.
 
 **Required equipment:**
 
