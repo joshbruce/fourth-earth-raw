@@ -16,7 +16,7 @@ Following the links to read the primary chapters:
 
 How to talk with the creators:
 
-- Give feedback and discuss ideas with [GitHub Discussion](https://github.com/joshbruce/fourth-earth-raw/discussions).
+- Give feedback and discuss ideas with [GitHub Discussions](https://github.com/joshbruce/fourth-earth-raw/discussions).
 - Report an issue or desired improvement with [GitHub Issues](https://github.com/joshbruce/fourth-earth-raw/issues).
 - See upcoming changes or contribute using [GitHub Pull Requests](https://github.com/joshbruce/fourth-earth-raw/pulls).
 
