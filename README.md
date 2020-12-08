@@ -14,6 +14,12 @@ Following the links to read the primary chapters:
 - [Fourth Earth TT](https://github.com/joshbruce/fourth-earth-raw/blob/main/public/tabletop/content.md): A wrapper of Fourth Earth SA with guidelines and implementations for multiplayer considerations.
 - [Fourth Earth DA](https://github.com/joshbruce/fourth-earth-raw/blob/main/public/digital-assisted/content.md): A wrapper of Fourth Earth TT with guidelines and implementations for considerations on automating certain aspects of play to possibly incorporate more additions.
 
+How to talk with the creators:
+
+- Give feedback and discuss ideas with [GitHub Discussion](https://github.com/joshbruce/fourth-earth-raw/discussions).
+- Report an issue or desired improvement with [GitHub Issues](https://github.com/joshbruce/fourth-earth-raw/issues).
+- See upcoming changes or contribute using [GitHub Pull Requests](https://github.com/joshbruce/fourth-earth-raw/pulls).
+
 ## License
 
 Fourth Earth RAW (and supplements) by Joshua Bruce is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0
