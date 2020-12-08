@@ -28,8 +28,8 @@ While in beta, each chapter is given a version number along with the content in 
 
 We use a standard [major/0].[minor/beta].[patch] pattern.
 
-- 0.n.n: Content is considered beta and changes may include "breaking changes," which means previous implementations in whole or in part will not be compatible.
-- 1.n.n: Content is considered out of beta. 
+- 0.*n*.*n*: Content is considered beta and changes may include "breaking changes," which means previous implementations in whole or in part will not be compatible.
+- 1.*n*.*n*: Content is considered out of beta. 
 - Patch releases: Are usually performed to correct grammar and increase clarity without modifying implementations.
 - Minor releases: May encompass patch releases and are usually performed when new implementations are added and would not affect implementations in previous versions.
 - Major releases: May encompass minor releases and are usually performed when implementations are changed in such a way that characters or implementations from previous releases would need to be altered in some way.
