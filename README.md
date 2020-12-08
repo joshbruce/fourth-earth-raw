@@ -14,6 +14,8 @@ Following the links to read the primary chapters:
 - [Fourth Earth TT](https://github.com/joshbruce/fourth-earth-raw/blob/main/public/tabletop/content.md): A wrapper of Fourth Earth SA with guidelines and implementations for multiplayer considerations.
 - [Fourth Earth DA](https://github.com/joshbruce/fourth-earth-raw/blob/main/public/digital-assisted/content.md): A wrapper of Fourth Earth TT with guidelines and implementations for considerations on automating certain aspects of play to possibly incorporate more additions.
 
+Character sheets for [Fourth Earth RAW](https://github.com/joshbruce/fourth-earth-raw/blob/0.1.0/character-sheets/fourth-earth-raw-cs.pdf) and [Fourth Earth SA](https://github.com/joshbruce/fourth-earth-raw/blob/0.1.0/character-sheets/fourth-earth-sa-cs.pdf) are also available.
+
 How to talk with the creators:
 
 - Give feedback and discuss ideas with [GitHub Discussions](https://github.com/joshbruce/fourth-earth-raw/discussions).
